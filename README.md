@@ -23,3 +23,5 @@ The following software projects, software foundations, &amp; corporations have m
 ### Non-Woke Operating Systems
 
 The following software projects, foundations, &amp; corporations have made statements (or taken actions) best categorized "Non-Woke", or "Right Leaning".
+
+[Marklet Local AI](https://github.com/kuiperzone/Marklet-AI) Marklet is an open source AI client primarily intended for use with local AI models (i.e. in conjunction with Ollama or similar runners). Its primary purpose is to do this simply and to do it well. The project has a "no drama" CoC. The author does not hate anyone.
