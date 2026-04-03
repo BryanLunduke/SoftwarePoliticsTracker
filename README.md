@@ -24,6 +24,7 @@ The following software projects, software foundations, &amp; corporations have m
 | :arrow_left: | **Bazzite** | [Bans key dev for Code of Conduct Violations](https://x.com/LundukeJournal/status/2016225507923112073), [Promotes degeneracy via transgender && non-binary cartoon mascot](https://x.com/LundukeJournal/status/1887963799665189089) |
 | :arrow_left: | **Chimera Linux** | [Dev says: "Here to Further Woke Agenda by Turning Free Software Gay"](https://x.com/LundukeJournal/status/1940078884017627405) |
 | :arrow_left: | **Godot** | [Mass banned non-Woke users & contributors](https://x.com/LundukeJournal/status/1840601545701806571) |
+| :arrow_left: | **BoquilaHUB** | [Supports Palestine](https://bsky.app/profile/boquilafoundation.bsky.social/post/3mimgjqatos2t) and [trans people](https://bsky.app/profile/boquilafoundation.bsky.social/post/3mimgkfnvks2t) |
 
 ### Non-Woke Software
 
