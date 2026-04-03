@@ -19,6 +19,8 @@ The following software projects, software foundations, &amp; corporations have m
 | :arrow_left: | **Software Freedom Conservancy** | [Attacks Lunduke as "Fox News of FOSS"](https://x.com/LundukeJournal/status/1962669374331895901) |
 | :arrow_left: | **elementaryOS** | [Says talking to Conservatives is "associating with fascists"](https://x.com/LundukeJournal/status/1962669374331895901), [Celebrates Pride Month](https://x.com/LundukeJournal/status/1929024728758403187) |
 | :arrow_left: | **Debian** | [Prominent contributor defaced "Conservative" project wiki, calling them "Nazis"](https://x.com/LundukeJournal/status/1942269768192737511) |
+| :arrow_left: | **Github** | [Sells pride merch](https://thegithubshop.com/collections/pride-collection), [celebrates Pride month](https://github.com/orgs/community/discussions/58667) |
+| :arrow_left: | **Microsoft** | [Celebrates pride all year](https://unlocked.microsoft.com/pride/) |
 
 ### Non-Woke Operating Systems
 
