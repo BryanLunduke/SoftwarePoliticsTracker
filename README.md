@@ -19,7 +19,12 @@ The following software projects, software foundations, &amp; corporations have m
 | :arrow_left: | **Software Freedom Conservancy** | [Attacks Lunduke as "Fox News of FOSS"](https://x.com/LundukeJournal/status/1962669374331895901) |
 | :arrow_left: | **elementaryOS** | [Says talking to Conservatives is "associating with fascists"](https://x.com/LundukeJournal/status/1962669374331895901), [Celebrates Pride Month](https://x.com/LundukeJournal/status/1929024728758403187) |
 | :arrow_left: | **Debian** | [Prominent contributor defaced "Conservative" project wiki, calling them "Nazis"](https://x.com/LundukeJournal/status/1942269768192737511) |
+| :arrow_left: | Bazzite | [Bans key dev for Code of Conduct Violations](https://x.com/LundukeJournal/status/2016225507923112073?s=20), [Promotes degeneracy via transgender && non-binary cartoon mascot](https://x.com/LundukeJournal/status/1887963799665189089?s=20), [Bans any who even remotely question "The Message"](https://x.com/LAFadhel/status/2032938463377694935?s=20)
 
 ### Non-Woke Operating Systems
 
 The following software projects, foundations, &amp; corporations have made statements (or taken actions) best categorized "Non-Woke", or "Right Leaning".
+
+| &nbsp; | Software | Notes |
+| - | - | - |
+| :arrow_right: | **Omarchy** | [Refused to implement a Code of Conduct and told ddevault to "get bent"](https://x.com/LundukeJournal/status/1971367936137789862?s=20), [No plans to respond to the recently passed "retarded" California law](https://x.com/LundukeJournal/status/2029226614068801768?s=20), [Jeff Atwood publicly threatened DHH](https://x.com/LundukeJournal/status/1988728365856223580?s=20) |
