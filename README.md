@@ -18,9 +18,9 @@ The following software projects, software foundations, &amp; corporations have m
 | :arrow_left: | **Software Freedom Conservancy** | [Attacks Lunduke as "Fox News of FOSS"](https://x.com/LundukeJournal/status/1962669374331895901) |
 | :arrow_left: | **Godot** | [Mass banned non-Woke users & contributors](https://x.com/LundukeJournal/status/1840601545701806571) |
 
-### Non-Woke Software
+### *Potentially* Non-Woke Software
 
-The following software projects, foundations, &amp; corporations have made statements (or taken actions) best categorized "Non-Woke", "Non-DEI", and have "Neutral" or "Right Leaning" politics.
+The following software projects, foundations, &amp; corporations have made statements (or taken actions) best categorized "Non-Woke", "Non-DEI", and have "Neutral" or "Right Leaning" politics. Some of this software may still be run atop woke operating systems (e.g. Windows, MacOS, iOS and/or anything using a Linux-based kernel) and thus the reader must exercise caution when using this software.
 
 | &nbsp; | Software | Notes |
 | - | - | - |
