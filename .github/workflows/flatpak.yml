@@ -1,0 +1,33 @@
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+  schedule:
+    - cron: "05 10 * * *" # 10:05am UTC everyday
+  pull_request:
+name: Build all
+jobs:
+  flatpak:
+    name: "Flatpak"
+    strategy:
+      fail-fast: false
+      matrix:
+        variant:
+          - arch: x86_64
+            runner: ubuntu-latest
+          - arch: aarch64
+            runner: ubuntu-24.04-arm
+    runs-on: ${{ matrix.variant.runner }}
+    container:
+      image: ghcr.io/flathub-infra/flatpak-github-actions:freedesktop-25.08
+      options: --privileged
+    steps:
+    - uses: actions/checkout@v4
+      with:
+        submodules: recursive
+    - uses: flatpak/flatpak-github-actions/flatpak-builder@v6
+      with:
+        bundle: io.github.BryanLunduke.SoftwarePoliticsTracker.flatpak
+        manifest-path: .flatpak/io.github.BryanLunduke.SoftwarePoliticsTracker.yml
+        cache-key: flatpak-builder-${{ github.sha }}
+        arch: ${{ matrix.variant.arch }}

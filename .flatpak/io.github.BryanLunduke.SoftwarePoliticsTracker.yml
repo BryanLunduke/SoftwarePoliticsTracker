@@ -1,0 +1,45 @@
+app-id: io.github.BryanLunduke.SoftwarePoliticsTracker
+runtime: org.freedesktop.Platform
+runtime-version: "25.08"
+sdk: org.freedesktop.Sdk
+sdk-extensions:
+  - org.freedesktop.Sdk.Extension.golang
+command: lunduke-wrapper
+modules:
+
+  - name: glow
+    buildsystem: simple
+    build-options:
+      env:
+        - GOBIN=/app/bin
+        - GOROOT=/usr/lib/sdk/golang
+    build-commands:
+      - $GOROOT/bin/go build
+    sources:
+    - type: git
+      url: https://github.com/charmbracelet/glow
+      commit: d37e9887875a2faa4baee6a7d090eb357dd63771
+    - type: file
+      path: modules.txt
+      dest: vendor
+    - go.mod.yml
+    post-install:
+      - install -Dm755 glow /app/bin/glow
+
+  - name: woke
+    buildsystem: simple
+    build-options:
+    build-commands:
+      - install -Dm644 README.md /app/share/WOKE.md
+    sources:
+      - type: git
+        url: https://github.com/BryanLunduke/SoftwarePoliticsTracker
+        branch: master
+
+  - name: wrapper
+    buildsystem: simple
+    sources:
+      - type: file
+        path: lunduke-wrapper.sh
+    build-commands:
+      - install -Dm755 lunduke-wrapper.sh /app/bin/lunduke-wrapper
