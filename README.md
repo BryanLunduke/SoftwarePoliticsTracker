@@ -3,9 +3,18 @@ Tracking the political stances of software projects, software foundations, &amp;
 
 Note: This is a work in progress.  There is a *lot* of data left to add.
 
+
+# Mommy of Woke (MoW: Most WOKEST Distro)
+| &nbsp; | Software | Notes |
+| - | - | - |
+| :arrow_left:  :arrow_left:  :arrow_left:  :arrow_left:  :arrow_left:  :arrow_left:  :arrow_left: |**Ultramarine Linux**|[Proudly said that "if they were in a wokest and gayest distro contest, they'd win"](https://x.com/UltramarineProj/status/2040094786665824700?s=20)|
+|<img width="1500" height="500" alt="image" src="https://github.com/user-attachments/assets/59dbec8b-ad64-4b70-ab5e-a4a4600d3938" />|<img width="224" height="224" alt="image" src="https://github.com/user-attachments/assets/b7069192-e3c8-458f-a8e5-f57b38d2eaa2" />|<img width="400" height="400" alt="image" src="https://github.com/user-attachments/assets/5fca3a93-d7e5-43a3-9b2a-9ba7f68b01ff" />
+|
+
 ### Woke / Leftist Software
 
 The following software projects, software foundations, &amp; corporations have made statements (or taken actions) best categorized as "Woke", "Leftist", or "DEI".
+
 
 | &nbsp; | Software | Notes |
 | - | - | - |
