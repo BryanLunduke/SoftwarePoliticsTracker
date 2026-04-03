@@ -20,6 +20,10 @@ The following software projects, software foundations, &amp; corporations have m
 | :arrow_left: | **elementaryOS** | [Says talking to Conservatives is "associating with fascists"](https://x.com/LundukeJournal/status/1962669374331895901), [Celebrates Pride Month](https://x.com/LundukeJournal/status/1929024728758403187) |
 | :arrow_left: | **Debian** | [Prominent contributor defaced "Conservative" project wiki, calling them "Nazis"](https://x.com/LundukeJournal/status/1942269768192737511) |
 
-### Non-Woke Operating Systems
+### Non-Woke Systems
 
-The following software projects, foundations, &amp; corporations have made statements (or taken actions) best categorized "Non-Woke", or "Right Leaning".
+The following software projects, foundations, &amp; corporations have made statements (or taken actions) best categorized "Non-Woke" or politically neutral.
+
+| &nbsp; | Software | Notes |
+| - | - | - |
+| :arrow_left: | **Devuan** | [Devuan: The Non-Woke Debian Linux Fork (Without Systemd)](https://www.youtube.com/watch?v=Pa1l9I_7F3s)  ]
