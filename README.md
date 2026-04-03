@@ -23,3 +23,8 @@ The following software projects, software foundations, &amp; corporations have m
 ### Non-Woke Operating Systems
 
 The following software projects, foundations, &amp; corporations have made statements (or taken actions) best categorized "Non-Woke", or "Right Leaning".
+
+### Our Supporters
+- Jeffrey Epstein (Resident Child Diddler)
+- Donald J. Trump (Rapist/Pedophile in Chief)
+- David DuKKKe 
