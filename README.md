@@ -1,7 +1,9 @@
 # SoftwarePoliticsTracker
 Tracking the political stances of software projects, software foundations, &amp; corporations.
 
-Note: This is a work in progress.  There is a *lot* of data left to add.
+Note: This does *not* include statements made by users and average contributors (or employees) of software organizations.  Only official actions and statements from the organization itself, or from leadership or official representatives.
+
+Note 2: This is a work in progress.  There is a *lot* of data left to add.
 
 ### Woke / Leftist Software
 
@@ -14,12 +16,25 @@ The following software projects, software foundations, &amp; corporations have m
 | :arrow_left: | **KDE** | [Attacks Conservative Jewish journalist as "Sneaky little Nazis"](https://x.com/LundukeJournal/status/1984351487468638288), [Says X users are Nazis](https://x.com/LundukeJournal/status/1983590454831804565), [Celebrates Pride Month](https://x.com/LundukeJournal/status/1929024728758403187) |
 | :arrow_left: | **Linux Foundation** | [Pledged fealty to the UN](https://lunduke.substack.com/p/open-source-orgs-pledge-fealty-to) |
 | :arrow_left: | **NixOS** | [Leadership includes Antifa flag in posts](https://x.com/LundukeJournal/status/1997697480452972817) |
-| :arrow_left: | **Fedora** | [Celebrates Pride Month](https://x.com/LundukeJournal/status/1931911390312145143) |
+| :arrow_left: | **Fedora** | [Celebrates Pride Month](https://x.com/LundukeJournal/status/1931911390312145143), [Weaponizes Code of Conduct against Jewish journalist](https://x.com/LundukeJournal/status/1973475581259030774) |
 | :arrow_left: | **Bazaar** | [Includes only LGBT Theming in Software](https://x.com/LundukeJournal/status/1993088275775631440) |
 | :arrow_left: | **Software Freedom Conservancy** | [Attacks Lunduke as "Fox News of FOSS"](https://x.com/LundukeJournal/status/1962669374331895901) |
 | :arrow_left: | **elementaryOS** | [Says talking to Conservatives is "associating with fascists"](https://x.com/LundukeJournal/status/1962669374331895901), [Celebrates Pride Month](https://x.com/LundukeJournal/status/1929024728758403187) |
 | :arrow_left: | **Debian** | [Prominent contributor defaced "Conservative" project wiki, calling them "Nazis"](https://x.com/LundukeJournal/status/1942269768192737511) |
+| :arrow_left: | **Bazzite** | [Bans key dev for Code of Conduct Violations](https://x.com/LundukeJournal/status/2016225507923112073), [Promotes degeneracy via transgender && non-binary cartoon mascot](https://x.com/LundukeJournal/status/1887963799665189089) |
+| :arrow_left: | **Chimera Linux** | [Dev says: "Here to Further Woke Agenda by Turning Free Software Gay"](https://x.com/LundukeJournal/status/1940078884017627405) |
+| :arrow_left: | **Godot** | [Mass banned non-Woke users & contributors](https://x.com/LundukeJournal/status/1840601545701806571) |
 
-### Non-Woke Operating Systems
+### Non-Woke Software
 
 The following software projects, foundations, &amp; corporations have made statements (or taken actions) best categorized "Non-Woke", or "Right Leaning".
+
+| &nbsp; | Software | Notes |
+| - | - | - |
+| :arrow_right: | **OpenMandriva** | ["We don't do DEI"](https://x.com/LundukeJournal/status/1876362793525612602) |
+| :arrow_right: | **Omarchy Linux** | [Rejected calls for Activist Code of Conduct](https://x.com/LundukeJournal/status/1971367936137789862), [Often attacked by Trans](https://x.com/LundukeJournal/status/1970907449499484266) & [Antifa Activists](https://x.com/LundukeJournal/status/1970907449499484266) |
+| :arrow_right: | **Devuan** | [Accepts everyone, specifically including Conservatives](https://x.com/LundukeJournal/status/1985574565288849846) |
+| :arrow_right: | **Redot** | ["Non-Political (non-Woke) Fork" of Godot](https://x.com/LundukeJournal/status/1842335793844539823) |
+| :arrow_right: | **SQLite** | [Code of Conduct includes "Love the Lord God"](https://x.com/LundukeJournal/status/2029990961988915399) |
+| :arrow_righg: | **XLibre** | [Rejects DEI discrimination of Xorg](https://x.com/LundukeJournal/status/1930727192964514137) |
+
