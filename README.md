@@ -27,6 +27,8 @@ The following software projects, software foundations, &amp; corporations have m
 | :arrow_left: | **Godot** | [Mass banned non-Woke users & contributors](https://x.com/LundukeJournal/status/1840601545701806571) |
 | :arrow_left: | **openSUSE** | [Leadership says contributors who don't promote Trans Activism are "Rotten Flesh" that need to be "Cut Out"](https://lunduke.locals.com/post/5815715/dont-wave-the-lgbt-flag-suse-opensuse-says-you-are-rotten-flesh) |
 | :arrow_left: | **Linux Kernel** | [Creator says he is "one of those 'woke Communists' you worry about"](https://x.com/LundukeJournal/status/1990840359593611759) |
+| :arrow_left: | **Prism Launcher** | [Left X the Everything App calling it a platform "spreading hate"](https://prismlauncher.org/news/leavingtwitter/), [Forked from PolyMC after Woke Code of Conduct removal](https://prismlauncher.ru/wiki/overview/faq/), [Official Pride Month celebration](https://prismlauncher.org/news/pride-month-2025), [Claiming "Pride is all year" despite Pride Month being a single month](https://prismlauncher.org/news/pride-showcase-2025-4/)  |
+
 
 ### Non-Woke Software
 
