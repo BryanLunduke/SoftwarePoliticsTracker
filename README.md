@@ -22,6 +22,8 @@ The following software projects, software foundations, &amp; corporations have m
 | :arrow_left: | **Software Freedom Conservancy** | [Attacks Lunduke as "Fox News of FOSS"](https://x.com/LundukeJournal/status/1962669374331895901) |
 | :arrow_left: | **elementaryOS** | [Says talking to Conservatives is "associating with fascists"](https://x.com/LundukeJournal/status/1962669374331895901), [Celebrates Pride Month](https://x.com/LundukeJournal/status/1929024728758403187) |
 | :arrow_left: | **Debian** | [Discriminates against White Men for internships](https://x.com/LundukeJournal/status/1845878465708355835), [Blocks Conservative projects, calls devs "Nazis"](https://x.com/LundukeJournal/status/1974179530245124214), [Prominent contributor defaced "Conservative" project wiki, calling them "Nazis"](https://x.com/LundukeJournal/status/1942269768192737511) |
+| :arrow_left: | **Github** | [Sells pride merch](https://thegithubshop.com/collections/pride-collection), [celebrates Pride month](https://github.com/orgs/community/discussions/58667) |
+| :arrow_left: | **Microsoft** | [Celebrates pride all year](https://unlocked.microsoft.com/pride/) |
 | :arrow_left: | **Bazzite** | [Bans key dev for Code of Conduct Violations](https://x.com/LundukeJournal/status/2016225507923112073), [Promotes degeneracy via transgender && non-binary cartoon mascot](https://x.com/LundukeJournal/status/1887963799665189089) |
 | :arrow_left: | **Chimera Linux** | [Dev says: "Here to Further Woke Agenda by Turning Free Software Gay"](https://x.com/LundukeJournal/status/1940078884017627405) |
 | :arrow_left: | **Godot** | [Mass banned non-Woke users & contributors](https://x.com/LundukeJournal/status/1840601545701806571) |
