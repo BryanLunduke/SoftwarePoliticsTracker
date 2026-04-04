@@ -38,7 +38,6 @@ The following software projects, foundations, &amp; corporations have made state
 
 | &nbsp; | Software | Notes |
 | - | - | - |
-| :arrow_left: | **Devuan** | [Devuan: The Non-Woke Debian Linux Fork (Without Systemd)](https://www.youtube.com/watch?v=Pa1l9I_7F3s)  ]
 | :arrow_right: | **OpenMandriva** | ["We don't do DEI"](https://x.com/LundukeJournal/status/1876362793525612602) |
 | :arrow_right: | **Omarchy Linux** | [Rejected calls for Activist Code of Conduct](https://x.com/LundukeJournal/status/1971367936137789862), [Often attacked by Trans](https://x.com/LundukeJournal/status/1970907449499484266) & [Antifa Activists](https://x.com/LundukeJournal/status/1970907449499484266) |
 | :arrow_right: | **Devuan** | [Accepts everyone, specifically including Conservatives](https://x.com/LundukeJournal/status/1985574565288849846) |
