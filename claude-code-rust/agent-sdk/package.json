@@ -1,0 +1,22 @@
+{
+  "name": "@srothgan/claude-rs-agent-bridge",
+  "version": "0.0.1",
+  "private": true,
+  "type": "module",
+  "license": "Apache-2.0",
+  "description": "NDJSON bridge between claude-code-rust and the Claude Agent SDK",
+  "main": "dist/bridge.js",
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "start": "node dist/bridge.js",
+    "check": "npm run build",
+    "test": "npm run build && node --test dist/**/*.test.js"
+  },
+  "dependencies": {
+    "@anthropic-ai/claude-agent-sdk": "^0.2.74"
+  },
+  "devDependencies": {
+    "@types/node": "25.3.3",
+    "typescript": "5.9.3"
+  }
+}

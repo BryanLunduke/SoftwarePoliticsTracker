@@ -1,0 +1,18 @@
+# Default owner for everything
+*                           @srothgan
+
+# ACP protocol layer
+/src/acp/                   @srothgan
+
+# TUI / interface
+/src/ui/                    @srothgan
+
+# Terminal management
+/src/terminal/              @srothgan
+
+# CI/CD configuration
+/.github/                   @srothgan
+
+# Documentation
+/*.md                       @srothgan
+/docs/                      @srothgan
