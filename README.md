@@ -27,6 +27,7 @@ The following software projects, software foundations, &amp; corporations have m
 | :arrow_left: | **Godot** | [Mass banned non-Woke users & contributors](https://x.com/LundukeJournal/status/1840601545701806571) |
 | :arrow_left: | **openSUSE** | [Leadership says contributors who don't promote Trans Activism are "Rotten Flesh" that need to be "Cut Out"](https://lunduke.locals.com/post/5815715/dont-wave-the-lgbt-flag-suse-opensuse-says-you-are-rotten-flesh) |
 | :arrow_left: | **Linux Kernel** | [Creator says he is "one of those 'woke Communists' you worry about"](https://x.com/LundukeJournal/status/1990840359593611759) |
+| :arrow_right: | **SQLite** | [Code of Conduct includes "Love the Lord God"](https://x.com/LundukeJournal/status/2029990961988915399) |
 
 ### Non-Woke Software
 
@@ -38,6 +39,5 @@ The following software projects, foundations, &amp; corporations have made state
 | :arrow_right: | **Omarchy Linux** | [Rejected calls for Activist Code of Conduct](https://x.com/LundukeJournal/status/1971367936137789862), [Often attacked by Trans](https://x.com/LundukeJournal/status/1970907449499484266) & [Antifa Activists](https://x.com/LundukeJournal/status/1970907449499484266) |
 | :arrow_right: | **Devuan** | [Accepts everyone, specifically including Conservatives](https://x.com/LundukeJournal/status/1985574565288849846) |
 | :arrow_right: | **Redot** | ["Non-Political (non-Woke) Fork" of Godot](https://x.com/LundukeJournal/status/1842335793844539823) |
-| :arrow_right: | **SQLite** | [Code of Conduct includes "Love the Lord God"](https://x.com/LundukeJournal/status/2029990961988915399) |
 | :arrow_right: | **XLibre** | [Rejects DEI discrimination of Xorg](https://x.com/LundukeJournal/status/1930727192964514137) |
 
