@@ -1,0 +1,8 @@
+# For explicitness, but is redundant
+max_width = 100
+hard_tabs = false
+tab_spaces = 4
+newline_style = "Unix"
+
+# CLI-critical: Keep small structs single-line (essential for Args/Config structs)
+use_small_heuristics = "Max"
