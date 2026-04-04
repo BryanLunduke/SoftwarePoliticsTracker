@@ -40,4 +40,5 @@ The following software projects, foundations, &amp; corporations have made state
 | :arrow_right: | **Redot** | ["Non-Political (non-Woke) Fork" of Godot](https://x.com/LundukeJournal/status/1842335793844539823) |
 | :arrow_right: | **SQLite** | [Code of Conduct includes "Love the Lord God"](https://x.com/LundukeJournal/status/2029990961988915399) |
 | :arrow_right: | **XLibre** | [Rejects DEI discrimination of Xorg](https://x.com/LundukeJournal/status/1930727192964514137) |
+| :arrow_right: | **PolyMC** | [Removed Leftoid/Woke Contributors and Woke Code of Conduct](https://github.com/PolyMC/PolyMC/commit/ccf282593dcdbe189c99b81b8bc90cb203aed3ee)
 
