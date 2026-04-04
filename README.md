@@ -41,3 +41,9 @@ The following software projects, foundations, &amp; corporations have made state
 | :arrow_right: | **SQLite** | [Code of Conduct includes "Love the Lord God"](https://x.com/LundukeJournal/status/2029990961988915399) |
 | :arrow_right: | **XLibre** | [Rejects DEI discrimination of Xorg](https://x.com/LundukeJournal/status/1930727192964514137) |
 
+The following software projects, foundations, &amp; corporations have made statements (or taken actions) best categorized "Non-Woke", or "Right Leaning".
+
+### Our Supporters
+- Jeffrey Epstein (Resident Child Diddler)
+- Donald J. Trump (Rapist/Pedophile in Chief)
+- David DuKKKe 
