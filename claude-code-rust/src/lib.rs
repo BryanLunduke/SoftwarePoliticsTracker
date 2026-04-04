@@ -1,20 +1,3 @@
-// Copyright 2025 Simon Peter Rothgang
-// SPDX-License-Identifier: Apache-2.0
-
-pub mod agent;
-pub mod app;
-pub mod error;
-pub mod perf;
-pub mod ui;
-
-use clap::Parser;
-
-#[derive(Parser, Debug)]
-#[command(name = "claude-rs", about = "Native Rust terminal for Claude Code")]
-#[allow(clippy::struct_excessive_bools)]
-pub struct Cli {
-    /// Resume a previous session by ID
-    #[arg(long)]
     pub resume: Option<String>,
 
     /// Disable startup update checks.
