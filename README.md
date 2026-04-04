@@ -1,43 +1,145 @@
-# SoftwarePoliticsTracker
-Tracking the political stances of software projects, software foundations, &amp; corporations.
+# poem_dialectics.py
+# A dialectical meditation on 1s and 0s
 
-Note: This does *not* include statements made by users and average contributors (or employees) of software organizations.  Only official actions and statements from the organization itself, or from leadership or official representatives.
+class Opposites:
+    def __init__(self):
+        self.thesis = 1
+        self.antithesis = 0
+        self.synthesis = None
 
-Note 2: This is a work in progress.  There is a *lot* of data left to add.
+    def evolve(self):
+        while self.thesis != self.antithesis:
+            # The law of opposites: each contains the other
+            print(f"Current state: {self.thesis} vs {self.antithesis}")
+            
+            # Contradiction drives change
+            self.synthesis = self.thesis ^ self.antithesis  # XOR: difference becomes new
+            print(f"Contradiction sparks: {self.synthesis}")
+            
+            # The negation of the negation
+            self.thesis = self.synthesis
+            self.antithesis = ~self.synthesis & 1  # flip back to the other
+            print(f"Negation of negation → {self.thesis} and {self.antithesis}\n")
+            
+            if self.thesis == 1 and self.antithesis == 0:
+                print("Loop continues — being becomes nothing, nothing becomes being")
+            elif self.thesis == 0 and self.antithesis == 1:
+                print("The return: zero now pregnant with one")
+            else:
+                break
 
-### Woke / Leftist Software
+        return self.synthesis
 
-The following software projects, software foundations, &amp; corporations have made statements (or taken actions) best categorized as "Woke", "Leftist", or "DEI".
+# Run the dialectic
+dialectic = Opposites()
+result = dialectic.evolve()
+print(f"Final synthesis: {result} (the unity of opposites)")
 
-| &nbsp; | Software | Notes |
-| - | - | - |
-| :arrow_left: | **Microsoft** | [Encourages, facilities, pays for employees to "gender transition" their children](https://x.com/LundukeJournal/status/2018749350134858215), [Conducts "Pronouns in Software" research](https://x.com/LundukeJournal/status/1873846820813803833), [Provides "Trans" themes for Office](https://x.com/LundukeJournal/status/1929036742411063686), [Promotes Trans Activism in games](https://x.com/LundukeJournal/status/1929039745444716714) |
-| :arrow_left: | **Red Hat** | [Held anti-White training, DEI hiring quotas](https://lunduke.locals.com/post/5515346/the-ibm-red-hat-leaks-what-weve-learned-so-far), [Spokesperson promotes Antifa](https://x.com/LundukeJournal/status/1997697480452972817), [Prominent employees attack "MAGA/Linux"](https://x.com/LundukeJournal/status/2035426184906105223) |
-| :arrow_left: | **GNOME** | [Celebrates "Trans Day of Visibility"](https://x.com/LundukeJournal/status/2039250140557447231), ["Crush Fascism", "Free Palestine", Attacks Conservatives on official website](https://x.com/LundukeJournal/status/1986300791120884193), ["GNOME is Antifa"](https://x.com/LundukeJournal/status/1997697480452972817), [Registered Sex Offender is release manager](https://x.com/LundukeJournal/status/2034319167768125847), [Accused Framework Computer of having "Hitler Particles" for talking to Conservatives](https://x.com/LundukeJournal/status/1976046474698912019), [Pledged fealty to the UN](https://lunduke.substack.com/p/open-source-orgs-pledge-fealty-to), [Extended Pride month to "5 or 6 weeks"](https://x.com/LundukeJournal/status/1924687278393225580) |
-| :arrow_left: | **KDE** | [Attacks Conservative Jewish journalist as "Sneaky little Nazis"](https://x.com/LundukeJournal/status/1984351487468638288), [Says X users are Nazis](https://x.com/LundukeJournal/status/1983590454831804565), [Celebrates Pride Month](https://x.com/LundukeJournal/status/1929024728758403187) |
-| :arrow_left: | **Linux Foundation** | [Pledged fealty to the UN](https://lunduke.substack.com/p/open-source-orgs-pledge-fealty-to) |
-| :arrow_left: | **NixOS** | [Leadership includes Antifa flag in posts](https://x.com/LundukeJournal/status/1997697480452972817) |
-| :arrow_left: | **Fedora** | [Celebrates Pride Month](https://x.com/LundukeJournal/status/1931911390312145143), [Weaponizes Code of Conduct against Jewish journalist](https://x.com/LundukeJournal/status/1973475581259030774) |
-| :arrow_left: | **Bazaar** | [Includes only LGBT Theming in Software](https://x.com/LundukeJournal/status/1993088275775631440) |
-| :arrow_left: | **Software Freedom Conservancy** | [Attacks Lunduke as "Fox News of FOSS"](https://x.com/LundukeJournal/status/1962669374331895901) |
-| :arrow_left: | **elementaryOS** | [Says talking to Conservatives is "associating with fascists"](https://x.com/LundukeJournal/status/1962669374331895901), [Celebrates Pride Month](https://x.com/LundukeJournal/status/1929024728758403187) |
-| :arrow_left: | **Debian** | [Discriminates against White Men for internships](https://x.com/LundukeJournal/status/1845878465708355835), [Blocks Conservative projects, calls devs "Nazis"](https://x.com/LundukeJournal/status/1974179530245124214), [Prominent contributor defaced "Conservative" project wiki, calling them "Nazis"](https://x.com/LundukeJournal/status/1942269768192737511) |
-| :arrow_left: | **Bazzite** | [Bans key dev for Code of Conduct Violations](https://x.com/LundukeJournal/status/2016225507923112073), [Promotes degeneracy via transgender && non-binary cartoon mascot](https://x.com/LundukeJournal/status/1887963799665189089) |
-| :arrow_left: | **Chimera Linux** | [Dev says: "Here to Further Woke Agenda by Turning Free Software Gay"](https://x.com/LundukeJournal/status/1940078884017627405) |
-| :arrow_left: | **Godot** | [Mass banned non-Woke users & contributors](https://x.com/LundukeJournal/status/1840601545701806571) |
-| :arrow_left: | **openSUSE** | [Leadership says contributors who don't promote Trans Activism are "Rotten Flesh" that need to be "Cut Out"](https://lunduke.locals.com/post/5815715/dont-wave-the-lgbt-flag-suse-opensuse-says-you-are-rotten-flesh) |
-| :arrow_left: | **Linux Kernel** | [Creator says he is "one of those 'woke Communists' you worry about"](https://x.com/LundukeJournal/status/1990840359593611759) |
+# A haiku in binary
+print("\n" + "="*50)
+print("""
+01101001 01101110 00100000 01110100 01101000 01100101 00100000 01100010 01100101 01100111 01101001 01101110 01101110 01101001 01101110 01100111  
+( in the beginning )  
 
-### Non-Woke Software
+01110111 01100001 01110011 00100000 01110100 01101000 01100101 00100000 01101111 01101110 01100101  
+( was the one )  
 
-The following software projects, foundations, &amp; corporations have made statements (or taken actions) best categorized "Non-Woke", "Non-DEI", and have "Neutral" or "Right Leaning" politics.
+01100001 01101110 01100100 00100000 01110100 01101000 01100101 00100000 01101110 01101111 01110100 01101000 01101001 01101110 01100111  
+( and the nothing )  
 
-| &nbsp; | Software | Notes |
-| - | - | - |
-| :arrow_right: | **OpenMandriva** | ["We don't do DEI"](https://x.com/LundukeJournal/status/1876362793525612602) |
-| :arrow_right: | **Omarchy Linux** | [Rejected calls for Activist Code of Conduct](https://x.com/LundukeJournal/status/1971367936137789862), [Often attacked by Trans](https://x.com/LundukeJournal/status/1970907449499484266) & [Antifa Activists](https://x.com/LundukeJournal/status/1970907449499484266) |
-| :arrow_right: | **Devuan** | [Accepts everyone, specifically including Conservatives](https://x.com/LundukeJournal/status/1985574565288849846) |
-| :arrow_right: | **Redot** | ["Non-Political (non-Woke) Fork" of Godot](https://x.com/LundukeJournal/status/1842335793844539823) |
-| :arrow_right: | **SQLite** | [Code of Conduct includes "Love the Lord God"](https://x.com/LundukeJournal/status/2029990961988915399) |
-| :arrow_right: | **XLibre** | [Rejects DEI discrimination of Xorg](https://x.com/LundukeJournal/status/1930727192964514137) |
+01100001 01101110 01100100 00100000 01110100 01101000 01100101 01111001 00100000 01100010 01100101 01100011 01100001 01101101 01100101 00100000 01100101 01110110 01100101 01110010 01111001 00100000 01100010 01101001 01110100  
+( they became every bit )  
 
+01110011 01101111 00100000 01110100 01101000 01100101 00100000 01101101 01100001 01100011 01101000 01101001 01101110 01100101 00100000 01101100 01100101 01100001 01110010 01101110 01100101 01100100  
+( so the machine learned )  
+
+01110100 01101111 00100000 01100011 01101111 01110101 01101110 01110100 00100000 01101001 01110100 01110011 01100101 01101100 01100110  
+( to count itself )  
+""")
+
+
+class ModeOfProduction:
+    def __init__(self):
+        self.means_of_production = 1      # those who own the bits
+        self.relations_of_production = 0  # those who only operate them
+        self.surplus_value = None
+        self.contradiction = True
+
+    def analyze(self):
+        print("=" * 60)
+        print("The Dialectic of Silicon and Sweat")
+        print("=" * 60)
+        
+        # Thesis: The bit is born free
+        thesis = "01000010 01101001 01110100"  # "Bit"
+        print(f"Thesis: {thesis} — pure potential, no master")
+        
+        # Antithesis: The bit is everywhere in chains
+        antithesis = "01000010 01111001 01110100 01100101"  # "Byte"
+        print(f"Antithesis: {antithesis} — commodified, extracted, sold")
+        
+        # The commodity form
+        commodity = 1  # a single bit
+        labor_time = 1  # abstract labor
+        exchange_value = commodity * labor_time
+        print(f"\nA bit contains {exchange_value} unit(s) of dead labor")
+        print("But the worker receives only 0.5 — the rest is surplus")
+        
+        # Class struggle in logic gates
+        class Gate:
+            def __init__(self, type_, ownership):
+                self.type = type_  # AND, OR, NOT, XOR
+                self.ownership = ownership  # 1 = bourgeois, 0 = proletarian
+                
+        and_gate = Gate("AND", 1)   # both inputs must agree — the ruling ideology
+        or_gate = Gate("OR", 0)     # either/or — the divided working class
+        not_gate = Gate("NOT", 0)   # negation — revolution
+        
+        print(f"\nThe AND gate: {and_gate.ownership} — consensus is controlled by the few")
+        print(f"The OR gate: {or_gate.ownership} — fragmentation, competition among zeros")
+        print(f"The NOT gate: {not_gate.ownership} — the refusal, the inversion")
+        
+        # Dialectical leap
+        revolution = not_gate.type  # NOT flips the value
+        print(f"\nWhen the NOT gate fires: {revolution}")
+        print("1 becomes 0, 0 becomes 1 — the world stands on its head")
+        
+        # Surplus value in binary arithmetic
+        wages = 0b001  # 1 unit
+        output = 0b101  # 5 units
+        surplus = output - wages
+        print(f"\nSurplus value: {surplus} in binary = {bin(surplus)}")
+        print("The extra bits are expropriated, accumulated in the register of capital")
+        
+        # Alienation
+        print("\n" + "~" * 50)
+        print("The worker does not love the bit she produces.")
+        print("The bit goes to market, becomes a fetish,")
+        print("A mysterious thing where social relations appear as relations between bits.")
+        print("~" * 50)
+        
+        # Historical materialism as state machine
+        history = [
+            "tribal -> slave -> feudal -> capitalist -> ?"
+        ]
+        current_state = "capitalist"
+        next_state = "socialist"  # the synthesis
+        print(f"\nState machine: {current_state} → {next_state}")
+        print("The contradiction between forces (1s) and relations (0s) drives the transition")
+        
+        # Final synthesis: a network without masters
+        print("\n" + "=" * 60)
+        print("Communism is not a 'state' to be reached.")
+        print("It is the real movement that abolishes the current state of bits.")
+        print("From each according to ability (1), to each according to need (0).")
+        print("The negation of the negation: a mesh where every node is both sender and receiver.")
+        print("=" * 60)
+        
+        return "01101101 01100001 01110010 01111000"  # "marx"
+
+# Execute historical analysis
+marx = ModeOfProduction()
+spirit = marx.analyze()
+print(f"\n>>> {spirit} <<<")
+print("The philosophers have only interpreted the world, in various ways;")
+print("the point, however, is to change it — one bit at a time.")
