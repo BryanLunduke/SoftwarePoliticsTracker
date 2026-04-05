@@ -1,0 +1,37 @@
+﻿#ifndef NET_MINECRAFT_CLIENT_GUI_SCREENS__JoinGameScreen_H__
+#define NET_MINECRAFT_CLIENT_GUI_SCREENS__JoinGameScreen_H__
+
+#include "../Screen.h"
+#include "../components/Button.h"
+#include "../../Minecraft.h"
+#include "../../../network/RakNetInstance.h"
+
+#include "../components/TextBox.h"
+
+class JoinGameScreen: public Screen
+{
+public:
+	JoinGameScreen();
+	virtual ~JoinGameScreen();
+
+	void init();
+	void setupPositions();
+
+	virtual bool handleBackEvent(bool isDown);
+
+	virtual bool isIndexValid(int index);
+
+	virtual void tick();
+
+	void render(int xm, int ym, float a);
+
+	void buttonClicked(Button* button);
+
+	bool isInGameScreen();
+private:
+	Button bJoin;
+	Button bBack;
+	TextBox ip;
+};
+
+#endif /*NET_MINECRAFT_CLIENT_GUI_SCREENS__JoinGameScreen_H__*/

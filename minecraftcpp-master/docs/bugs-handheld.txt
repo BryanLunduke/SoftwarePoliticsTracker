@@ -1,0 +1,53 @@
+Bugs/missing features
+
+* Frustum culler doesn't work correctly, even though I tried
+  to copy it from Minecraft java version.
+  NOTE: Culling of chunks works, but entities isn't 100%
+
+* Basically whole Item/ItemInstance package is missing
+Update: Over half package is now done, but difficult to go very much
+further without having items to "test"/evaluate it with.
+
+* Lighting's broken
+
+* Android version doesn't quit correctly. Right now it seg-faults
+  on purpose, since it doesn't shut down fully if not.
+  NOTE: much better now, and doesn't use segfault. Still a call to
+  gl* is made with no context. Back button shouldn't actually shut
+  down the process but rather hides it.
+
+* A few (~3) "static" memory leaks (marked in the code with @memleak)
+
+* Water horizon doesn't care about "movement head offsetting"
+
+( * Returning some temporary AABBs by ref, not sure it's a problem.)
+
+( * Some seeds constants are too big for long (int) data type.)
+
+FIXED:
+* Flickering. Removing glClear( color-bit ) "fixes" this.
+  NOTE: div by 0.0f in bobHurt when a = 0. Java code also have this
+  problem but rotating NaN or INF degrees seems fine there (or a != 0)
+
+* Can't walk without hopping every tile or falling through tiles
+  NOTE: Still jumps out of water as a feature :)
+
+* Tile ticking, water flow and leaf decay
+
+* Rendering business. Right now it's hardcoded to render the
+  first N chunks it encounters and then no more.
+  (Addon: then it might crash :p )
+  And since it doesn't redraw chunks correctly, destroying tiles
+  isn't graphically visible (if all N chunks have been used).
+  NOTE: Now using basically the same rendering pipeline as display lists.
+
+* Code doesn't really support playing on the network game "host" at the moment.
+  NOTE: Chose a fairly straightforward approach where you let people join
+  your world.
+
+* Abyss
+
+* (Render) Chunks are sometimes missing. Came when ChunkCache was
+  rewritten/updated for fixed worlds.
+  NOTE: Fixed, this and chunks not updated in multiplayer if chunk not
+  visible to player were same problem (Chunk::rebuild,if(!visible)return;)

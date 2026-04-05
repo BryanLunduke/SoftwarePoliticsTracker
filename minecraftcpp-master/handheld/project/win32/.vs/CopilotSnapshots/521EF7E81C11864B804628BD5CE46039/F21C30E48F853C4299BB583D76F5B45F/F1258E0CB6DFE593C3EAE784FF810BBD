@@ -1,0 +1,70 @@
+﻿#include "TextBox.h"
+#include "../../Minecraft.h"
+#include "../../../AppPlatform.h"
+#include <algorithm>
+
+TextBox::TextBox( int id, const std::string& msg )
+ : id(id), w(0), h(0), x(0), y(0), text(msg), focused(false) {
+
+}
+
+TextBox::TextBox( int id, int x, int y, const std::string& msg ) 
+ : id(id), w(0), h(0), x(x), y(y), text(msg), focused(false) {
+
+}
+
+TextBox::TextBox( int id, int x, int y, int w, int h, const std::string& msg )
+ : id(id), w(w), h(h), x(x), y(y), text(msg), focused(false) {
+
+}
+
+void TextBox::setFocus(Minecraft* minecraft) {
+	if(!focused) {
+		if (minecraft && minecraft->platform()) minecraft->platform()->showKeyboard();
+		focused = true;
+	}
+}
+
+bool TextBox::loseFocus(Minecraft* minecraft) {
+	if(focused) {
+		if (minecraft && minecraft->platform()) minecraft->platform()->hideKeyboard();
+		focused = false;
+		return true;
+	}
+	return false;
+}
+
+void TextBox::render( Minecraft* minecraft, int xm, int ym ) {
+	if (w ==0) {
+		// default width
+		// try to not overflow the screen
+		w =120;
+	}
+	if (h ==0) h =20;
+
+	// Background box
+	// Slightly translucent dark background
+	fill(x, y, x + w, y + h,0x80000000);
+	// Border
+	fill(x, y, x + w, y +1,0xff707070);
+	fill(x, y + h -1, x + w, y + h,0xff101010);
+	fill(x, y, x +1, y + h,0xff707070);
+	fill(x + w -1, y, x + w, y + h,0xff101010);
+
+	// Draw text. If textbox contains the placeholder (no focus and text equals initial msg), draw dim color
+	int color =0xe0e0e0;
+	// If not focused and text is empty or equals default placeholder, draw dimmed
+	if (!focused && (text.empty())) color =0xffa0a0a0;
+
+	// Clip text if too long - simple truncate
+	std::string out = text;
+	// measure available width approximated by character count
+	int calc = (w -8) /6; // approx6 px per char
+	int maxChars =1;
+	if (calc > maxChars) maxChars = calc;
+	if ((int)out.size() > maxChars) {
+		out = out.substr(0, maxChars -3) + "...";
+	}
+
+	drawString(minecraft->font, out, x +4, y + (h -8) /2, color);
+}

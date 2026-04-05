@@ -1,0 +1,131 @@
+﻿#include "TouchJoinGameScreen.h"
+#include "../StartMenuScreen.h"
+#include "../ProgressScreen.h"
+#include "../../Font.h"
+#include "../../../Minecraft.h"
+#include "../../../renderer/Textures.h"
+#include "../../../NetworkingHelpers.h"
+
+namespace Touch {
+
+JoinGameScreen::JoinGameScreen()
+: bJoin(2, "Join Game"),
+ bBack(3, "Back"),
+ bHeader(0, "Join by address"),
+ ip(5, "IP:Port (host:19132)")
+{
+ bJoin.active = true;
+}
+
+JoinGameScreen::~JoinGameScreen()
+{
+}
+
+void JoinGameScreen::init()
+{
+ buttons.push_back(&bBack);
+ buttons.push_back(&bJoin);
+ buttons.push_back(&bHeader);
+
+ textBoxes.push_back(&ip);
+
+#ifdef ANDROID
+ tabButtons.push_back(&bBack);
+ tabButtons.push_back(&bJoin);
+#endif
+}
+
+void JoinGameScreen::setupPositions() {
+ const int yBase =10;
+
+ // header at top
+ bHeader.y = yBase;
+ bHeader.width = width;
+ bHeader.x =0;
+
+ // textbox below header
+ ip.x = width/2 -140/2;
+ ip.y = bHeader.y +28;
+ ip.w =140;
+
+ // buttons at bottom
+ const int btnW =120;
+ const int btnH =26;
+ bJoin.width = btnW; bJoin.height = btnH;
+ bBack.width = btnW; bBack.height = btnH;
+
+ bJoin.y = height -30;
+ bBack.y = height -30;
+
+ bJoin.x = width /2 -4 - bJoin.width;
+ bBack.x = width /2 +4;
+}
+
+void JoinGameScreen::buttonClicked(Button* button)
+{
+ if (button->id == bJoin.id)
+ {
+ std::string addr = ip.text;
+ auto trim = [](std::string &s) {
+ size_t start =0;
+ while (start < s.size() && std::isspace((unsigned char)s[start])) ++start;
+ size_t end = s.size();
+ while (end > start && std::isspace((unsigned char)s[end -1])) --end;
+ s = s.substr(start, end - start);
+ };
+ trim(addr);
+ if (!addr.empty()) {
+ std::string host = addr;
+ int port =19132;
+ size_t colon = addr.find(':');
+ if (colon != std::string::npos) {
+ host = addr.substr(0, colon);
+ std::string portStr = addr.substr(colon +1);
+ trim(host);
+ trim(portStr);
+ if (!portStr.empty()) port = std::atoi(portStr.c_str());
+ } else trim(host);
+ if (!host.empty()) {
+ startConnect(minecraft, host, port);
+ bJoin.active = false;
+ bBack.active = false;
+ minecraft->setScreen(new ProgressScreen());
+ }
+ }
+ }
+ if (button->id == bBack.id)
+ {
+ minecraft->screenChooser.setScreen(SCREEN_STARTMENU);
+ }
+}
+
+bool JoinGameScreen::handleBackEvent(bool isDown)
+{
+ if (!isDown) {
+ minecraft->screenChooser.setScreen(SCREEN_STARTMENU);
+ }
+ return true;
+}
+
+bool JoinGameScreen::isIndexValid( int index )
+{
+ return false;
+}
+
+void JoinGameScreen::tick()
+{
+}
+
+void JoinGameScreen::render( int xm, int ym, float a )
+{
+ renderBackground();
+ // render textbox explicitly
+ for (unsigned int i =0; i < textBoxes.size(); ++i) {
+ textBoxes[i]->render(minecraft, xm, ym);
+ }
+ Screen::render(xm, ym, a);
+}
+
+bool JoinGameScreen::isInGameScreen() { return false; }
+
+};

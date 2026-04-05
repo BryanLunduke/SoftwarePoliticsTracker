@@ -1,0 +1,227 @@
+﻿cpp ..\..\src\client\gui\screens\JoinGameScreen.cpp
+#include "JoinGameScreen.h"
+#include "StartMenuScreen.h"
+#include "ProgressScreen.h"
+#include "../Font.h"
+#include "../../../network/RakNetInstance.h"
+#include "../../../network/ClientSideNetworkHandler.h"
+
+#include "../components/TextBox.h"
+
+JoinGameScreen::JoinGameScreen()
+:	bJoin(  2, "Join Game"),
+	bBack(  3, "Back"),
+	gamesList(NULL),
+	ip(5,   "IP+Port?")
+{
+	bJoin.active = false;
+	//gamesList->yInertia = 0.5f;
+}
+
+JoinGameScreen::~JoinGameScreen()
+{
+	delete gamesList;
+}
+
+void JoinGameScreen::buttonClicked(Button* button)
+{
+	if (button->id == bJoin.id)
+	{
+		// Try manual IP:Port from textbox first (if provided)
+		std::string addr = ip.text;
+		// trim whitespace
+		auto trim = [](std::string &s) {
+			size_t start = 0;
+			while (start < s.size() && isspace((unsigned char)s[start])) ++start;
+			size_t end = s.size();
+			while (end > start && isspace((unsigned char)s[end - 1])) --end;
+			s = s.substr(start, end - start);
+		};
+		trim(addr);
+
+		if (!addr.empty() && addr != "IP+Port?")
+		{
+			// parse host[:port], default port 19132
+			std::string host = addr;
+			int port = 19132;
+			size_t colon = addr.find(':');
+			if (colon != std::string::npos)
+			{
+				host = addr.substr(0, colon);
+				std::string portStr = addr.substr(colon + 1);
+				trim(host);
+				trim(portStr);
+				if (!portStr.empty())
+					port = atoi(portStr.c_str());
+			} else {
+				trim(host);
+			}
+
+			if (!host.empty())
+			{
+				// Tear down any previous callback and create a client callback for this connection
+				if (minecraft->netCallback) {
+					delete minecraft->netCallback;
+					minecraft->netCallback = NULL;
+				}
+				minecraft->netCallback = new ClientSideNetworkHandler(minecraft, minecraft->raknetInstance);
+
+				// Start the connection (returns immediately whether startup succeeded)
+				minecraft->raknetInstance->connect(host.c_str(), port);
+
+				// Mirror existing behavior: disable buttons and show progress screen
+				bJoin.active = false;
+				bBack.active = false;
+				minecraft->setScreen(new ProgressScreen());
+			}
+			return;
+		}
+
+		// Fallback: join selected discovered server (existing behavior)
+		if (isIndexValid(gamesList->selectedItem))
+		{
+			PingedCompatibleServer selectedServer = gamesList->copiedServerList[gamesList->selectedItem];
+			minecraft->joinMultiplayer(selectedServer);
+			{
+				bJoin.active = false;
+				bBack.active = false;
+				minecraft->setScreen(new ProgressScreen());
+			}
+		}
+		//minecraft->locateMultiplayer();
+		//minecraft->setScreen(new JoinGameScreen());
+	}
+	if (button->id == bBack.id)
+	{
+		minecraft->cancelLocateMultiplayer();
+		minecraft->screenChooser.setScreen(SCREEN_STARTMENU);
+	}
+}
+
+bool JoinGameScreen::handleBackEvent(bool isDown)
+{
+	if (!isDown)
+	{
+		minecraft->cancelLocateMultiplayer();
+		minecraft->screenChooser.setScreen(SCREEN_STARTMENU);
+	}
+	return true;
+}
+
+
+bool JoinGameScreen::isIndexValid( int index )
+{
+	return gamesList && index >= 0 && index < gamesList->getNumberOfItems();
+}
+
+void JoinGameScreen::tick()
+{
+	const ServerList& orgServerList = minecraft->raknetInstance->getServerList();
+	ServerList serverList;
+	for (unsigned int i = 0; i < orgServerList.size(); ++i)
+		if (orgServerList[i].name.GetLength() > 0)
+			serverList.push_back(orgServerList[i]);
+
+	if (serverList.size() != gamesList->copiedServerList.size())
+	{
+		// copy the currently selected item
+		PingedCompatibleServer selectedServer;
+		bool hasSelection = false;
+		if (isIndexValid(gamesList->selectedItem))
+		{
+			selectedServer = gamesList->copiedServerList[gamesList->selectedItem];
+			hasSelection = true;
+		}
+
+		gamesList->copiedServerList = serverList;
+		gamesList->selectItem(-1, false);
+
+		// re-select previous item if it still exists
+		if (hasSelection)
+		{
+			for (unsigned int i = 0; i < gamesList->copiedServerList.size(); i++)
+			{
+				if (gamesList->copiedServerList[i].address == selectedServer.address)
+				{
+					gamesList->selectItem(i, false);
+					break;
+				}
+			}
+		}
+	} else {
+		for (int i = (int)gamesList->copiedServerList.size()-1; i >= 0 ; --i) {
+			for (int j = 0; j < (int) serverList.size(); ++j)
+				if (serverList[j].address == gamesList->copiedServerList[i].address)
+					gamesList->copiedServerList[i].name = serverList[j].name;
+		}
+	}
+
+	bJoin.active = isIndexValid(gamesList->selectedItem);
+}
+
+void JoinGameScreen::init()
+{
+	buttons.push_back(&bJoin);
+	buttons.push_back(&bBack);
+	textBoxes.push_back(&ip);
+
+	minecraft->raknetInstance->clearServerList();
+	gamesList = new AvailableGamesList(minecraft, width, height);
+
+#ifdef ANDROID
+	tabButtons.push_back(&bJoin);
+	tabButtons.push_back(&bBack);
+#endif
+}
+
+void JoinGameScreen::setupPositions() {
+	int yBase = height - 26;
+
+	//#ifdef ANDROID
+	bJoin.y =	yBase;
+	bBack.y =   yBase;
+
+	bBack.width = bJoin.width = 120;
+	//#endif
+
+	// Center buttons
+	bJoin.x = width / 2 - 4 - bJoin.width;
+	bBack.x = width / 2 + 4;
+	ip.x = 1;
+	ip.y = 10;
+	ip.w = bJoin.width;
+}
+
+void JoinGameScreen::render( int xm, int ym, float a )
+{
+	bool hasNetwork = minecraft->platform()->isNetworkEnabled(true);
+#ifdef WIN32
+	hasNetwork = hasNetwork && !GetAsyncKeyState(VK_TAB);
+#endif
+
+	renderBackground();
+	if (hasNetwork) gamesList->render(xm, ym, a);
+	Screen::render(xm, ym, a);
+
+	if (hasNetwork) {
+#ifdef RPI
+		std::string s = "Scanning for Local Network Games...";
+#else
+		std::string s = "Scanning for WiFi Games...";
+#endif
+		drawCenteredString(minecraft->font, s, width / 2, 8, 0xffffffff);
+
+		const int textWidth = minecraft->font->width(s);
+		const int spinnerX = width/2 + textWidth / 2 + 6;
+
+		static const char* spinnerTexts[] = {"-", "\\", "|", "/"};
+		int n = ((int)(5.5f * getTimeS()) % 4);
+		drawCenteredString(minecraft->font, spinnerTexts[n], spinnerX, 8, 0xffffffff);
+	} else {
+		std::string s = "WiFi is disabled";
+		const int yy = height / 2 - 8;
+		drawCenteredString(minecraft->font, s, width / 2, yy, 0xffffffff);
+	}
+}
+
+bool JoinGameScreen::isInGameScreen() { return false; }

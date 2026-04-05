@@ -1,0 +1,312 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Chris\\Desktop\\minecraftcpp-master\\handheld\\project\\win32\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{61D12CAD-CC16-4024-9C45-DE97AB0465AF}|MinecraftWin32.vcxproj|C:\\Users\\Chris\\Desktop\\minecraftcpp-master\\handheld\\src\\client\\Minecraft.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{61D12CAD-CC16-4024-9C45-DE97AB0465AF}|MinecraftWin32.vcxproj|C:\\Users\\Chris\\Desktop\\minecraftcpp-master\\handheld\\src\\client\\Minecraft.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{61D12CAD-CC16-4024-9C45-DE97AB0465AF}|MinecraftWin32.vcxproj|C:\\Users\\Chris\\Desktop\\minecraftcpp-master\\handheld\\src\\client\\gui\\Screen.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{61D12CAD-CC16-4024-9C45-DE97AB0465AF}|MinecraftWin32.vcxproj|C:\\Users\\Chris\\Desktop\\minecraftcpp-master\\handheld\\src\\client\\gui\\components\\TextBox.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Chris\\Desktop\\minecraftcpp-master\\handheld\\src\\client\\NetworkingHelpers.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Chris\\Desktop\\minecraftcpp-master\\handheld\\src\\client\\NetworkingHelpers.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{61D12CAD-CC16-4024-9C45-DE97AB0465AF}|MinecraftWin32.vcxproj|C:\\Users\\Chris\\Desktop\\minecraftcpp-master\\handheld\\src\\client\\gui\\screens\\touch\\TouchJoinGameScreen.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{61D12CAD-CC16-4024-9C45-DE97AB0465AF}|MinecraftWin32.vcxproj|C:\\Users\\Chris\\Desktop\\minecraftcpp-master\\handheld\\src\\client\\gui\\screens\\touch\\TouchJoinGameScreen.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{61D12CAD-CC16-4024-9C45-DE97AB0465AF}|MinecraftWin32.vcxproj|C:\\Users\\Chris\\Desktop\\minecraftcpp-master\\handheld\\src\\client\\gui\\screens\\JoinGameScreen.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{61D12CAD-CC16-4024-9C45-DE97AB0465AF}|MinecraftWin32.vcxproj|C:\\Users\\Chris\\Desktop\\minecraftcpp-master\\handheld\\src\\client\\gui\\components\\TextBox.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{61D12CAD-CC16-4024-9C45-DE97AB0465AF}|MinecraftWin32.vcxproj|C:\\Users\\Chris\\Desktop\\minecraftcpp-master\\handheld\\src\\client\\gui\\screens\\JoinGameScreen.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{61D12CAD-CC16-4024-9C45-DE97AB0465AF}|MinecraftWin32.vcxproj|C:\\Users\\Chris\\Desktop\\minecraftcpp-master\\handheld\\src\\client\\gui\\components\\Button.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{61D12CAD-CC16-4024-9C45-DE97AB0465AF}|MinecraftWin32.vcxproj|C:\\Users\\Chris\\Desktop\\minecraftcpp-master\\handheld\\src\\client\\gui\\screens\\DeathScreen.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{61D12CAD-CC16-4024-9C45-DE97AB0465AF}|MinecraftWin32.vcxproj|C:\\Users\\Chris\\Desktop\\minecraftcpp-master\\handheld\\src\\client\\gui\\screens\\DeathScreen.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{61D12CAD-CC16-4024-9C45-DE97AB0465AF}|MinecraftWin32.vcxproj|C:\\Users\\Chris\\Desktop\\minecraftcpp-master\\handheld\\src\\client\\gui\\screens\\ScreenChooser.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{61D12CAD-CC16-4024-9C45-DE97AB0465AF}|MinecraftWin32.vcxproj|C:\\Users\\Chris\\Desktop\\minecraftcpp-master\\handheld\\src\\client\\gui\\Screen.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{61D12CAD-CC16-4024-9C45-DE97AB0465AF}|MinecraftWin32.vcxproj|C:\\Users\\Chris\\Desktop\\minecraftcpp-master\\handheld\\src\\platform\\input\\Keyboard.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{61D12CAD-CC16-4024-9C45-DE97AB0465AF}|MinecraftWin32.vcxproj|C:\\Users\\Chris\\Desktop\\minecraftcpp-master\\handheld\\src\\client\\gui\\screens\\TextEditScreen.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 16,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "TextEditScreen.cpp",
+              "DocumentMoniker": "C:\\Users\\Chris\\Desktop\\minecraftcpp-master\\handheld\\src\\client\\gui\\screens\\TextEditScreen.cpp",
+              "RelativeDocumentMoniker": "..\\..\\src\\client\\gui\\screens\\TextEditScreen.cpp",
+              "ToolTip": "C:\\Users\\Chris\\Desktop\\minecraftcpp-master\\handheld\\src\\client\\gui\\screens\\TextEditScreen.cpp",
+              "RelativeToolTip": "..\\..\\src\\client\\gui\\screens\\TextEditScreen.cpp",
+              "ViewState": "AgIAAJIAAAAAAAAAAABBwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2026-03-01T13:31:07.699Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Keyboard.h",
+              "DocumentMoniker": "C:\\Users\\Chris\\Desktop\\minecraftcpp-master\\handheld\\src\\platform\\input\\Keyboard.h",
+              "RelativeDocumentMoniker": "..\\..\\src\\platform\\input\\Keyboard.h",
+              "ToolTip": "C:\\Users\\Chris\\Desktop\\minecraftcpp-master\\handheld\\src\\platform\\input\\Keyboard.h",
+              "RelativeToolTip": "..\\..\\src\\platform\\input\\Keyboard.h",
+              "ViewState": "AgIAAJYAAAAAAAAAAABRwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2026-03-01T13:27:57.854Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Screen.h",
+              "DocumentMoniker": "C:\\Users\\Chris\\Desktop\\minecraftcpp-master\\handheld\\src\\client\\gui\\Screen.h",
+              "RelativeDocumentMoniker": "..\\..\\src\\client\\gui\\Screen.h",
+              "ToolTip": "C:\\Users\\Chris\\Desktop\\minecraftcpp-master\\handheld\\src\\client\\gui\\Screen.h",
+              "RelativeToolTip": "..\\..\\src\\client\\gui\\Screen.h",
+              "ViewState": "AgIAAFIAAAAAAAAAAABBwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2026-03-01T13:14:58.93Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "NetworkingHelpers.cpp",
+              "DocumentMoniker": "C:\\Users\\Chris\\Desktop\\minecraftcpp-master\\handheld\\src\\client\\NetworkingHelpers.cpp",
+              "RelativeDocumentMoniker": "..\\..\\src\\client\\NetworkingHelpers.cpp",
+              "ToolTip": "C:\\Users\\Chris\\Desktop\\minecraftcpp-master\\handheld\\src\\client\\NetworkingHelpers.cpp",
+              "RelativeToolTip": "..\\..\\src\\client\\NetworkingHelpers.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2026-03-01T12:50:34.918Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "NetworkingHelpers.h",
+              "DocumentMoniker": "C:\\Users\\Chris\\Desktop\\minecraftcpp-master\\handheld\\src\\client\\NetworkingHelpers.h",
+              "RelativeDocumentMoniker": "..\\..\\src\\client\\NetworkingHelpers.h",
+              "ToolTip": "C:\\Users\\Chris\\Desktop\\minecraftcpp-master\\handheld\\src\\client\\NetworkingHelpers.h",
+              "RelativeToolTip": "..\\..\\src\\client\\NetworkingHelpers.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2026-03-01T12:50:28.53Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Minecraft.h",
+              "DocumentMoniker": "C:\\Users\\Chris\\Desktop\\minecraftcpp-master\\handheld\\src\\client\\Minecraft.h",
+              "RelativeDocumentMoniker": "..\\..\\src\\client\\Minecraft.h",
+              "ToolTip": "C:\\Users\\Chris\\Desktop\\minecraftcpp-master\\handheld\\src\\client\\Minecraft.h",
+              "RelativeToolTip": "..\\..\\src\\client\\Minecraft.h",
+              "ViewState": "AgIAAKsAAAAAAAAAAIAwwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2026-03-01T12:46:47.538Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "TouchJoinGameScreen.cpp",
+              "DocumentMoniker": "C:\\Users\\Chris\\Desktop\\minecraftcpp-master\\handheld\\src\\client\\gui\\screens\\touch\\TouchJoinGameScreen.cpp",
+              "RelativeDocumentMoniker": "..\\..\\src\\client\\gui\\screens\\touch\\TouchJoinGameScreen.cpp",
+              "ToolTip": "C:\\Users\\Chris\\Desktop\\minecraftcpp-master\\handheld\\src\\client\\gui\\screens\\touch\\TouchJoinGameScreen.cpp",
+              "RelativeToolTip": "..\\..\\src\\client\\gui\\screens\\touch\\TouchJoinGameScreen.cpp",
+              "ViewState": "AgIAAHIAAAAAAAAAAAAawAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2026-03-01T12:44:40.749Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "TouchJoinGameScreen.h",
+              "DocumentMoniker": "C:\\Users\\Chris\\Desktop\\minecraftcpp-master\\handheld\\src\\client\\gui\\screens\\touch\\TouchJoinGameScreen.h",
+              "RelativeDocumentMoniker": "..\\..\\src\\client\\gui\\screens\\touch\\TouchJoinGameScreen.h",
+              "ToolTip": "C:\\Users\\Chris\\Desktop\\minecraftcpp-master\\handheld\\src\\client\\gui\\screens\\touch\\TouchJoinGameScreen.h",
+              "RelativeToolTip": "..\\..\\src\\client\\gui\\screens\\touch\\TouchJoinGameScreen.h",
+              "ViewState": "AgIAACgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2026-03-01T12:44:13.379Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "TextBox.h",
+              "DocumentMoniker": "C:\\Users\\Chris\\Desktop\\minecraftcpp-master\\handheld\\src\\client\\gui\\components\\TextBox.h",
+              "RelativeDocumentMoniker": "..\\..\\src\\client\\gui\\components\\TextBox.h",
+              "ToolTip": "C:\\Users\\Chris\\Desktop\\minecraftcpp-master\\handheld\\src\\client\\gui\\components\\TextBox.h",
+              "RelativeToolTip": "..\\..\\src\\client\\gui\\components\\TextBox.h",
+              "ViewState": "AgIAABIAAAAAAAAAAAAawAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2026-03-01T12:24:30.332Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Button.cpp",
+              "DocumentMoniker": "C:\\Users\\Chris\\Desktop\\minecraftcpp-master\\handheld\\src\\client\\gui\\components\\Button.cpp",
+              "RelativeDocumentMoniker": "..\\..\\src\\client\\gui\\components\\Button.cpp",
+              "ToolTip": "C:\\Users\\Chris\\Desktop\\minecraftcpp-master\\handheld\\src\\client\\gui\\components\\Button.cpp",
+              "RelativeToolTip": "..\\..\\src\\client\\gui\\components\\Button.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2026-03-01T12:19:04.534Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "JoinGameScreen.cpp",
+              "DocumentMoniker": "C:\\Users\\Chris\\Desktop\\minecraftcpp-master\\handheld\\src\\client\\gui\\screens\\JoinGameScreen.cpp",
+              "RelativeDocumentMoniker": "..\\..\\src\\client\\gui\\screens\\JoinGameScreen.cpp",
+              "ToolTip": "C:\\Users\\Chris\\Desktop\\minecraftcpp-master\\handheld\\src\\client\\gui\\screens\\JoinGameScreen.cpp",
+              "RelativeToolTip": "..\\..\\src\\client\\gui\\screens\\JoinGameScreen.cpp",
+              "ViewState": "AgIAAFYAAAAAAAAAAAAawEYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2026-03-01T12:18:00.139Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "JoinGameScreen.h",
+              "DocumentMoniker": "C:\\Users\\Chris\\Desktop\\minecraftcpp-master\\handheld\\src\\client\\gui\\screens\\JoinGameScreen.h",
+              "RelativeDocumentMoniker": "..\\..\\src\\client\\gui\\screens\\JoinGameScreen.h",
+              "ToolTip": "C:\\Users\\Chris\\Desktop\\minecraftcpp-master\\handheld\\src\\client\\gui\\screens\\JoinGameScreen.h",
+              "RelativeToolTip": "..\\..\\src\\client\\gui\\screens\\JoinGameScreen.h",
+              "ViewState": "AgIAABIAAAAAAAAAAAAawBIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2026-03-01T12:17:12.408Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "TextBox.cpp",
+              "DocumentMoniker": "C:\\Users\\Chris\\Desktop\\minecraftcpp-master\\handheld\\src\\client\\gui\\components\\TextBox.cpp",
+              "RelativeDocumentMoniker": "..\\..\\src\\client\\gui\\components\\TextBox.cpp",
+              "ToolTip": "C:\\Users\\Chris\\Desktop\\minecraftcpp-master\\handheld\\src\\client\\gui\\components\\TextBox.cpp",
+              "RelativeToolTip": "..\\..\\src\\client\\gui\\components\\TextBox.cpp",
+              "ViewState": "AgIAACMAAAAAAAAAAIAwwDQAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2026-03-01T12:15:45.411Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "DeathScreen.h",
+              "DocumentMoniker": "C:\\Users\\Chris\\Desktop\\minecraftcpp-master\\handheld\\src\\client\\gui\\screens\\DeathScreen.h",
+              "RelativeDocumentMoniker": "..\\..\\src\\client\\gui\\screens\\DeathScreen.h",
+              "ToolTip": "C:\\Users\\Chris\\Desktop\\minecraftcpp-master\\handheld\\src\\client\\gui\\screens\\DeathScreen.h",
+              "RelativeToolTip": "..\\..\\src\\client\\gui\\screens\\DeathScreen.h",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAqwBcAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2026-03-01T12:14:46.669Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "DeathScreen.cpp",
+              "DocumentMoniker": "C:\\Users\\Chris\\Desktop\\minecraftcpp-master\\handheld\\src\\client\\gui\\screens\\DeathScreen.cpp",
+              "RelativeDocumentMoniker": "..\\..\\src\\client\\gui\\screens\\DeathScreen.cpp",
+              "ToolTip": "C:\\Users\\Chris\\Desktop\\minecraftcpp-master\\handheld\\src\\client\\gui\\screens\\DeathScreen.cpp",
+              "RelativeToolTip": "..\\..\\src\\client\\gui\\screens\\DeathScreen.cpp",
+              "ViewState": "AgIAABsAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2026-03-01T12:15:11.172Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Minecraft.cpp",
+              "DocumentMoniker": "C:\\Users\\Chris\\Desktop\\minecraftcpp-master\\handheld\\src\\client\\Minecraft.cpp",
+              "RelativeDocumentMoniker": "..\\..\\src\\client\\Minecraft.cpp",
+              "ToolTip": "C:\\Users\\Chris\\Desktop\\minecraftcpp-master\\handheld\\src\\client\\Minecraft.cpp",
+              "RelativeToolTip": "..\\..\\src\\client\\Minecraft.cpp",
+              "ViewState": "AgIAACoDAAAAAAAAAAAgwDoDAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2026-03-01T11:59:52.098Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "ScreenChooser.cpp",
+              "DocumentMoniker": "C:\\Users\\Chris\\Desktop\\minecraftcpp-master\\handheld\\src\\client\\gui\\screens\\ScreenChooser.cpp",
+              "RelativeDocumentMoniker": "..\\..\\src\\client\\gui\\screens\\ScreenChooser.cpp",
+              "ToolTip": "C:\\Users\\Chris\\Desktop\\minecraftcpp-master\\handheld\\src\\client\\gui\\screens\\ScreenChooser.cpp",
+              "RelativeToolTip": "..\\..\\src\\client\\gui\\screens\\ScreenChooser.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2026-03-01T11:51:21.969Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Screen.cpp",
+              "DocumentMoniker": "C:\\Users\\Chris\\Desktop\\minecraftcpp-master\\handheld\\src\\client\\gui\\Screen.cpp",
+              "RelativeDocumentMoniker": "..\\..\\src\\client\\gui\\Screen.cpp",
+              "ToolTip": "C:\\Users\\Chris\\Desktop\\minecraftcpp-master\\handheld\\src\\client\\gui\\Screen.cpp",
+              "RelativeToolTip": "..\\..\\src\\client\\gui\\Screen.cpp",
+              "ViewState": "AgIAANYAAAAAAAAAAAAwwOkAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2026-03-01T11:44:11.773Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+﻿#include "NetworkingHelpers.h"
+#include "Minecraft.h"
+#include "../network/ClientSideNetworkHandler.h"
+
+bool startConnect(Minecraft* mc, const std::string& host, int port) {
+ if (mc->netCallback) {
+ delete mc->netCallback;
+ mc->netCallback = nullptr;
+ }
+ mc->netCallback = new ClientSideNetworkHandler(mc, mc->raknetInstance);
+ return mc->raknetInstance->connect(host.c_str(), port);
+}

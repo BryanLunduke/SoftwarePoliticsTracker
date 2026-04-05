@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="app_name">Minecraft - Pocket Edition</string>
+	<string name="app_name_demo">Minecraft - Pocket Edition Demo</string>
+    <string name="xperiaplayoptimized_content">true</string>
+    <string name="app_name_short">Minecraft PE</string>
+    <string name="app_name_short_demo">Minecraft PE Demo</string>
+
+	<!-- CREATE NEW WORLD -->
+	<string name="createworld_name">World name</string>
+	<string name="createworld_new_world">Unnamed world</string>
+	<string name="createworld_seed">World Generator seed. Leave blank for random.</string>
+	<string name="createworld_seed_info">Leave blank for random seed</string>
+	<string name="gamemode_survival_summary">Mobs, health and gather resources</string>
+	<string name="gamemode_creative_summary">Unlimited resources and flying</string>
+
+	<!-- RENAME WORLD -->
+	<string name="renameworld_title">Save world as</string>
+	<string name="renameworld_saved_world">Saved World</string>
+    
+    <!-- MAIN MENU OPTIONS -->
+    <string name="mmoptions_mp_username_title">Username</string>
+    <string name="mmoptions_mp_username_dialog">Enter your username</string>
+    <string name="mmoptions_mp_server_visible_default_title">Server visible by default</string>
+    <string name="mmoptions_ctrl_sensitivity_title">Sensitivity</string>
+    <string name="mmoptions_ctrl_invertmouse_title">Invert Y-axis</string>
+    <string name="mmoptions_ctrl_islefthanded_title">Lefty</string>
+    <string name="mmoptions_ctrl_usetouchscreen_title">Use touch screen</string>
+    <string name="mmoptions_ctrl_usetouchjoypad_title">Split touch controls</string>
+    <string name="mmoptions_feedback_vibration_title">Vibration</string>
+    <string name="mmoptions_feedback_vibration_summary">Slight vibration when blocks are destroyed</string>
+    <string name="mmoptions_gfx_fancygraphics_title">Fancy graphics</string>
+    <string name="mmoptions_gfx_fancygraphics_summary"></string>
+   	<string name="mmoptions_gfx_fancygraphics_summary_powervr"></string>
+    <string name="mmoptions_gfx_lowquality_title">Lower graphics quality</string>
+    <string name="mmoptions_gfx_lowquality_summary">Shorter view distance and disables fancy rendering</string>
+    <string name="mmoptions_game_difficultypeaceful_title">Peaceful mode</string>
+    <string name="mmoptions_game_difficultypeaceful_summary">No hostile mobs, heal automatically</string>
+        
+</resources>
