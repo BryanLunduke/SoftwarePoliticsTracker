@@ -1,0 +1,3191 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Platform">
+      <UniqueIdentifier>{315d8115-3fca-4a3f-9374-57f41665e3a0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\world">
+      <UniqueIdentifier>{84771a0f-b6af-479c-a26d-fbf611d14fcb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\client">
+      <UniqueIdentifier>{93f057aa-83e6-442e-a126-9d244453eb38}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\client\gamemode">
+      <UniqueIdentifier>{82f6d408-1efb-43bc-99fd-f6029eabe32b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\client\player">
+      <UniqueIdentifier>{01996801-7e5f-476e-b41c-e7d3bad443b0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\client\renderer">
+      <UniqueIdentifier>{4398bfb3-fb0a-498c-9772-3c815e8ad360}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Platform\input">
+      <UniqueIdentifier>{7887f605-f5e2-4bca-86b9-ccaf7228184d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\util">
+      <UniqueIdentifier>{9b2956dc-ea58-4192-8bb8-3a7c97e92141}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\world\entity">
+      <UniqueIdentifier>{c13ce830-5bad-4622-b008-4198a50fd760}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\world\entity\item">
+      <UniqueIdentifier>{d0112033-5536-42af-9a19-d188bb7b4a29}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\world\entity\player">
+      <UniqueIdentifier>{ee8fd90c-82e9-4f37-b468-fa264e20843d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\world\phys">
+      <UniqueIdentifier>{cbcb2ae1-8eee-4d76-b137-e68c8edc55c0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\world\level">
+      <UniqueIdentifier>{81419bca-bcb4-46bd-bfd5-d05ec83adece}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\world\level\chunk">
+      <UniqueIdentifier>{5094f961-132c-4d23-9077-353cf989adc5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\world\level\chunk\storage">
+      <UniqueIdentifier>{71ab63f9-7c1d-4cdc-bbe1-67a69e54fcf9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\world\level\dimension">
+      <UniqueIdentifier>{e9e550bf-9345-4cb4-bd3d-a6d0f70136f6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\world\level\levelgen">
+      <UniqueIdentifier>{94682265-c50a-4307-84b3-a2e2488f56aa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\world\level\levelgen\synth">
+      <UniqueIdentifier>{57e82abe-b138-40da-be47-75c872682126}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\world\level\levelgen\feature">
+      <UniqueIdentifier>{3053195e-e3a9-4481-813f-2c63c7d4fc3b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\world\level\material">
+      <UniqueIdentifier>{4f6589cb-0d2a-4a0d-b94f-a15cc5af30db}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\world\level\storage">
+      <UniqueIdentifier>{711b9f4f-6a59-4c97-a37d-50f5e6171b08}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\world\level\tile">
+      <UniqueIdentifier>{7f18df66-372a-4d60-9e34-ddaed7b522e3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\client\renderer\culling">
+      <UniqueIdentifier>{eed0a973-fbec-4dd6-96ef-308b80850ab1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\world\level\pathfinder">
+      <UniqueIdentifier>{ef4ebf01-6f5f-4b01-990d-feb9885d9f11}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\world\item">
+      <UniqueIdentifier>{3c1f4573-74cc-4b76-b4ce-fc01f1e9ff6f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\locale">
+      <UniqueIdentifier>{2360ae39-413c-4514-8898-fbed347600bd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\client\particle">
+      <UniqueIdentifier>{e9f52cee-84ea-43b1-814d-822cb70805fa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\client\gui">
+      <UniqueIdentifier>{e536d920-0d4b-4c39-97de-2b83a6ca3cf4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\client\model">
+      <UniqueIdentifier>{7c33753b-7228-4c43-a0db-e50621e60be8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\client\renderer\entity">
+      <UniqueIdentifier>{00188837-a1b6-446f-94aa-c7cbd7da8291}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\network">
+      <UniqueIdentifier>{bdda49a8-dce0-4e2c-bd52-a08949611547}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Libs">
+      <UniqueIdentifier>{fe0157fa-e486-47be-9a78-ea4abe58a75a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Libs\raknet">
+      <UniqueIdentifier>{3f7b68ba-24bf-4a04-a072-3c63d061c6d3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\client\sound">
+      <UniqueIdentifier>{7abec229-7c62-4f8c-be0c-b0541ebe6a2b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Platform\audio">
+      <UniqueIdentifier>{9a993a4b-5523-4ce6-8fc5-d45b6c098655}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\world\level\biome">
+      <UniqueIdentifier>{5db94373-ca02-4a85-8029-da71c6bb7b9c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\client\renderer\ptexture">
+      <UniqueIdentifier>{db6877ab-b3ee-4c4e-a4db-a934d366ccf2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\client\player\input">
+      <UniqueIdentifier>{55eb3700-6e83-4ddd-acf1-8007be34240c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\client\gui\screens">
+      <UniqueIdentifier>{d75d193d-81f9-4fbd-8c1e-0688149b829b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\client\gui\components">
+      <UniqueIdentifier>{64ffbf67-3499-4004-8bb1-124d6ef1c10c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\client\player\input\touchscreen">
+      <UniqueIdentifier>{0f4d45e8-d068-489e-a66e-d42d36067fbd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\client\gui\screens\touch">
+      <UniqueIdentifier>{e2511587-18cc-4635-9921-513debf878df}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\nbt">
+      <UniqueIdentifier>{99bc510f-d187-40f7-befc-1c5a02571110}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\world\entity\animal">
+      <UniqueIdentifier>{76b518bc-f17f-4bf5-bd69-15c3945d8d98}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\client\model\geom">
+      <UniqueIdentifier>{89c4918c-8ff9-4290-81c8-e6115afb6e0a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\client\multiplayer">
+      <UniqueIdentifier>{8faf4949-1190-46ba-97ba-8d854cb8f104}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\network\packet">
+      <UniqueIdentifier>{491d98ea-686d-417c-9e42-ed3a4e66781d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\world\entity\monster">
+      <UniqueIdentifier>{d400197c-231e-4e27-a176-9e91bcc92934}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\world\item\crafting">
+      <UniqueIdentifier>{d0aee588-4f58-44f9-8a82-0d1998cba02f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\world\inventory">
+      <UniqueIdentifier>{9b9a6b73-102d-40b8-bd32-cb552c9f83e4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\world\entity\projectile">
+      <UniqueIdentifier>{85c02cb0-6cdf-4ec8-9d94-92b7c7b82e0c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\world\entity\ai">
+      <UniqueIdentifier>{1a46cf05-e5e8-4b61-af27-291435577b37}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\world\entity\ai\control">
+      <UniqueIdentifier>{57b58ea4-2f23-4f79-ac82-6c40619f3ded}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\world\entity\ai\goal">
+      <UniqueIdentifier>{cab0cd1e-1e3c-4f6b-af63-a8b90c20e86e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\world\entity\ai\goal\target">
+      <UniqueIdentifier>{fe32771a-8f08-471c-8696-28951441b3a2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\world\entity\ai\util">
+      <UniqueIdentifier>{7c895144-ec49-4465-be5c-e59960757bb3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\world\level\tile\entity">
+      <UniqueIdentifier>{3860d844-27c3-441e-adfa-e5993010a24a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\client\renderer\tileentity">
+      <UniqueIdentifier>{8d46e789-d2ac-4888-adc7-499c25659dd8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\world\food">
+      <UniqueIdentifier>{d73bff72-4294-4b54-acf1-e4da7c159895}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\server">
+      <UniqueIdentifier>{908ab587-566a-4177-94a0-67e66c25fac1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\network\command">
+      <UniqueIdentifier>{633779f8-e638-42a9-a5e4-98c3c8d810b0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\client\gamemode\creator">
+      <UniqueIdentifier>{160d7e15-8f93-46c7-8aec-a13299e9d090}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\client\gui\screens\crafting">
+      <UniqueIdentifier>{d9a5faa2-fae5-4072-950e-89ca5a5f86fd}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\src\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\client\Options.cpp">
+      <Filter>Source Files\client</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\client\Minecraft.cpp">
+      <Filter>Source Files\client</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\client\gamemode\GameMode.cpp">
+      <Filter>Source Files\client\gamemode</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\client\player\LocalPlayer.cpp">
+      <Filter>Source Files\client\player</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\platform\time.cpp">
+      <Filter>Platform</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\util\Mth.cpp">
+      <Filter>Source Files\util</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\world\Direction.cpp">
+      <Filter>Source Files\world</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\world\entity\Entity.cpp">
+      <Filter>Source Files\world\entity</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\world\entity\Mob.cpp">
+      <Filter>Source Files\world\entity</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\world\phys\HitResult.cpp">
+      <Filter>Source Files\world\phys</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\world\level\Level.cpp">
+      <Filter>Source Files\world\level</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\world\level\LightLayer.cpp">
+      <Filter>Source Files\world\level</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\world\level\chunk\LevelChunk.cpp">
+      <Filter>Source Files\world\level\chunk</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\world\level\dimension\Dimension.cpp">
+      <Filter>Source Files\world\level\dimension</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\world\level\levelgen\RandomLevelSource.cpp">
+      <Filter>Source Files\world\level\levelgen</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\world\level\material\Material.cpp">
+      <Filter>Source Files\world\level\material</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\world\level\tile\StoneSlabTile.cpp">
+      <Filter>Source Files\world\level\tile</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\world\level\tile\Tile.cpp">
+      <Filter>Source Files\world\level\tile</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\client\renderer\GameRenderer.cpp">
+      <Filter>Source Files\client\renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\client\renderer\Tesselator.cpp">
+      <Filter>Source Files\client\renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\client\renderer\Chunk.cpp">
+      <Filter>Source Files\client\renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\client\renderer\gles.cpp">
+      <Filter>Source Files\client\renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\world\level\TickNextTickData.cpp">
+      <Filter>Source Files\world\level</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\client\renderer\culling\Frustum.cpp">
+      <Filter>Source Files\client\renderer\culling</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\client\renderer\LevelRenderer.cpp">
+      <Filter>Source Files\client\renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\world\level\Region.cpp">
+      <Filter>Source Files\world\level</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\world\entity\player\Player.cpp">
+      <Filter>Source Files\world\entity\player</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\platform\input\Controller.cpp">
+      <Filter>Platform\input</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\platform\input\Keyboard.cpp">
+      <Filter>Platform\input</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\platform\input\Mouse.cpp">
+      <Filter>Platform\input</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\world\item\Item.cpp">
+      <Filter>Source Files\world\item</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\world\item\ItemInstance.cpp">
+      <Filter>Source Files\world\item</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\world\level\LightUpdate.cpp">
+      <Filter>Source Files\world\level</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\client\renderer\RenderChunk.cpp">
+      <Filter>Source Files\client\renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\client\particle\ParticleEngine.cpp">
+      <Filter>Source Files\client\particle</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\client\particle\Particle.cpp">
+      <Filter>Source Files\client\particle</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\client\renderer\Textures.cpp">
+      <Filter>Source Files\client\renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\platform\CThread.cpp">
+      <Filter>Platform</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\client\gui\Gui.cpp">
+      <Filter>Source Files\client\gui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\raknet\_FindFirst.cpp">
+      <Filter>Libs\raknet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\raknet\BitStream.cpp">
+      <Filter>Libs\raknet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\raknet\CCRakNetSlidingWindow.cpp">
+      <Filter>Libs\raknet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\raknet\CCRakNetUDT.cpp">
+      <Filter>Libs\raknet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\raknet\CheckSum.cpp">
+      <Filter>Libs\raknet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\raknet\CloudClient.cpp">
+      <Filter>Libs\raknet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\raknet\CloudCommon.cpp">
+      <Filter>Libs\raknet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\raknet\CloudServer.cpp">
+      <Filter>Libs\raknet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\raknet\CommandParserInterface.cpp">
+      <Filter>Libs\raknet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\raknet\ConnectionGraph2.cpp">
+      <Filter>Libs\raknet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\raknet\ConsoleServer.cpp">
+      <Filter>Libs\raknet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\raknet\DataCompressor.cpp">
+      <Filter>Libs\raknet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\raknet\DirectoryDeltaTransfer.cpp">
+      <Filter>Libs\raknet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\raknet\DS_BytePool.cpp">
+      <Filter>Libs\raknet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\raknet\DS_ByteQueue.cpp">
+      <Filter>Libs\raknet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\raknet\DS_HuffmanEncodingTree.cpp">
+      <Filter>Libs\raknet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\raknet\DS_Table.cpp">
+      <Filter>Libs\raknet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\raknet\DynDNS.cpp">
+      <Filter>Libs\raknet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\raknet\EmailSender.cpp">
+      <Filter>Libs\raknet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\raknet\EncodeClassName.cpp">
+      <Filter>Libs\raknet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\raknet\EpochTimeToString.cpp">
+      <Filter>Libs\raknet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\raknet\FileList.cpp">
+      <Filter>Libs\raknet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\raknet\FileListTransfer.cpp">
+      <Filter>Libs\raknet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\raknet\FileOperations.cpp">
+      <Filter>Libs\raknet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\raknet\FormatString.cpp">
+      <Filter>Libs\raknet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\raknet\FullyConnectedMesh2.cpp">
+      <Filter>Libs\raknet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\raknet\Getche.cpp">
+      <Filter>Libs\raknet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\raknet\Gets.cpp">
+      <Filter>Libs\raknet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\raknet\GetTime.cpp">
+      <Filter>Libs\raknet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\raknet\gettimeofday.cpp">
+      <Filter>Libs\raknet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\raknet\GridSectorizer.cpp">
+      <Filter>Libs\raknet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\raknet\HTTPConnection.cpp">
+      <Filter>Libs\raknet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\raknet\IncrementalReadInterface.cpp">
+      <Filter>Libs\raknet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\raknet\Itoa.cpp">
+      <Filter>Libs\raknet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\raknet\LinuxStrings.cpp">
+      <Filter>Libs\raknet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\raknet\LogCommandParser.cpp">
+      <Filter>Libs\raknet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\raknet\MessageFilter.cpp">
+      <Filter>Libs\raknet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\raknet\NatPunchthroughClient.cpp">
+      <Filter>Libs\raknet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\raknet\NatPunchthroughServer.cpp">
+      <Filter>Libs\raknet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\raknet\NatTypeDetectionClient.cpp">
+      <Filter>Libs\raknet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\raknet\NatTypeDetectionCommon.cpp">
+      <Filter>Libs\raknet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\raknet\NatTypeDetectionServer.cpp">
+      <Filter>Libs\raknet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\raknet\NetworkIDManager.cpp">
+      <Filter>Libs\raknet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\raknet\NetworkIDObject.cpp">
+      <Filter>Libs\raknet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\raknet\PacketConsoleLogger.cpp">
+      <Filter>Libs\raknet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\raknet\PacketFileLogger.cpp">
+      <Filter>Libs\raknet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\raknet\PacketizedTCP.cpp">
+      <Filter>Libs\raknet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\raknet\PacketLogger.cpp">
+      <Filter>Libs\raknet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\raknet\PacketOutputWindowLogger.cpp">
+      <Filter>Libs\raknet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\raknet\PluginInterface2.cpp">
+      <Filter>Libs\raknet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\raknet\RakMemoryOverride.cpp">
+      <Filter>Libs\raknet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\raknet\RakNetCommandParser.cpp">
+      <Filter>Libs\raknet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\raknet\RakNetSocket.cpp">
+      <Filter>Libs\raknet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\raknet\RakNetStatistics.cpp">
+      <Filter>Libs\raknet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\raknet\RakNetTransport2.cpp">
+      <Filter>Libs\raknet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\raknet\RakNetTypes.cpp">
+      <Filter>Libs\raknet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\raknet\RakPeer.cpp">
+      <Filter>Libs\raknet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\raknet\RakSleep.cpp">
+      <Filter>Libs\raknet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\raknet\RakString.cpp">
+      <Filter>Libs\raknet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\raknet\RakThread.cpp">
+      <Filter>Libs\raknet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\raknet\RakWString.cpp">
+      <Filter>Libs\raknet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\raknet\Rand.cpp">
+      <Filter>Libs\raknet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\raknet\rdlmalloc.cpp">
+      <Filter>Libs\raknet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\raknet\ReadyEvent.cpp">
+      <Filter>Libs\raknet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\raknet\ReliabilityLayer.cpp">
+      <Filter>Libs\raknet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\raknet\ReplicaManager3.cpp">
+      <Filter>Libs\raknet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\raknet\Router2.cpp">
+      <Filter>Libs\raknet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\raknet\RPC4Plugin.cpp">
+      <Filter>Libs\raknet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\raknet\SecureHandshake.cpp">
+      <Filter>Libs\raknet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\raknet\SendToThread.cpp">
+      <Filter>Libs\raknet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\raknet\SHA1.cpp">
+      <Filter>Libs\raknet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\raknet\SignaledEvent.cpp">
+      <Filter>Libs\raknet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\raknet\SimpleMutex.cpp">
+      <Filter>Libs\raknet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\raknet\SocketLayer.cpp">
+      <Filter>Libs\raknet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\raknet\StringCompressor.cpp">
+      <Filter>Libs\raknet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\raknet\StringTable.cpp">
+      <Filter>Libs\raknet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\raknet\SuperFastHash.cpp">
+      <Filter>Libs\raknet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\raknet\TableSerializer.cpp">
+      <Filter>Libs\raknet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\raknet\TCPInterface.cpp">
+      <Filter>Libs\raknet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\raknet\TeamBalancer.cpp">
+      <Filter>Libs\raknet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\raknet\TelnetTransport.cpp">
+      <Filter>Libs\raknet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\raknet\ThreadsafePacketLogger.cpp">
+      <Filter>Libs\raknet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\raknet\TwoWayAuthentication.cpp">
+      <Filter>Libs\raknet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\raknet\UDPForwarder.cpp">
+      <Filter>Libs\raknet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\raknet\UDPProxyClient.cpp">
+      <Filter>Libs\raknet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\raknet\UDPProxyCoordinator.cpp">
+      <Filter>Libs\raknet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\raknet\UDPProxyServer.cpp">
+      <Filter>Libs\raknet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\raknet\VariableDeltaSerializer.cpp">
+      <Filter>Libs\raknet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\raknet\VariableListDeltaTracker.cpp">
+      <Filter>Libs\raknet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\raknet\VariadicSQLParser.cpp">
+      <Filter>Libs\raknet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\raknet\WSAStartupSingleton.cpp">
+      <Filter>Libs\raknet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\client\renderer\entity\EntityRenderDispatcher.cpp">
+      <Filter>Source Files\client\renderer\entity</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\client\renderer\entity\EntityRenderer.cpp">
+      <Filter>Source Files\client\renderer\entity</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\network\RakNetInstance.cpp">
+      <Filter>Source Files\network</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\network\Packet.cpp">
+      <Filter>Source Files\network</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\network\ClientSideNetworkHandler.cpp">
+      <Filter>Source Files\network</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\network\ServerSideNetworkHandler.cpp">
+      <Filter>Source Files\network</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\client\sound\Sound.cpp">
+      <Filter>Source Files\client\sound</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\client\renderer\entity\ItemRenderer.cpp">
+      <Filter>Source Files\client\renderer\entity</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\world\level\biome\BiomeSource.cpp">
+      <Filter>Source Files\world\level\biome</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\world\level\biome\Biome.cpp">
+      <Filter>Source Files\world\level\biome</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\client\renderer\entity\MobRenderer.cpp">
+      <Filter>Source Files\client\renderer\entity</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\client\renderer\entity\HumanoidMobRenderer.cpp">
+      <Filter>Source Files\client\renderer\entity</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\NinecraftApp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\world\level\storage\ExternalFileLevelStorage.cpp">
+      <Filter>Source Files\world\level\storage</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\world\level\storage\ExternalFileLevelStorageSource.cpp">
+      <Filter>Source Files\world\level\storage</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Performance.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\world\level\tile\DoorTile.cpp">
+      <Filter>Source Files\world\level\tile</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\client\renderer\ptexture\DynamicTexture.cpp">
+      <Filter>Source Files\client\renderer\ptexture</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\client\renderer\entity\TripodCameraRenderer.cpp">
+      <Filter>Source Files\client\renderer\entity</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\client\renderer\ItemInHandRenderer.cpp">
+      <Filter>Source Files\client\renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\client\renderer\RenderList.cpp">
+      <Filter>Source Files\client\renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\client\renderer\TileRenderer.cpp">
+      <Filter>Source Files\client\renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\world\level\Explosion.cpp">
+      <Filter>Source Files\world\level</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\world\level\levelgen\CanyonFeature.cpp">
+      <Filter>Source Files\world\level\levelgen</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\world\level\levelgen\DungeonFeature.cpp">
+      <Filter>Source Files\world\level\levelgen</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\world\level\levelgen\LargeCaveFeature.cpp">
+      <Filter>Source Files\world\level\levelgen</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\world\level\levelgen\LargeFeature.cpp">
+      <Filter>Source Files\world\level\levelgen</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\world\level\levelgen\synth\ImprovedNoise.cpp">
+      <Filter>Source Files\world\level\levelgen\synth</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\world\level\levelgen\synth\PerlinNoise.cpp">
+      <Filter>Source Files\world\level\levelgen\synth</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\world\level\levelgen\synth\Synth.cpp">
+      <Filter>Source Files\world\level\levelgen\synth</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\world\entity\item\FallingTile.cpp">
+      <Filter>Source Files\world\entity\item</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\world\entity\item\ItemEntity.cpp">
+      <Filter>Source Files\world\entity\item</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\world\entity\item\PrimedTnt.cpp">
+      <Filter>Source Files\world\entity\item</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\world\entity\item\TripodCamera.cpp">
+      <Filter>Source Files\world\entity\item</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\client\renderer\entity\ItemSpriteRenderer.cpp">
+      <Filter>Source Files\client\renderer\entity</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\client\gui\Font.cpp">
+      <Filter>Source Files\client\gui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\client\gui\GuiComponent.cpp">
+      <Filter>Source Files\client\gui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\client\gui\Screen.cpp">
+      <Filter>Source Files\client\gui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\client\renderer\entity\TntRenderer.cpp">
+      <Filter>Source Files\client\renderer\entity</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\client\model\HumanoidModel.cpp">
+      <Filter>Source Files\client\model</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\client\gui\screens\ChatScreen.cpp">
+      <Filter>Source Files\client\gui\screens</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\client\gui\screens\IngameBlockSelectionScreen.cpp">
+      <Filter>Source Files\client\gui\screens</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\client\gui\screens\JoinGameScreen.cpp">
+      <Filter>Source Files\client\gui\screens</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\client\gui\screens\ProgressScreen.cpp">
+      <Filter>Source Files\client\gui\screens</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\client\gui\screens\StartMenuScreen.cpp">
+      <Filter>Source Files\client\gui\screens</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\client\gui\screens\UploadPhotoScreen.cpp">
+      <Filter>Source Files\client\gui\screens</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\client\gui\screens\OptionsScreen.cpp">
+      <Filter>Source Files\client\gui\screens</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\client\gui\components\Button.cpp">
+      <Filter>Source Files\client\gui\components</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\client\gui\components\ScrolledSelectionList.cpp">
+      <Filter>Source Files\client\gui\components</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\client\gui\components\SmallButton.cpp">
+      <Filter>Source Files\client\gui\components</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\client\gui\screens\SelectWorldScreen.cpp">
+      <Filter>Source Files\client\gui\screens</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\client\gui\screens\ConfirmScreen.cpp">
+      <Filter>Source Files\client\gui\screens</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\util\StringUtils.cpp">
+      <Filter>Source Files\util</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\client\gui\screens\PauseScreen.cpp">
+      <Filter>Source Files\client\gui\screens</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\world\level\storage\RegionFile.cpp">
+      <Filter>Source Files\world\level\storage</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\client\gui\screens\RenameMPLevelScreen.cpp">
+      <Filter>Source Files\client\gui\screens</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\client\player\input\KeyboardInput.cpp">
+      <Filter>Source Files\client\player\input</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\platform\input\Multitouch.cpp">
+      <Filter>Platform\input</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\client\player\input\touchscreen\TouchScreenInput.cpp">
+      <Filter>Source Files\client\player\input\touchscreen</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\client\gui\screens\touch\TouchStartMenuScreen.cpp">
+      <Filter>Source Files\client\gui\screens\touch</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\client\gui\components\ImageButton.cpp">
+      <Filter>Source Files\client\gui\components</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\AppPlatform_win32.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\client\gui\screens\touch\TouchSelectWorldScreen.cpp">
+      <Filter>Source Files\client\gui\screens\touch</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\client\gui\screens\touch\TouchJoinGameScreen.cpp">
+      <Filter>Source Files\client\gui\screens\touch</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\client\gui\components\RolledSelectionListH.cpp">
+      <Filter>Source Files\client\gui\components</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\client\gui\components\RolledSelectionListV.cpp">
+      <Filter>Source Files\client\gui\components</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\client\gui\screens\ScreenChooser.cpp">
+      <Filter>Source Files\client\gui\screens</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\client\gui\components\LargeImageButton.cpp">
+      <Filter>Source Files\client\gui\components</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\client\gui\screens\touch\TouchIngameBlockSelectionScreen.cpp">
+      <Filter>Source Files\client\gui\screens\touch</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\client\OptionStrings.cpp">
+      <Filter>Source Files\client</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\nbt\Tag.cpp">
+      <Filter>Source Files\nbt</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\world\item\HatchetItem.cpp">
+      <Filter>Source Files\world\item</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\world\item\ShovelItem.cpp">
+      <Filter>Source Files\world\item</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\world\item\PickaxeItem.cpp">
+      <Filter>Source Files\world\item</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\world\entity\MobCategory.cpp">
+      <Filter>Source Files\world\entity</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\world\level\MobSpawner.cpp">
+      <Filter>Source Files\world\level</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\client\model\geom\Polygon.cpp">
+      <Filter>Source Files\client\model\geom</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\client\model\geom\Cube.cpp">
+      <Filter>Source Files\client\model\geom</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\client\model\geom\ModelPart.cpp">
+      <Filter>Source Files\client\model\geom</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\client\model\ChickenModel.cpp">
+      <Filter>Source Files\client\model</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\client\model\CowModel.cpp">
+      <Filter>Source Files\client\model</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\client\model\PigModel.cpp">
+      <Filter>Source Files\client\model</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\client\model\QuadrupedModel.cpp">
+      <Filter>Source Files\client\model</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\world\entity\animal\WaterAnimal.cpp">
+      <Filter>Source Files\world\entity\animal</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\world\entity\animal\Animal.cpp">
+      <Filter>Source Files\world\entity\animal</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\world\entity\animal\Cow.cpp">
+      <Filter>Source Files\world\entity\animal</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\world\entity\animal\Pig.cpp">
+      <Filter>Source Files\world\entity\animal</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\world\entity\animal\Chicken.cpp">
+      <Filter>Source Files\world\entity\animal</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\util\PerfTimer.cpp">
+      <Filter>Source Files\util</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\util\PerfRenderer.cpp">
+      <Filter>Source Files\util</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\world\entity\PathFinderMob.cpp">
+      <Filter>Source Files\world\entity</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\world\entity\FlyingMob.cpp">
+      <Filter>Source Files\world\entity</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\world\entity\monster\Monster.cpp">
+      <Filter>Source Files\world\entity\monster</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\network\NetEventCallback.cpp">
+      <Filter>Source Files\network</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\client\renderer\entity\ChickenRenderer.cpp">
+      <Filter>Source Files\client\renderer\entity</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\world\item\crafting\Recipes.cpp">
+      <Filter>Source Files\world\item\crafting</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\world\item\crafting\WeaponRecipes.cpp">
+      <Filter>Source Files\world\item\crafting</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\world\entity\projectile\Arrow.cpp">
+      <Filter>Source Files\world\entity\projectile</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\world\item\crafting\ToolRecipes.cpp">
+      <Filter>Source Files\world\item\crafting</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\world\entity\animal\Sheep.cpp">
+      <Filter>Source Files\world\entity\animal</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\client\gamemode\CreativeMode.cpp">
+      <Filter>Source Files\client\gamemode</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\util\DataIO.cpp">
+      <Filter>Source Files\util</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\world\entity\SynchedEntityData.cpp">
+      <Filter>Source Files\world\entity</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\client\gui\screens\DeathScreen.cpp">
+      <Filter>Source Files\client\gui\screens</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\world\entity\player\Inventory.cpp">
+      <Filter>Source Files\world\entity\player</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\world\item\DyePowderItem.cpp">
+      <Filter>Source Files\world\item</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\world\level\storage\LevelData.cpp">
+      <Filter>Source Files\world\level\storage</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\world\entity\ai\control\MoveControl.cpp">
+      <Filter>Source Files\world\entity\ai\control</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\client\IConfigListener.cpp">
+      <Filter>Source Files\client</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\SharedConstants.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\world\level\pathfinder\Path.cpp">
+      <Filter>Source Files\world\level\pathfinder</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\world\item\crafting\StructureRecipes.cpp">
+      <Filter>Source Files\world\item\crafting</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\locale\I18n.cpp">
+      <Filter>Source Files\locale</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\raknet\LocklessTypes.cpp">
+      <Filter>Libs\raknet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\client\gui\components\ScrollingPane.cpp">
+      <Filter>Source Files\client\gui\components</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\world\item\crafting\Recipe.cpp">
+      <Filter>Source Files\world\item\crafting</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\client\sound\SoundEngine.cpp">
+      <Filter>Source Files\client\sound</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\world\level\tile\FurnaceTile.cpp">
+      <Filter>Source Files\world\level\tile</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\world\level\tile\entity\TileEntity.cpp">
+      <Filter>Source Files\world\level\tile\entity</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\world\level\tile\entity\FurnaceTileEntity.cpp">
+      <Filter>Source Files\world\level\tile\entity</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\world\item\crafting\FurnaceRecipes.cpp">
+      <Filter>Source Files\world\item\crafting</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\world\item\crafting\OreRecipes.cpp">
+      <Filter>Source Files\world\item\crafting</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\client\gui\screens\FurnaceScreen.cpp">
+      <Filter>Source Files\client\gui\screens</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\client\gui\components\ItemPane.cpp">
+      <Filter>Source Files\client\gui\components</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\world\level\levelgen\feature\Feature.cpp">
+      <Filter>Source Files\world\level\levelgen\feature</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\world\inventory\FurnaceMenu.cpp">
+      <Filter>Source Files\world\inventory</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\world\inventory\BaseContainerMenu.cpp">
+      <Filter>Source Files\world\inventory</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\client\gui\components\InventoryPane.cpp">
+      <Filter>Source Files\client\gui\components</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\world\level\tile\entity\ChestTileEntity.cpp">
+      <Filter>Source Files\world\level\tile\entity</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\world\level\tile\EntityTile.cpp">
+      <Filter>Source Files\world\level\tile</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\world\level\tile\ChestTile.cpp">
+      <Filter>Source Files\world\level\tile</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\world\inventory\FillingContainer.cpp">
+      <Filter>Source Files\world\inventory</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\client\gui\screens\ChestScreen.cpp">
+      <Filter>Source Files\client\gui\screens</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\client\renderer\EntityTileRenderer.cpp">
+      <Filter>Source Files\client\renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\client\renderer\tileentity\TileEntityRenderDispatcher.cpp">
+      <Filter>Source Files\client\renderer\tileentity</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\client\renderer\tileentity\TileEntityRenderer.cpp">
+      <Filter>Source Files\client\renderer\tileentity</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\client\renderer\tileentity\ChestRenderer.cpp">
+      <Filter>Source Files\client\renderer\tileentity</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\world\inventory\ContainerMenu.cpp">
+      <Filter>Source Files\world\inventory</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\client\renderer\entity\ArrowRenderer.cpp">
+      <Filter>Source Files\client\renderer\entity</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\world\entity\EntityFactory.cpp">
+      <Filter>Source Files\world\entity</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\world\entity\monster\Creeper.cpp">
+      <Filter>Source Files\world\entity\monster</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\world\entity\monster\Spider.cpp">
+      <Filter>Source Files\world\entity\monster</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\world\entity\monster\Zombie.cpp">
+      <Filter>Source Files\world\entity\monster</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\world\entity\monster\Skeleton.cpp">
+      <Filter>Source Files\world\entity\monster</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\world\level\tile\BedTile.cpp">
+      <Filter>Source Files\world\level\tile</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\world\item\BedItem.cpp">
+      <Filter>Source Files\world\item</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\world\level\storage\LevelStorageSource.cpp">
+      <Filter>Source Files\world\level\storage</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\world\level\storage\FolderMethods.cpp">
+      <Filter>Source Files\world\level\storage</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\client\renderer\entity\PlayerRenderer.cpp">
+      <Filter>Source Files\client\renderer\entity</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\world\food\SimpleFoodData.cpp">
+      <Filter>Source Files\world\food</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\client\player\RemotePlayer.cpp">
+      <Filter>Source Files\client\player</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\server\ServerPlayer.cpp">
+      <Filter>Source Files\server</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\server\ServerLevel.cpp">
+      <Filter>Source Files\server</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\world\level\tile\CropTile.cpp">
+      <Filter>Source Files\world\level\tile</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\world\item\HoeItem.cpp">
+      <Filter>Source Files\world\item</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\world\level\tile\TallGrass.cpp">
+      <Filter>Source Files\world\level\tile</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\world\level\tile\GrassTile.cpp">
+      <Filter>Source Files\world\level\tile</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\world\level\tile\TrapDoorTile.cpp">
+      <Filter>Source Files\world\level\tile</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\world\entity\projectile\Throwable.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\client\gamemode\SurvivalMode.cpp">
+      <Filter>Source Files\client\gamemode</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\world\entity\HangingEntity.cpp">
+      <Filter>Source Files\world\entity</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\world\entity\Painting.cpp">
+      <Filter>Source Files\world\entity</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\world\entity\Motive.cpp">
+      <Filter>Source Files\world\entity</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\world\item\HangingEntityItem.cpp">
+      <Filter>Source Files\world\item</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\client\renderer\entity\PaintingRenderer.cpp">
+      <Filter>Source Files\client\renderer\entity</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\world\level\tile\NetherReactor.cpp">
+      <Filter>Source Files\world\level\tile</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\world\entity\monster\PigZombie.cpp">
+      <Filter>Source Files\world\entity\monster</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\world\level\tile\entity\NetherReactorTileEntity.cpp">
+      <Filter>Source Files\world\level\tile\entity</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\world\level\tile\LightGemTile.cpp">
+      <Filter>Source Files\world\level\tile</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\world\level\tile\Mushroom.cpp">
+      <Filter>Source Files\world\level\tile</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\world\level\tile\StemTile.cpp">
+      <Filter>Source Files\world\level\tile</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\world\level\tile\MelonTile.cpp">
+      <Filter>Source Files\world\level\tile</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\world\level\tile\entity\SignTileEntity.cpp">
+      <Filter>Source Files\world\level\tile\entity</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\client\renderer\tileentity\SignRenderer.cpp">
+      <Filter>Source Files\client\renderer\tileentity</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\client\gui\screens\InBedScreen.cpp">
+      <Filter>Source Files\client\gui\screens</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\world\level\tile\NetherReactorPattern.cpp">
+      <Filter>Source Files\world\level\tile</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\network\NATPunchHandler.cpp">
+      <Filter>Source Files\network</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\network\command\CommandServer.cpp">
+      <Filter>Source Files\network\command</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\network\PHPDirectoryServer2.cpp">
+      <Filter>Source Files\network</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\client\gamemode\CreatorMode.cpp">
+      <Filter>Source Files\client\gamemode\creator</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\client\gui\components\TextBox.cpp">
+      <Filter>Source Files\client\gui\components</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\client\gui\screens\ChooseLevelScreen.cpp">
+      <Filter>Source Files\client\gui\screens</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\client\gui\screens\TextEditScreen.cpp">
+      <Filter>Source Files\client\gui\screens</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\client\gui\screens\SimpleChooseLevelScreen.cpp">
+      <Filter>Source Files\client\gui\screens</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\client\gui\screens\crafting\WorkbenchScreen.cpp">
+      <Filter>Source Files\client\gui\screens\crafting</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\client\gui\screens\crafting\PaneCraftingScreen.cpp">
+      <Filter>Source Files\client\gui\screens\crafting</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\client\renderer\entity\SheepRenderer.cpp">
+      <Filter>Source Files\client\renderer\entity</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\client\model\SheepModel.cpp">
+      <Filter>Source Files\client\model</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\client\model\SheepFurModel.cpp">
+      <Filter>Source Files\client\model</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\world\entity\AgableMob.cpp">
+      <Filter>Source Files\world\entity</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\client\MouseHandler.cpp">
+      <Filter>Source Files\client</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\client\renderer\entity\FallingTileRenderer.cpp">
+      <Filter>Source Files\client\renderer\entity</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\world\level\tile\HeavyTile.cpp">
+      <Filter>Source Files\world\level\tile</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\world\item\ArmorItem.cpp">
+      <Filter>Source Files\world\item</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\world\item\crafting\ArmorRecipes.cpp">
+      <Filter>Source Files\world\item\crafting</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\world\level\tile\StairTile.cpp">
+      <Filter>Source Files\world\level\tile</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\client\gui\screens\ArmorScreen.cpp">
+      <Filter>Source Files\client\gui\screens</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\client\gui\screens\crafting\StonecutterScreen.cpp">
+      <Filter>Source Files\client\gui\screens\crafting</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\client\gui\screens\crafting\CraftingFilters.cpp">
+      <Filter>Source Files\client\gui\screens\crafting</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\client\gui\components\OptionsPane.cpp">
+      <Filter>Source Files\client\gui\components</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\client\gui\components\GuiElement.cpp">
+      <Filter>Source Files\client\gui\components</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\client\gui\components\NinePatch.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\client\gui\components\OptionsGroup.cpp">
+      <Filter>Source Files\client\gui\components</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\client\OptionsFile.cpp">
+      <Filter>Source Files\client</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\client\gui\components\OptionsItem.cpp">
+      <Filter>Source Files\client\gui\components</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\client\gui\components\GuiElementContainer.cpp">
+      <Filter>Source Files\client\gui\components</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\client\gui\components\Slider.cpp">
+      <Filter>Source Files\client\gui\components</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\src\App.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\NinecraftApp.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\main_win32.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\main_android.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\client\Minecraft.h">
+      <Filter>Source Files\client</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\client\Options.h">
+      <Filter>Source Files\client</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\client\User.h">
+      <Filter>Source Files\client</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\client\KeyMapping.h">
+      <Filter>Source Files\client</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\client\gamemode\GameMode.h">
+      <Filter>Source Files\client\gamemode</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\client\renderer\Tesselator.h">
+      <Filter>Source Files\client\renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\client\renderer\TileRenderer.h">
+      <Filter>Source Files\client\renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\client\player\LocalPlayer.h">
+      <Filter>Source Files\client\player</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\platform\time.h">
+      <Filter>Platform</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\util\Random.h">
+      <Filter>Source Files\util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\util\SmoothFloat.h">
+      <Filter>Source Files\util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\util\Mth.h">
+      <Filter>Source Files\util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\world\Direction.h">
+      <Filter>Source Files\world</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\world\Facing.h">
+      <Filter>Source Files\world</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\world\Pos.h">
+      <Filter>Source Files\world</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\world\entity\EntityPos.h">
+      <Filter>Source Files\world\entity</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\world\entity\Mob.h">
+      <Filter>Source Files\world\entity</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\world\entity\Entity.h">
+      <Filter>Source Files\world\entity</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\world\entity\item\FallingTile.h">
+      <Filter>Source Files\world\entity\item</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\world\entity\player\InventorySlotManager.h">
+      <Filter>Source Files\world\entity\player</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\world\entity\player\Player.h">
+      <Filter>Source Files\world\entity\player</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\world\entity\player\Inventory.h">
+      <Filter>Source Files\world\entity\player</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\world\phys\HitResult.h">
+      <Filter>Source Files\world\phys</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\world\phys\Vec3.h">
+      <Filter>Source Files\world\phys</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\world\phys\AABB.h">
+      <Filter>Source Files\world\phys</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\world\level\Level.h">
+      <Filter>Source Files\world\level</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\world\level\LevelSource.h">
+      <Filter>Source Files\world\level</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\world\level\LightLayer.h">
+      <Filter>Source Files\world\level</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\world\level\ChunkPos.h">
+      <Filter>Source Files\world\level</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\world\level\chunk\EmptyLevelChunk.h">
+      <Filter>Source Files\world\level\chunk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\world\level\chunk\LevelChunk.h">
+      <Filter>Source Files\world\level\chunk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\world\level\chunk\ChunkCache.h">
+      <Filter>Source Files\world\level\chunk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\world\level\chunk\ChunkSource.h">
+      <Filter>Source Files\world\level\chunk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\world\level\chunk\DataLayer.h">
+      <Filter>Source Files\world\level\chunk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\world\level\chunk\storage\ChunkStorage.h">
+      <Filter>Source Files\world\level\chunk\storage</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\world\level\chunk\storage\MemoryChunkStorage.h">
+      <Filter>Source Files\world\level\chunk\storage</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\world\level\dimension\Dimension.h">
+      <Filter>Source Files\world\level\dimension</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\world\level\dimension\HellDimension.h">
+      <Filter>Source Files\world\level\dimension</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\world\level\levelgen\LargeCaveFeature.h">
+      <Filter>Source Files\world\level\levelgen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\world\level\levelgen\LargeFeature.h">
+      <Filter>Source Files\world\level\levelgen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\world\level\levelgen\RandomLevelSource.h">
+      <Filter>Source Files\world\level\levelgen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\world\level\levelgen\TownFeature.h">
+      <Filter>Source Files\world\level\levelgen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\world\level\levelgen\CanyonFeature.h">
+      <Filter>Source Files\world\level\levelgen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\world\level\levelgen\DungeonFeature.h">
+      <Filter>Source Files\world\level\levelgen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\world\level\levelgen\synth\PerlinNoise.h">
+      <Filter>Source Files\world\level\levelgen\synth</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\world\level\levelgen\synth\Synth.h">
+      <Filter>Source Files\world\level\levelgen\synth</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\world\level\levelgen\synth\ImprovedNoise.h">
+      <Filter>Source Files\world\level\levelgen\synth</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\world\level\levelgen\feature\FlowerFeature.h">
+      <Filter>Source Files\world\level\levelgen\feature</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\world\level\levelgen\feature\LakeFeature.h">
+      <Filter>Source Files\world\level\levelgen\feature</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\world\level\levelgen\feature\OreFeature.h">
+      <Filter>Source Files\world\level\levelgen\feature</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\world\level\levelgen\feature\ReedsFeature.h">
+      <Filter>Source Files\world\level\levelgen\feature</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\world\level\levelgen\feature\SpringFeature.h">
+      <Filter>Source Files\world\level\levelgen\feature</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\world\level\levelgen\feature\SpruceFeature.h">
+      <Filter>Source Files\world\level\levelgen\feature</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\world\level\levelgen\feature\TreeFeature.h">
+      <Filter>Source Files\world\level\levelgen\feature</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\world\level\levelgen\feature\ClayFeature.h">
+      <Filter>Source Files\world\level\levelgen\feature</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\world\level\levelgen\feature\Feature.h">
+      <Filter>Source Files\world\level\levelgen\feature</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\world\level\levelgen\feature\FeatureInclude.h">
+      <Filter>Source Files\world\level\levelgen\feature</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\world\level\material\GasMaterial.h">
+      <Filter>Source Files\world\level\material</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\world\level\material\LiquidMaterial.h">
+      <Filter>Source Files\world\level\material</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\world\level\material\Material.h">
+      <Filter>Source Files\world\level\material</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\world\level\material\DecorationMaterial.h">
+      <Filter>Source Files\world\level\material</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\world\level\storage\LevelStorageSource.h">
+      <Filter>Source Files\world\level\storage</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\world\level\storage\MemoryLevelStorage.h">
+      <Filter>Source Files\world\level\storage</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\world\level\storage\MemoryLevelStorageSource.h">
+      <Filter>Source Files\world\level\storage</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\world\level\storage\LevelData.h">
+      <Filter>Source Files\world\level\storage</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\world\level\storage\LevelStorage.h">
+      <Filter>Source Files\world\level\storage</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\world\level\tile\ClayTile.h">
+      <Filter>Source Files\world\level\tile</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\world\level\tile\DirtTile.h">
+      <Filter>Source Files\world\level\tile</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\world\level\tile\FarmTile.h">
+      <Filter>Source Files\world\level\tile</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\world\level\tile\FireTile.h">
+      <Filter>Source Files\world\level\tile</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\world\level\tile\GrassTile.h">
+      <Filter>Source Files\world\level\tile</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\world\level\tile\GravelTile.h">
+      <Filter>Source Files\world\level\tile</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\world\level\tile\HalfTransparentTile.h">
+      <Filter>Source Files\world\level\tile</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\world\level\tile\IceTile.h">
+      <Filter>Source Files\world\level\tile</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\world\level\tile\LeafTile.h">
+      <Filter>Source Files\world\level\tile</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\world\level\tile\LiquidTile.h">
+      <Filter>Source Files\world\level\tile</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\world\level\tile\LiquidTileDynamic.h">
+      <Filter>Source Files\world\level\tile</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\world\level\tile\LiquidTileStatic.h">
+      <Filter>Source Files\world\level\tile</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\world\level\tile\ObsidianTile.h">
+      <Filter>Source Files\world\level\tile</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\world\level\tile\OreTile.h">
+      <Filter>Source Files\world\level\tile</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\world\level\tile\RedStoneOreTile.h">
+      <Filter>Source Files\world\level\tile</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\world\level\tile\ReedTile.h">
+      <Filter>Source Files\world\level\tile</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\world\level\tile\StoneSlabTile.h">
+      <Filter>Source Files\world\level\tile</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\world\level\tile\StoneTile.h">
+      <Filter>Source Files\world\level\tile</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\world\level\tile\Tile.h">
+      <Filter>Source Files\world\level\tile</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\world\level\tile\TileInclude.h">
+      <Filter>Source Files\world\level\tile</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\world\level\tile\TransparentTile.h">
+      <Filter>Source Files\world\level\tile</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\world\level\tile\TreeTile.h">
+      <Filter>Source Files\world\level\tile</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\world\level\tile\Bush.h">
+      <Filter>Source Files\world\level\tile</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\client\renderer\GameRenderer.h">
+      <Filter>Source Files\client\renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\client\renderer\LevelRenderer.h">
+      <Filter>Source Files\client\renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\world\level\LevelListener.h">
+      <Filter>Source Files\world\level</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\client\renderer\culling\AllowAllCuller.h">
+      <Filter>Source Files\client\renderer\culling</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\client\renderer\culling\Culler.h">
+      <Filter>Source Files\client\renderer\culling</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\client\renderer\gles.h">
+      <Filter>Source Files\client\renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\client\renderer\Chunk.h">
+      <Filter>Source Files\client\renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\world\level\Region.h">
+      <Filter>Source Files\world\level</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\client\renderer\DistanceChunkSorter.h">
+      <Filter>Source Files\client\renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\client\renderer\DirtyChunkSorter.h">
+      <Filter>Source Files\client\renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\client\renderer\RenderChunk.h">
+      <Filter>Source Files\client\renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\client\MouseHandler.h">
+      <Filter>Source Files\client</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\world\entity\Creature.h">
+      <Filter>Source Files\world\entity</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\world\level\pathfinder\Node.h">
+      <Filter>Source Files\world\level\pathfinder</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\world\level\pathfinder\Path.h">
+      <Filter>Source Files\world\level\pathfinder</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\world\level\tile\TopSnowTile.h">
+      <Filter>Source Files\world\level\tile</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\world\level\TickNextTickData.h">
+      <Filter>Source Files\world\level</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\client\Timer.h">
+      <Filter>Source Files\client</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\client\renderer\culling\FrustumCuller.h">
+      <Filter>Source Files\client\renderer\culling</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\client\renderer\culling\Frustum.h">
+      <Filter>Source Files\client\renderer\culling</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\client\renderer\culling\FrustumData.h">
+      <Filter>Source Files\client\renderer\culling</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\platform\input\Controller.h">
+      <Filter>Platform\input</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\platform\input\Keyboard.h">
+      <Filter>Platform\input</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\platform\input\Mouse.h">
+      <Filter>Platform\input</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\world\level\LightUpdate.h">
+      <Filter>Source Files\world\level</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\world\item\Item.h">
+      <Filter>Source Files\world\item</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\world\item\ItemInstance.h">
+      <Filter>Source Files\world\item</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\world\item\TileItem.h">
+      <Filter>Source Files\world\item</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\world\item\TilePlanterItem.h">
+      <Filter>Source Files\world\item</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\world\item\TreeTileItem.h">
+      <Filter>Source Files\world\item</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\locale\I18n.h">
+      <Filter>Source Files\locale</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\world\item\ItemInclude.h">
+      <Filter>Source Files\world\item</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\world\entity\item\ItemEntity.h">
+      <Filter>Source Files\world\entity\item</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\world\level\tile\TntTile.h">
+      <Filter>Source Files\world\level\tile</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\world\entity\item\PrimedTnt.h">
+      <Filter>Source Files\world\entity\item</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\world\level\Explosion.h">
+      <Filter>Source Files\world\level</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\client\particle\SmokeParticle.h">
+      <Filter>Source Files\client\particle</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\client\particle\Particle.h">
+      <Filter>Source Files\client\particle</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\client\particle\ParticleEngine.h">
+      <Filter>Source Files\client\particle</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\client\particle\TerrainParticle.h">
+      <Filter>Source Files\client\particle</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\client\particle\ParticleInclude.h">
+      <Filter>Source Files\client\particle</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\client\particle\RedDustParticle.h">
+      <Filter>Source Files\client\particle</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\client\particle\BreakingItemParticle.h">
+      <Filter>Source Files\client\particle</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\client\particle\BubbleParticle.h">
+      <Filter>Source Files\client\particle</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\client\particle\ExplodeParticle.h">
+      <Filter>Source Files\client\particle</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\client\particle\SplashParticle.h">
+      <Filter>Source Files\client\particle</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\client\particle\FlameParticle.h">
+      <Filter>Source Files\client\particle</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\client\particle\LavaParticle.h">
+      <Filter>Source Files\client\particle</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\client\renderer\Textures.h">
+      <Filter>Source Files\client\renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\platform\CThread.h">
+      <Filter>Platform</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\client\gui\Gui.h">
+      <Filter>Source Files\client\gui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\client\gui\GuiComponent.h">
+      <Filter>Source Files\client\gui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\world\level\LevelConstants.h">
+      <Filter>Source Files\world\level</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\raknet\_FindFirst.h">
+      <Filter>Libs\raknet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\raknet\AutopatcherPatchContext.h">
+      <Filter>Libs\raknet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\raknet\AutopatcherRepositoryInterface.h">
+      <Filter>Libs\raknet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\raknet\BitStream.h">
+      <Filter>Libs\raknet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\raknet\CCRakNetSlidingWindow.h">
+      <Filter>Libs\raknet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\raknet\CCRakNetUDT.h">
+      <Filter>Libs\raknet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\raknet\CheckSum.h">
+      <Filter>Libs\raknet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\raknet\CloudClient.h">
+      <Filter>Libs\raknet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\raknet\CloudCommon.h">
+      <Filter>Libs\raknet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\raknet\CloudServer.h">
+      <Filter>Libs\raknet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\raknet\CommandParserInterface.h">
+      <Filter>Libs\raknet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\raknet\ConnectionGraph2.h">
+      <Filter>Libs\raknet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\raknet\ConsoleServer.h">
+      <Filter>Libs\raknet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\raknet\DataCompressor.h">
+      <Filter>Libs\raknet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\raknet\DirectoryDeltaTransfer.h">
+      <Filter>Libs\raknet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\raknet\DS_BinarySearchTree.h">
+      <Filter>Libs\raknet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\raknet\DS_BPlusTree.h">
+      <Filter>Libs\raknet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\raknet\DS_BytePool.h">
+      <Filter>Libs\raknet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\raknet\DS_ByteQueue.h">
+      <Filter>Libs\raknet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\raknet\DS_Hash.h">
+      <Filter>Libs\raknet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\raknet\DS_Heap.h">
+      <Filter>Libs\raknet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\raknet\DS_HuffmanEncodingTree.h">
+      <Filter>Libs\raknet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\raknet\DS_HuffmanEncodingTreeFactory.h">
+      <Filter>Libs\raknet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\raknet\DS_HuffmanEncodingTreeNode.h">
+      <Filter>Libs\raknet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\raknet\DS_LinkedList.h">
+      <Filter>Libs\raknet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\raknet\DS_List.h">
+      <Filter>Libs\raknet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\raknet\DS_Map.h">
+      <Filter>Libs\raknet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\raknet\DS_MemoryPool.h">
+      <Filter>Libs\raknet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\raknet\DS_Multilist.h">
+      <Filter>Libs\raknet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\raknet\DS_OrderedChannelHeap.h">
+      <Filter>Libs\raknet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\raknet\DS_OrderedList.h">
+      <Filter>Libs\raknet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\raknet\DS_Queue.h">
+      <Filter>Libs\raknet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\raknet\DS_QueueLinkedList.h">
+      <Filter>Libs\raknet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\raknet\DS_RangeList.h">
+      <Filter>Libs\raknet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\raknet\DS_Table.h">
+      <Filter>Libs\raknet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\raknet\DS_ThreadsafeAllocatingQueue.h">
+      <Filter>Libs\raknet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\raknet\DS_Tree.h">
+      <Filter>Libs\raknet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\raknet\DS_WeightedGraph.h">
+      <Filter>Libs\raknet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\raknet\DynDNS.h">
+      <Filter>Libs\raknet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\raknet\EmailSender.h">
+      <Filter>Libs\raknet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\raknet\EpochTimeToString.h">
+      <Filter>Libs\raknet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\raknet\Export.h">
+      <Filter>Libs\raknet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\raknet\FileList.h">
+      <Filter>Libs\raknet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\raknet\FileListNodeContext.h">
+      <Filter>Libs\raknet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\raknet\FileListTransfer.h">
+      <Filter>Libs\raknet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\raknet\FileListTransferCBInterface.h">
+      <Filter>Libs\raknet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\raknet\FileOperations.h">
+      <Filter>Libs\raknet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\raknet\FormatString.h">
+      <Filter>Libs\raknet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\raknet\FullyConnectedMesh2.h">
+      <Filter>Libs\raknet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\raknet\Getche.h">
+      <Filter>Libs\raknet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\raknet\Gets.h">
+      <Filter>Libs\raknet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\raknet\GetTime.h">
+      <Filter>Libs\raknet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\raknet\gettimeofday.h">
+      <Filter>Libs\raknet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\raknet\GridSectorizer.h">
+      <Filter>Libs\raknet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\raknet\HTTPConnection.h">
+      <Filter>Libs\raknet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\raknet\IncrementalReadInterface.h">
+      <Filter>Libs\raknet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\raknet\InternalPacket.h">
+      <Filter>Libs\raknet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\raknet\Itoa.h">
+      <Filter>Libs\raknet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\raknet\Kbhit.h">
+      <Filter>Libs\raknet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\raknet\LinuxStrings.h">
+      <Filter>Libs\raknet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\raknet\LogCommandParser.h">
+      <Filter>Libs\raknet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\raknet\MessageFilter.h">
+      <Filter>Libs\raknet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\raknet\MessageIdentifiers.h">
+      <Filter>Libs\raknet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\raknet\MTUSize.h">
+      <Filter>Libs\raknet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\raknet\NativeFeatureIncludes.h">
+      <Filter>Libs\raknet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\raknet\NativeFeatureIncludesOverrides.h">
+      <Filter>Libs\raknet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\raknet\NativeTypes.h">
+      <Filter>Libs\raknet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\raknet\NatPunchthroughClient.h">
+      <Filter>Libs\raknet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\raknet\NatPunchthroughServer.h">
+      <Filter>Libs\raknet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\raknet\NatTypeDetectionClient.h">
+      <Filter>Libs\raknet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\raknet\NatTypeDetectionCommon.h">
+      <Filter>Libs\raknet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\raknet\NatTypeDetectionServer.h">
+      <Filter>Libs\raknet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\raknet\NetworkIDManager.h">
+      <Filter>Libs\raknet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\raknet\NetworkIDObject.h">
+      <Filter>Libs\raknet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\raknet\PacketConsoleLogger.h">
+      <Filter>Libs\raknet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\raknet\PacketFileLogger.h">
+      <Filter>Libs\raknet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\raknet\PacketizedTCP.h">
+      <Filter>Libs\raknet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\raknet\PacketLogger.h">
+      <Filter>Libs\raknet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\raknet\PacketOutputWindowLogger.h">
+      <Filter>Libs\raknet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\raknet\PacketPool.h">
+      <Filter>Libs\raknet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\raknet\PacketPriority.h">
+      <Filter>Libs\raknet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\raknet\PluginInterface2.h">
+      <Filter>Libs\raknet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\raknet\RakAlloca.h">
+      <Filter>Libs\raknet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\raknet\RakAssert.h">
+      <Filter>Libs\raknet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\raknet\RakMemoryOverride.h">
+      <Filter>Libs\raknet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\raknet\RakNetCommandParser.h">
+      <Filter>Libs\raknet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\raknet\RakNetDefines.h">
+      <Filter>Libs\raknet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\raknet\RakNetDefinesOverrides.h">
+      <Filter>Libs\raknet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\raknet\RakNetSmartPtr.h">
+      <Filter>Libs\raknet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\raknet\RakNetSocket.h">
+      <Filter>Libs\raknet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\raknet\RakNetStatistics.h">
+      <Filter>Libs\raknet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\raknet\RakNetTime.h">
+      <Filter>Libs\raknet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\raknet\RakNetTransport2.h">
+      <Filter>Libs\raknet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\raknet\RakNetTypes.h">
+      <Filter>Libs\raknet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\raknet\RakNetVersion.h">
+      <Filter>Libs\raknet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\raknet\RakPeer.h">
+      <Filter>Libs\raknet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\raknet\RakPeerInterface.h">
+      <Filter>Libs\raknet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\raknet\RakSleep.h">
+      <Filter>Libs\raknet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\raknet\RakString.h">
+      <Filter>Libs\raknet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\raknet\RakThread.h">
+      <Filter>Libs\raknet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\raknet\RakWString.h">
+      <Filter>Libs\raknet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\raknet\Rand.h">
+      <Filter>Libs\raknet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\raknet\rdlmalloc.h">
+      <Filter>Libs\raknet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\raknet\rdlmalloc-options.h">
+      <Filter>Libs\raknet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\raknet\ReadyEvent.h">
+      <Filter>Libs\raknet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\raknet\RefCountedObj.h">
+      <Filter>Libs\raknet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\raknet\ReliabilityLayer.h">
+      <Filter>Libs\raknet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\raknet\ReplicaEnums.h">
+      <Filter>Libs\raknet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\raknet\ReplicaManager3.h">
+      <Filter>Libs\raknet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\raknet\Router2.h">
+      <Filter>Libs\raknet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\raknet\RPC4Plugin.h">
+      <Filter>Libs\raknet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\raknet\SecureHandshake.h">
+      <Filter>Libs\raknet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\raknet\SendToThread.h">
+      <Filter>Libs\raknet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\raknet\SHA1.h">
+      <Filter>Libs\raknet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\raknet\SignaledEvent.h">
+      <Filter>Libs\raknet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\raknet\SimpleMutex.h">
+      <Filter>Libs\raknet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\raknet\SimpleTCPServer.h">
+      <Filter>Libs\raknet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\raknet\SingleProducerConsumer.h">
+      <Filter>Libs\raknet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\raknet\SocketIncludes.h">
+      <Filter>Libs\raknet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\raknet\SocketLayer.h">
+      <Filter>Libs\raknet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\raknet\StringCompressor.h">
+      <Filter>Libs\raknet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\raknet\StringTable.h">
+      <Filter>Libs\raknet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\raknet\SuperFastHash.h">
+      <Filter>Libs\raknet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\raknet\TableSerializer.h">
+      <Filter>Libs\raknet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\raknet\TCPInterface.h">
+      <Filter>Libs\raknet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\raknet\TeamBalancer.h">
+      <Filter>Libs\raknet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\raknet\TelnetTransport.h">
+      <Filter>Libs\raknet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\raknet\ThreadPool.h">
+      <Filter>Libs\raknet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\raknet\ThreadsafePacketLogger.h">
+      <Filter>Libs\raknet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\raknet\TransportInterface.h">
+      <Filter>Libs\raknet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\raknet\TwoWayAuthentication.h">
+      <Filter>Libs\raknet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\raknet\UDPForwarder.h">
+      <Filter>Libs\raknet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\raknet\UDPProxyClient.h">
+      <Filter>Libs\raknet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\raknet\UDPProxyCommon.h">
+      <Filter>Libs\raknet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\raknet\UDPProxyCoordinator.h">
+      <Filter>Libs\raknet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\raknet\UDPProxyServer.h">
+      <Filter>Libs\raknet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\raknet\VariableDeltaSerializer.h">
+      <Filter>Libs\raknet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\raknet\VariableListDeltaTracker.h">
+      <Filter>Libs\raknet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\raknet\VariadicSQLParser.h">
+      <Filter>Libs\raknet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\raknet\WindowsIncludes.h">
+      <Filter>Libs\raknet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\raknet\WSAStartupSingleton.h">
+      <Filter>Libs\raknet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\client\model\HumanoidModel.h">
+      <Filter>Source Files\client\model</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\client\model\Model.h">
+      <Filter>Source Files\client\model</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\client\renderer\entity\EntityRenderDispatcher.h">
+      <Filter>Source Files\client\renderer\entity</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\client\renderer\entity\EntityRenderer.h">
+      <Filter>Source Files\client\renderer\entity</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\client\renderer\entity\HumanoidMobRenderer.h">
+      <Filter>Source Files\client\renderer\entity</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\client\renderer\entity\MobRenderer.h">
+      <Filter>Source Files\client\renderer\entity</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\client\renderer\entity\ItemSpriteRenderer.h">
+      <Filter>Source Files\client\renderer\entity</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\client\renderer\entity\TntRenderer.h">
+      <Filter>Source Files\client\renderer\entity</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\network\RakNetInstance.h">
+      <Filter>Source Files\network</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\network\NetEventCallback.h">
+      <Filter>Source Files\network</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\client\renderer\RenderList.h">
+      <Filter>Source Files\client\renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\network\Packet.h">
+      <Filter>Source Files\network</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\network\ClientSideNetworkHandler.h">
+      <Filter>Source Files\network</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\network\ServerSideNetworkHandler.h">
+      <Filter>Source Files\network</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\client\renderer\VertecDecl.h">
+      <Filter>Source Files\client\renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\client\sound\Sound.h">
+      <Filter>Source Files\client\sound</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\client\sound\SoundEngine.h">
+      <Filter>Source Files\client\sound</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\client\sound\SoundRepository.h">
+      <Filter>Source Files\client\sound</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\platform\audio\SoundSystem.h">
+      <Filter>Platform\audio</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\world\level\tile\LadderTile.h">
+      <Filter>Source Files\world\level\tile</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\world\level\tile\TorchTile.h">
+      <Filter>Source Files\world\level\tile</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\client\gui\Font.h">
+      <Filter>Source Files\client\gui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\client\gui\Screen.h">
+      <Filter>Source Files\client\gui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\platform\audio\SoundSystemSL.h">
+      <Filter>Platform\audio</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\client\renderer\entity\ItemRenderer.h">
+      <Filter>Source Files\client\renderer\entity</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\client\renderer\ItemInHandRenderer.h">
+      <Filter>Source Files\client\renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\world\level\biome\TaigaBiome.h">
+      <Filter>Source Files\world\level\biome</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\world\level\biome\Biome.h">
+      <Filter>Source Files\world\level\biome</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\world\level\biome\BiomeSource.h">
+      <Filter>Source Files\world\level\biome</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\world\level\biome\FlatBiome.h">
+      <Filter>Source Files\world\level\biome</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\world\level\biome\ForestBiome.h">
+      <Filter>Source Files\world\level\biome</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\world\level\biome\RainforestBiome.h">
+      <Filter>Source Files\world\level\biome</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\world\level\biome\SwampBiome.h">
+      <Filter>Source Files\world\level\biome</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\world\level\biome\BiomeInclude.h">
+      <Filter>Source Files\world\level\biome</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\world\level\levelgen\feature\BirchFeature.h">
+      <Filter>Source Files\world\level\levelgen\feature</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\world\level\levelgen\feature\PineFeature.h">
+      <Filter>Source Files\world\level\levelgen\feature</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\platform\log.h">
+      <Filter>Platform</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\world\level\storage\ExternalFileLevelStorage.h">
+      <Filter>Source Files\world\level\storage</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\world\level\storage\ExternalFileLevelStorageSource.h">
+      <Filter>Source Files\world\level\storage</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\world\level\storage\FolderMethods.h">
+      <Filter>Source Files\world\level\storage</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\AppConstants.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Performance.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\world\level\tile\StairTile.h">
+      <Filter>Source Files\world\level\tile</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\world\level\tile\DoorTile.h">
+      <Filter>Source Files\world\level\tile</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\client\renderer\ptexture\DynamicTexture.h">
+      <Filter>Source Files\client\renderer\ptexture</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\world\item\DoorItem.h">
+      <Filter>Source Files\world\item</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\AppPlatform.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\client\renderer\entity\TripodCameraRenderer.h">
+      <Filter>Source Files\client\renderer\entity</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\world\item\CameraItem.h">
+      <Filter>Source Files\world\item</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\world\entity\item\TripodCamera.h">
+      <Filter>Source Files\world\entity\item</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\client\renderer\TextureData.h">
+      <Filter>Source Files\client\renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\AppPlatform_win32.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\client\gui\screens\ChatScreen.h">
+      <Filter>Source Files\client\gui\screens</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\client\gui\screens\IngameBlockSelectionScreen.h">
+      <Filter>Source Files\client\gui\screens</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\client\gui\screens\JoinGameScreen.h">
+      <Filter>Source Files\client\gui\screens</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\client\gui\screens\ProgressScreen.h">
+      <Filter>Source Files\client\gui\screens</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\client\gui\screens\StartMenuScreen.h">
+      <Filter>Source Files\client\gui\screens</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\client\gui\screens\UploadPhotoScreen.h">
+      <Filter>Source Files\client\gui\screens</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\client\gui\screens\OptionsScreen.h">
+      <Filter>Source Files\client\gui\screens</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\client\gui\components\Button.h">
+      <Filter>Source Files\client\gui\components</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\client\gui\components\ScrolledSelectionList.h">
+      <Filter>Source Files\client\gui\components</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\client\gui\components\SmallButton.h">
+      <Filter>Source Files\client\gui\components</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\client\gui\screens\SelectWorldScreen.h">
+      <Filter>Source Files\client\gui\screens</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\client\gui\screens\ConfirmScreen.h">
+      <Filter>Source Files\client\gui\screens</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\platform\file.h">
+      <Filter>Platform</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\client\gui\screens\DialogDefinitions.h">
+      <Filter>Source Files\client\gui\screens</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\util\StringUtils.h">
+      <Filter>Source Files\util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\client\gui\screens\PauseScreen.h">
+      <Filter>Source Files\client\gui\screens</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\world\level\storage\PlayerData.h">
+      <Filter>Source Files\world\level\storage</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\world\level\storage\RegionFile.h">
+      <Filter>Source Files\world\level\storage</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\client\gui\screens\RenameMPLevelScreen.h">
+      <Filter>Source Files\client\gui\screens</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\client\gui\screens\PrerenderTilesScreen.h">
+      <Filter>Source Files\client\gui\screens</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\client\player\input\ControllerTurnInput.h">
+      <Filter>Source Files\client\player\input</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\client\player\input\KeyboardInput.h">
+      <Filter>Source Files\client\player\input</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\client\player\input\MouseTurnInput.h">
+      <Filter>Source Files\client\player\input</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\client\gui\screens\InvalidLicenseScreen.h">
+      <Filter>Source Files\client\gui\screens</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\LicenseCodes.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\client\gui\screens\BuyGameScreen.h">
+      <Filter>Source Files\client\gui\screens</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\platform\input\Multitouch.h">
+      <Filter>Platform\input</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\client\player\input\touchscreen\ITouchScreenModel.h">
+      <Filter>Source Files\client\player\input\touchscreen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\client\player\input\touchscreen\TouchAreaModel.h">
+      <Filter>Source Files\client\player\input\touchscreen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\client\player\input\touchscreen\TouchTurnInput.h">
+      <Filter>Source Files\client\player\input\touchscreen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\client\player\input\IInputHolder.h">
+      <Filter>Source Files\client\player\input</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\client\player\input\ITurnInput.h">
+      <Filter>Source Files\client\player\input</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\client\player\input\IMoveInput.h">
+      <Filter>Source Files\client\player\input</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\client\player\input\IBuildInput.h">
+      <Filter>Source Files\client\player\input</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\client\player\input\touchscreen\TouchInputHolder.h">
+      <Filter>Source Files\client\player\input\touchscreen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\client\player\input\MouseBuildInput.h">
+      <Filter>Source Files\client\player\input</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\client\player\input\touchscreen\TouchScreenInput.h">
+      <Filter>Source Files\client\player\input\touchscreen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\client\gui\screens\touch\TouchStartMenuScreen.h">
+      <Filter>Source Files\client\gui\screens\touch</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\client\gui\components\ImageButton.h">
+      <Filter>Source Files\client\gui\components</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\client\gui\screens\touch\TouchSelectWorldScreen.h">
+      <Filter>Source Files\client\gui\screens\touch</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\client\gui\TweenData.h">
+      <Filter>Source Files\client\gui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\client\gui\screens\touch\TouchJoinGameScreen.h">
+      <Filter>Source Files\client\gui\screens\touch</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\client\gui\components\RolledSelectionListH.h">
+      <Filter>Source Files\client\gui\components</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\client\gui\components\RolledSelectionListV.h">
+      <Filter>Source Files\client\gui\components</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\client\gui\screens\ScreenChooser.h">
+      <Filter>Source Files\client\gui\screens</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\client\gui\components\LargeImageButton.h">
+      <Filter>Source Files\client\gui\components</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\client\gui\screens\touch\TouchIngameBlockSelectionScreen.h">
+      <Filter>Source Files\client\gui\screens\touch</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\nbt\ByteArrayTag.h">
+      <Filter>Source Files\nbt</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\nbt\ByteTag.h">
+      <Filter>Source Files\nbt</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\nbt\CompoundTag.h">
+      <Filter>Source Files\nbt</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\nbt\DoubleTag.h">
+      <Filter>Source Files\nbt</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\nbt\EndTag.h">
+      <Filter>Source Files\nbt</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\nbt\FloatTag.h">
+      <Filter>Source Files\nbt</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\nbt\IntTag.h">
+      <Filter>Source Files\nbt</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\nbt\ListTag.h">
+      <Filter>Source Files\nbt</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\nbt\LongTag.h">
+      <Filter>Source Files\nbt</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\nbt\NbtIo.h">
+      <Filter>Source Files\nbt</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\nbt\ShortTag.h">
+      <Filter>Source Files\nbt</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\nbt\StringTag.h">
+      <Filter>Source Files\nbt</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\nbt\Tag.h">
+      <Filter>Source Files\nbt</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\util\DataIO.h">
+      <Filter>Source Files\util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\util\CollectionUtils.h">
+      <Filter>Source Files\util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\world\item\ShovelItem.h">
+      <Filter>Source Files\world\item</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\world\item\DiggerItem.h">
+      <Filter>Source Files\world\item</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\world\item\HatchetItem.h">
+      <Filter>Source Files\world\item</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\world\item\PickaxeItem.h">
+      <Filter>Source Files\world\item</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\world\entity\animal\Animal.h">
+      <Filter>Source Files\world\entity\animal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\world\entity\animal\Cow.h">
+      <Filter>Source Files\world\entity\animal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\world\entity\animal\Pig.h">
+      <Filter>Source Files\world\entity\animal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\world\entity\MobFactory.h">
+      <Filter>Source Files\world\entity</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\world\entity\MobCategory.h">
+      <Filter>Source Files\world\entity</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\world\level\MobSpawner.h">
+      <Filter>Source Files\world\level</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\client\renderer\entity\PigRenderer.h">
+      <Filter>Source Files\client\renderer\entity</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\client\model\PigModel.h">
+      <Filter>Source Files\client\model</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\client\model\QuadrupedModel.h">
+      <Filter>Source Files\client\model</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\client\model\geom\Cube.h">
+      <Filter>Source Files\client\model\geom</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\client\model\geom\ModelPart.h">
+      <Filter>Source Files\client\model\geom</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\client\model\geom\Polygon.h">
+      <Filter>Source Files\client\model\geom</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\client\model\geom\Vertex.h">
+      <Filter>Source Files\client\model\geom</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\world\entity\animal\Chicken.h">
+      <Filter>Source Files\world\entity\animal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\world\entity\animal\WaterAnimal.h">
+      <Filter>Source Files\world\entity\animal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\world\entity\animal\AnimalInclude.h">
+      <Filter>Source Files\world\entity\animal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\world\level\pathfinder\PathFinder.h">
+      <Filter>Source Files\world\level\pathfinder</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\world\level\pathfinder\BinaryHeap.h">
+      <Filter>Source Files\world\level\pathfinder</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\client\model\CowModel.h">
+      <Filter>Source Files\client\model</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\client\model\ChickenModel.h">
+      <Filter>Source Files\client\model</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\client\model\ModelInclude.h">
+      <Filter>Source Files\client\model</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\SharedConstants.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\world\entity\FlyingMob.h">
+      <Filter>Source Files\world\entity</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\world\entity\EntityEvent.h">
+      <Filter>Source Files\world\entity</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\util\IntHashMap.h">
+      <Filter>Source Files\util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\util\PerfRenderer.h">
+      <Filter>Source Files\util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\util\WeighedRandom.h">
+      <Filter>Source Files\util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\util\PerfTimer.h">
+      <Filter>Source Files\util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\world\entity\PathfinderMob.h">
+      <Filter>Source Files\world\entity</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\world\entity\EntityTypes.h">
+      <Filter>Source Files\world\entity</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\client\multiplayer\MultiPlayerLevel.h">
+      <Filter>Source Files\client\multiplayer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\network\packet\AddMobPacket.h">
+      <Filter>Source Files\network\packet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\network\packet\AddPlayerPacket.h">
+      <Filter>Source Files\network\packet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\network\packet\ChunkDataPacket.h">
+      <Filter>Source Files\network\packet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\network\packet\LoginPacket.h">
+      <Filter>Source Files\network\packet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\network\packet\MessagePacket.h">
+      <Filter>Source Files\network\packet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\network\packet\MoveEntityPacket.h">
+      <Filter>Source Files\network\packet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\network\packet\MovePlayerPacket.h">
+      <Filter>Source Files\network\packet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\network\packet\PacketInclude.h">
+      <Filter>Source Files\network\packet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\network\packet\PlaceBlockPacket.h">
+      <Filter>Source Files\network\packet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\network\packet\PlayerEquipmentPacket.h">
+      <Filter>Source Files\network\packet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\network\packet\RemoveBlockPacket.h">
+      <Filter>Source Files\network\packet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\network\packet\RemoveEntityPacket.h">
+      <Filter>Source Files\network\packet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\network\packet\RequestChunkPacket.h">
+      <Filter>Source Files\network\packet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\network\packet\StartGamePacket.h">
+      <Filter>Source Files\network\packet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\network\packet\UpdateBlockPacket.h">
+      <Filter>Source Files\network\packet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\world\entity\monster\Monster.h">
+      <Filter>Source Files\world\entity\monster</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\world\entity\monster\Zombie.h">
+      <Filter>Source Files\world\entity\monster</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\world\entity\monster\Creeper.h">
+      <Filter>Source Files\world\entity\monster</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\world\entity\monster\MonsterInclude.h">
+      <Filter>Source Files\world\entity\monster</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\network\packet\InteractPacket.h">
+      <Filter>Source Files\network\packet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\network\packet\AnimatePacket.h">
+      <Filter>Source Files\network\packet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\network\packet\UseItemPacket.h">
+      <Filter>Source Files\network\packet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\client\renderer\entity\ChickenRenderer.h">
+      <Filter>Source Files\client\renderer\entity</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\world\item\crafting\Recipes.h">
+      <Filter>Source Files\world\item\crafting</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\world\item\crafting\Recipe.h">
+      <Filter>Source Files\world\item\crafting</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\world\item\crafting\ShapedRecipe.h">
+      <Filter>Source Files\world\item\crafting</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\world\item\crafting\ShapelessRecipe.h">
+      <Filter>Source Files\world\item\crafting</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\world\item\crafting\ToolRecipes.h">
+      <Filter>Source Files\world\item\crafting</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\world\item\crafting\WeaponRecipes.h">
+      <Filter>Source Files\world\item\crafting</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\world\item\WeaponItem.h">
+      <Filter>Source Files\world\item</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\world\entity\monster\Spider.h">
+      <Filter>Source Files\world\entity\monster</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\world\entity\monster\Skeleton.h">
+      <Filter>Source Files\world\entity\monster</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\world\entity\projectile\Arrow.h">
+      <Filter>Source Files\world\entity\projectile</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\client\particle\TakeAnimationParticle.h">
+      <Filter>Source Files\client\particle</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\client\model\CreeperModel.h">
+      <Filter>Source Files\client\model</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\client\model\SkeletonModel.h">
+      <Filter>Source Files\client\model</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\client\model\SpiderModel.h">
+      <Filter>Source Files\client\model</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\client\renderer\entity\SpiderRenderer.h">
+      <Filter>Source Files\client\renderer\entity</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\client\renderer\entity\CreeperRenderer.h">
+      <Filter>Source Files\client\renderer\entity</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\network\packet\AddItemEntityPacket.h">
+      <Filter>Source Files\network\packet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\network\packet\LoginStatusPacket.h">
+      <Filter>Source Files\network\packet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\client\gui\screens\DisconnectionScreen.h">
+      <Filter>Source Files\client\gui\screens</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\world\level\tile\SnowTile.h">
+      <Filter>Source Files\world\level\tile</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\world\level\tile\InvisibleTile.h">
+      <Filter>Source Files\world\level\tile</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\world\item\SnowballItem.h">
+      <Filter>Source Files\world\item</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\world\entity\animal\Sheep.h">
+      <Filter>Source Files\world\entity\animal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\client\model\SheepModel.h">
+      <Filter>Source Files\client\model</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\client\model\SheepFurModel.h">
+      <Filter>Source Files\client\model</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\client\renderer\entity\SheepRenderer.h">
+      <Filter>Source Files\client\renderer\entity</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\world\item\ShearsItem.h">
+      <Filter>Source Files\world\item</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\client\gamemode\CreativeMode.h">
+      <Filter>Source Files\client\gamemode</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\client\gamemode\SurvivalMode.h">
+      <Filter>Source Files\client\gamemode</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\util\RakDataIO.h">
+      <Filter>Source Files\util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\world\level\LevelSettings.h">
+      <Filter>Source Files\world\level</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\world\entity\SynchedEntityData.h">
+      <Filter>Source Files\world\entity</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\network\packet\ReadyPacket.h">
+      <Filter>Source Files\network\packet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\client\gui\screens\DeathScreen.h">
+      <Filter>Source Files\client\gui\screens</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\network\packet\SetEntityDataPacket.h">
+      <Filter>Source Files\network\packet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\network\packet\SetHealthPacket.h">
+      <Filter>Source Files\network\packet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\util\MemUtils.h">
+      <Filter>Source Files\util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\network\packet\EntityEventPacket.h">
+      <Filter>Source Files\network\packet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\network\packet\LevelEventPacket.h">
+      <Filter>Source Files\network\packet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\client\model\ZombieModel.h">
+      <Filter>Source Files\client\model</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\network\packet\SetTimePacket.h">
+      <Filter>Source Files\network\packet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\network\packet\ExplodePacket.h">
+      <Filter>Source Files\network\packet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\world\entity\player\OldInventory.h">
+      <Filter>Source Files\world\entity\player</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\world\item\AuxDataTileItem.h">
+      <Filter>Source Files\world\item</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\world\item\ClothTileItem.h">
+      <Filter>Source Files\world\item</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\world\item\DyePowderItem.h">
+      <Filter>Source Files\world\item</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\network\packet\TeleportEntityPacket.h">
+      <Filter>Source Files\network\packet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\network\packet\TakeItemEntityPacket.h">
+      <Filter>Source Files\network\packet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\world\entity\ai\PathNavigation.h">
+      <Filter>Source Files\world\entity\ai</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\world\entity\ai\control\Control.h">
+      <Filter>Source Files\world\entity\ai\control</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\world\entity\ai\control\MoveControl.h">
+      <Filter>Source Files\world\entity\ai\control</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\world\entity\ai\control\JumpControl.h">
+      <Filter>Source Files\world\entity\ai\control</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\world\entity\ai\goal\RandomStrollGoal.h">
+      <Filter>Source Files\world\entity\ai\goal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\world\entity\ai\goal\Goal.h">
+      <Filter>Source Files\world\entity\ai\goal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\world\entity\ai\goal\GoalSelector.h">
+      <Filter>Source Files\world\entity\ai\goal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\world\entity\ai\goal\MeleeAttackGoal.h">
+      <Filter>Source Files\world\entity\ai\goal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\world\entity\ai\goal\target\TargetGoal.h">
+      <Filter>Source Files\world\entity\ai\goal\target</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\world\entity\ai\goal\target\NearestAttackableTargetGoal.h">
+      <Filter>Source Files\world\entity\ai\goal\target</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\world\entity\ai\util\RandomPos.h">
+      <Filter>Source Files\world\entity\ai\util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\world\entity\ai\goal\target\HurtByTargetGoal.h">
+      <Filter>Source Files\world\entity\ai\goal\target</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\world\entity\ai\goal\BreakDoorGoal.h">
+      <Filter>Source Files\world\entity\ai\goal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\world\entity\ai\goal\DoorInteractGoal.h">
+      <Filter>Source Files\world\entity\ai\goal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\world\item\crafting\StructureRecipes.h">
+      <Filter>Source Files\world\item\crafting</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\world\item\crafting\FoodRecipes.h">
+      <Filter>Source Files\world\item\crafting</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\world\item\BowlFoodItem.h">
+      <Filter>Source Files\world\item</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\world\item\FoodItem.h">
+      <Filter>Source Files\world\item</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\raknet\LocklessTypes.h">
+      <Filter>Libs\raknet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\client\gui\components\ScrollingPane.h">
+      <Filter>Source Files\client\gui\components</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\network\packet\SendInventoryPacket.h">
+      <Filter>Source Files\network\packet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\world\level\tile\WorkbenchTile.h">
+      <Filter>Source Files\world\level\tile</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\world\item\StoneSlabTileItem.h">
+      <Filter>Source Files\world\item</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\client\gui\components\GuiElement.h">
+      <Filter>Source Files\client\gui\components</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\world\item\crafting\ClothDyeRecipes.h">
+      <Filter>Source Files\world\item\crafting</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\network\packet\DropItemPacket.h">
+      <Filter>Source Files\network\packet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\world\level\tile\EntityTile.h">
+      <Filter>Source Files\world\level\tile</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\world\level\tile\FurnaceTile.h">
+      <Filter>Source Files\world\level\tile</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\world\level\tile\entity\TileEntity.h">
+      <Filter>Source Files\world\level\tile\entity</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\world\level\tile\entity\FurnaceTileEntity.h">
+      <Filter>Source Files\world\level\tile\entity</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\world\item\crafting\FurnaceRecipes.h">
+      <Filter>Source Files\world\item\crafting</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\world\item\crafting\OreRecipes.h">
+      <Filter>Source Files\world\item\crafting</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\world\level\tile\ThinFenceTile.h">
+      <Filter>Source Files\world\level\tile</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\client\gui\screens\FurnaceScreen.h">
+      <Filter>Source Files\client\gui\screens</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\client\gui\components\ItemPane.h">
+      <Filter>Source Files\client\gui\components</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\world\level\FoliageColor.h">
+      <Filter>Source Files\world\level</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\world\level\tile\Sapling.h">
+      <Filter>Source Files\world\level\tile</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\world\item\SaplingTileItem.h">
+      <Filter>Source Files\world\item</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\network\packet\ContainerAckPacket.h">
+      <Filter>Source Files\network\packet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\network\packet\ContainerSetSlotPacket.h">
+      <Filter>Source Files\network\packet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\network\packet\ContainerClosePacket.h">
+      <Filter>Source Files\network\packet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\network\packet\ContainerOpenPacket.h">
+      <Filter>Source Files\network\packet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\network\packet\ContainerSetDataPacket.h">
+      <Filter>Source Files\network\packet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\client\gui\screens\BaseContainerScreen.h">
+      <Filter>Source Files\client\gui\screens</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\network\packet\ContainerSetContentPacket.h">
+      <Filter>Source Files\network\packet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\world\inventory\FurnaceMenu.h">
+      <Filter>Source Files\world\inventory</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\world\inventory\BaseContainerMenu.h">
+      <Filter>Source Files\world\inventory</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\client\gui\components\InventoryPane.h">
+      <Filter>Source Files\client\gui\components</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\world\level\tile\entity\ChestTileEntity.h">
+      <Filter>Source Files\world\level\tile\entity</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\world\level\tile\ChestTile.h">
+      <Filter>Source Files\world\level\tile</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\client\model\ChestModel.h">
+      <Filter>Source Files\client\model</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\client\renderer\EntityTileRenderer.h">
+      <Filter>Source Files\client\renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\network\packet\TileEventPacket.h">
+      <Filter>Source Files\network\packet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\world\inventory\FillingContainer.h">
+      <Filter>Source Files\world\inventory</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\client\gui\screens\ChestScreen.h">
+      <Filter>Source Files\client\gui\screens</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\network\packet\SetEntityMotionPacket.h">
+      <Filter>Source Files\network\packet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\client\renderer\tileentity\ChestRenderer.h">
+      <Filter>Source Files\client\renderer\tileentity</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\client\renderer\tileentity\TileEntityRenderDispatcher.h">
+      <Filter>Source Files\client\renderer\tileentity</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\client\renderer\tileentity\TileEntityRenderer.h">
+      <Filter>Source Files\client\renderer\tileentity</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\world\inventory\ContainerMenu.h">
+      <Filter>Source Files\world\inventory</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\ErrorCodes.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\world\item\BowItem.h">
+      <Filter>Source Files\world\item</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\world\entity\SharedFlags.h">
+      <Filter>Source Files\world\entity</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\client\renderer\entity\ArrowRenderer.h">
+      <Filter>Source Files\client\renderer\entity</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\world\item\UseAnim.h">
+      <Filter>Source Files\world\item</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\network\packet\PlayerActionPacket.h">
+      <Filter>Source Files\network\packet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\world\entity\EntityFactory.h">
+      <Filter>Source Files\world\entity</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\world\level\tile\DirectionalTile.h">
+      <Filter>Source Files\world\level\tile</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\world\level\tile\BedTile.h">
+      <Filter>Source Files\world\level\tile</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\world\item\BedItem.h">
+      <Filter>Source Files\world\item</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\client\renderer\entity\PlayerRenderer.h">
+      <Filter>Source Files\client\renderer\entity</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\world\food\FoodConstants.h">
+      <Filter>Source Files\world\food</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\network\packet\ChatPacket.h">
+      <Filter>Source Files\network\packet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\world\food\SimpleFoodData.h">
+      <Filter>Source Files\world\food</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\world\Container.h">
+      <Filter>Source Files\world</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\world\Difficulty.h">
+      <Filter>Source Files\world</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\client\player\RemotePlayer.h">
+      <Filter>Source Files\client\player</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\client\particle\CritParticle2.h">
+      <Filter>Source Files\client\particle</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\server\ServerPlayer.h">
+      <Filter>Source Files\server</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\server\ServerLevel.h">
+      <Filter>Source Files\server</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\world\level\tile\CropTile.h">
+      <Filter>Source Files\world\level\tile</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\world\item\SeedItem.h">
+      <Filter>Source Files\world\item</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\world\item\HoeItem.h">
+      <Filter>Source Files\world\item</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\world\level\tile\TallGrass.h">
+      <Filter>Source Files\world\level\tile</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\world\level\tile\TrapDoorTile.h">
+      <Filter>Source Files\world\level\tile</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\world\level\tile\LevelEvent.h">
+      <Filter>Source Files\world\level\tile</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\world\entity\projectile\Snowball.h">
+      <Filter>Source Files\world\entity\projectile</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\world\entity\projectile\ThrownEgg.h">
+      <Filter>Source Files\world\entity\projectile</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\world\entity\projectile\Throwable.h">
+      <Filter>Source Files\world\entity\projectile</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\world\entity\HangingEntity.h">
+      <Filter>Source Files\world\entity</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\world\entity\Painting.h">
+      <Filter>Source Files\world\entity</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\world\entity\Motive.h">
+      <Filter>Source Files\world\entity</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\world\item\HangingEntityItem.h">
+      <Filter>Source Files\world\item</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\client\renderer\entity\PaintingRenderer.h">
+      <Filter>Source Files\client\renderer\entity</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\network\packet\AddPaintingPacket.h">
+      <Filter>Source Files\network\packet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\world\level\tile\NetherReactor.h">
+      <Filter>Source Files\world\level\tile</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\world\entity\monster\PigZombie.h">
+      <Filter>Source Files\world\entity\monster</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\world\level\tile\entity\NetherReactorTileEntity.h">
+      <Filter>Source Files\world\level\tile\entity</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\world\level\tile\LightGemTile.h">
+      <Filter>Source Files\world\level\tile</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\world\level\tile\Mushroom.h">
+      <Filter>Source Files\world\level\tile</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\world\level\tile\StemTile.h">
+      <Filter>Source Files\world\level\tile</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\world\level\tile\MelonTile.h">
+      <Filter>Source Files\world\level\tile</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\world\level\tile\entity\SignTileEntity.h">
+      <Filter>Source Files\world\level\tile\entity</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\world\item\SignItem.h">
+      <Filter>Source Files\world\item</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\world\level\tile\SignTile.h">
+      <Filter>Source Files\world\level\tile</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\client\model\SignModel.h">
+      <Filter>Source Files\client\model</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\client\renderer\tileentity\SignRenderer.h">
+      <Filter>Source Files\client\renderer\tileentity</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\network\packet\SignUpdatePacket.h">
+      <Filter>Source Files\network\packet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\client\gui\screens\InBedScreen.h">
+      <Filter>Source Files\client\gui\screens</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\network\packet\AdventureSettingsPacket.h">
+      <Filter>Source Files\network\packet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\world\level\tile\WebTile.h">
+      <Filter>Source Files\world\level\tile</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\world\level\material\WebMaterial.h">
+      <Filter>Source Files\world\level\material</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\network\packet\SetSpawnPositionPacket.h">
+      <Filter>Source Files\network\packet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\world\level\tile\NetherReactorPattern.h">
+      <Filter>Source Files\world\level\tile</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\world\level\tile\CarriedTile.h">
+      <Filter>Source Files\world\level\tile</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\network\NATPunchHandler.h">
+      <Filter>Source Files\network</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\network\command\CommandServer.h">
+      <Filter>Source Files\network\command</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\network\PHPDirectoryServer2.h">
+      <Filter>Source Files\network</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\client\gamemode\CreatorMode.h">
+      <Filter>Source Files\client\gamemode\creator</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\client\gui\components\TextBox.h">
+      <Filter>Source Files\client\gui\components</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\world\PosTranslator.h">
+      <Filter>Source Files\world</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\client\gui\screens\TextEditScreen.h">
+      <Filter>Source Files\client\gui\screens</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\client\gui\screens\ChooseLevelScreen.h">
+      <Filter>Source Files\client\gui\screens</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\client\gui\screens\SimpleChooseLevelScreen.h">
+      <Filter>Source Files\client\gui\screens</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\client\gui\screens\crafting\WorkbenchScreen.h">
+      <Filter>Source Files\client\gui\screens\crafting</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\client\gui\screens\crafting\PaneCraftingScreen.h">
+      <Filter>Source Files\client\gui\screens\crafting</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\world\entity\AgableMob.h">
+      <Filter>Source Files\world\entity</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\client\renderer\entity\FallingTileRenderer.h">
+      <Filter>Source Files\client\renderer\entity</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\client\particle\HugeExplosionParticle.h">
+      <Filter>Source Files\client\particle</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\client\particle\HugeExplosionSeedParticle.h">
+      <Filter>Source Files\client\particle</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\world\level\tile\HeavyTile.h">
+      <Filter>Source Files\world\level\tile</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\world\item\ArmorItem.h">
+      <Filter>Source Files\world\item</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\world\item\crafting\ArmorRecipes.h">
+      <Filter>Source Files\world\item\crafting</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\world\level\tile\ClothTile.h">
+      <Filter>Source Files\world\level\tile</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\network\packet\PlayerArmorEquipmentPacket.h">
+      <Filter>Source Files\network\packet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\network\packet\UpdateArmorPacket.h">
+      <Filter>Source Files\network\packet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\world\level\tile\MultiTextureTile.h">
+      <Filter>Source Files\world\level\tile</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\world\level\tile\QuartzBlockTile.h">
+      <Filter>Source Files\world\level\tile</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\client\gui\screens\ArmorScreen.h">
+      <Filter>Source Files\client\gui\screens</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\client\gui\screens\crafting\StonecutterScreen.h">
+      <Filter>Source Files\client\gui\screens\crafting</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\client\gui\screens\crafting\CraftingFilters.h">
+      <Filter>Source Files\client\gui\screens\crafting</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\world\level\tile\StonecutterTile.h">
+      <Filter>Source Files\world\level\tile</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\network\packet\HurtArmorPacket.h">
+      <Filter>Source Files\network\packet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\client\gui\components\OptionsPane.h">
+      <Filter>Source Files\client\gui\components</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\client\gui\components\NinePatch.h">
+      <Filter>Source Files\client\gui\components</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\client\gui\components\OptionsGroup.h">
+      <Filter>Source Files\client\gui\components</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\client\OptionsFile.h">
+      <Filter>Source Files\client</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\client\gui\components\OptionsItem.h">
+      <Filter>Source Files\client\gui\components</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\client\gui\components\GuiElementContainer.h">
+      <Filter>Source Files\client\gui\components</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\client\gui\components\Slider.h">
+      <Filter>Source Files\client\gui\components</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

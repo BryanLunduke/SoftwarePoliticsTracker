@@ -1,0 +1,10 @@
+﻿#ifndef NET_MINECRAFT_CLIENT_NETWORKING_HELPERS_H
+#define NET_MINECRAFT_CLIENT_NETWORKING_HELPERS_H
+
+#include <string>
+class Minecraft;
+
+// Starts a connection to host:port. Returns true if the underlying connect call was started.
+bool startConnect(Minecraft* mc, const std::string& host, int port);
+
+#endif // NET_MINECRAFT_CLIENT_NETWORKING_HELPERS_H
