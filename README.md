@@ -37,6 +37,7 @@ The following software projects, foundations, &amp; corporations have made state
 | :arrow_right: | **OpenMandriva** | ["We don't do DEI"](https://x.com/LundukeJournal/status/1876362793525612602) |
 | :arrow_right: | **Omarchy Linux** | [Rejected calls for Activist Code of Conduct](https://x.com/LundukeJournal/status/1971367936137789862), [Often attacked by Trans](https://x.com/LundukeJournal/status/1970907449499484266) & [Antifa Activists](https://x.com/LundukeJournal/status/1970907449499484266) |
 | :arrow_right: | **Devuan** | [Accepts everyone, specifically including Conservatives](https://x.com/LundukeJournal/status/1985574565288849846) |
+| :arrow_right: | **Lunduke OS** | ["Meritocracy Rules"](https://github.com/BryanLunduke/LCOS) |
 | :arrow_right: | **Redot** | ["Non-Political (non-Woke) Fork" of Godot](https://x.com/LundukeJournal/status/1842335793844539823) |
 | :arrow_right: | **SQLite** | [Code of Conduct includes "Love the Lord God"](https://x.com/LundukeJournal/status/2029990961988915399) |
 | :arrow_right: | **XLibre** | [Rejects DEI discrimination of Xorg](https://x.com/LundukeJournal/status/1930727192964514137) |
