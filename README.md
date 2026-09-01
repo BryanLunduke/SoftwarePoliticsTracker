@@ -32,6 +32,10 @@ The following software projects, software foundations, &amp; corporations have m
 
 The following software projects, foundations, &amp; corporations have made statements (or taken actions) best categorized "Non-Woke", "Non-DEI", and have "Neutral" or "Right Leaning" politics.
 
+### Non-Woke Systems
+
+The following software projects, foundations, &amp; corporations have made statements (or taken actions) best categorized "Non-Woke" or politically neutral.
+
 | &nbsp; | Software | Notes |
 | - | - | - |
 | :arrow_right: | **OpenMandriva** | ["We don't do DEI"](https://x.com/LundukeJournal/status/1876362793525612602) |
