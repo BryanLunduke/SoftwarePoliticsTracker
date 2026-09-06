@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory
+        android:title="Multiplayer">
+
+        <EditTextPreference
+            android:key="mp_username"
+            android:title="@string/mmoptions_mp_username_title"
+            android:summary=""
+            android:dialogTitle="@string/mmoptions_mp_username_dialog"
+            android:defaultValue="Steve"
+            android:singleLine="true" />
+        <CheckBoxPreference
+            android:key="mp_server_visible_default"
+            android:title="@string/mmoptions_mp_server_visible_default_title"
+            android:summary=""
+            android:defaultValue="true"
+            />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+    	android:key="category_graphics"
+        android:title="Graphics">
+
+        <CheckBoxPreference
+            android:key="gfx_fancygraphics"
+            android:title="@string/mmoptions_gfx_fancygraphics_title"
+            android:summary="@string/mmoptions_gfx_fancygraphics_summary"
+            android:defaultValue="false"
+            />
+        <CheckBoxPreference
+            android:key="gfx_lowquality"
+            android:title="@string/mmoptions_gfx_lowquality_title"
+            android:summary="@string/mmoptions_gfx_lowquality_summary"
+            android:defaultValue="false"
+            />
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:title="Controls">
+
+        <com.mojang.android.preferences.SliderPreference
+            android:key="ctrl_sensitivity"
+            android:title="@string/mmoptions_ctrl_sensitivity_title"
+            android:max="100"
+            android:summary=""
+            android:defaultValue="50"
+            android:enabled="true"
+            />
+        <CheckBoxPreference
+            android:key="ctrl_invertmouse"
+            android:title="@string/mmoptions_ctrl_invertmouse_title"
+            android:summary=""
+            android:defaultValue="false"
+            android:enabled="true"
+            />
+        <CheckBoxPreference
+            android:key="ctrl_islefthanded"
+            android:title="@string/mmoptions_ctrl_islefthanded_title"
+            android:summary=""
+            android:defaultValue="false"
+            android:enabled="true"
+            />
+        <CheckBoxPreference
+            android:key="ctrl_usetouchscreen"
+            android:title="@string/mmoptions_ctrl_usetouchscreen_title"
+            android:summary=""
+            android:defaultValue="true"
+            android:enabled="false"
+            />
+        <CheckBoxPreference
+            android:key="ctrl_usetouchjoypad"
+            android:title="@string/mmoptions_ctrl_usetouchjoypad_title"
+            android:summary=""
+            android:defaultValue="false"
+            android:enabled="true"
+            />
+        </PreferenceCategory>
+
+    <PreferenceCategory
+        android:title="Feedback">
+
+        <CheckBoxPreference
+            android:key="feedback_vibration"
+            android:title="@string/mmoptions_feedback_vibration_title"
+            android:summary="@string/mmoptions_feedback_vibration_summary"
+            android:defaultValue="true"
+            android:enabled="true"
+            />
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:title="Game">
+        
+        <CheckBoxPreference
+            android:key="game_difficultypeaceful"
+            android:title="@string/mmoptions_game_difficultypeaceful_title"
+            android:summary="@string/mmoptions_game_difficultypeaceful_summary"
+            android:defaultValue="false"
+            />
+    </PreferenceCategory>
+    
+</PreferenceScreen>
+ 

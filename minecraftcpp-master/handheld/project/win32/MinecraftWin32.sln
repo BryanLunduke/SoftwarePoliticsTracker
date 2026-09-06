@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MinecraftWin32", "MinecraftWin32.vcxproj", "{61D12CAD-CC16-4024-9C45-DE97AB0465AF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{57B259AC-F044-44F2-A67D-DA49970BED5D}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MinecraftWin32_GL", "..\win32_gl\MinecraftWin32_GL.vcxproj", "{19B34E47-B11C-E628-ED97-698E93339EA3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug DEMO|Win32 = Debug DEMO|Win32
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{61D12CAD-CC16-4024-9C45-DE97AB0465AF}.Debug DEMO|Win32.ActiveCfg = Debug DEMO|Win32
+		{61D12CAD-CC16-4024-9C45-DE97AB0465AF}.Debug DEMO|Win32.Build.0 = Debug DEMO|Win32
+		{61D12CAD-CC16-4024-9C45-DE97AB0465AF}.Debug|Win32.ActiveCfg = Debug|Win32
+		{61D12CAD-CC16-4024-9C45-DE97AB0465AF}.Debug|Win32.Build.0 = Debug|Win32
+		{61D12CAD-CC16-4024-9C45-DE97AB0465AF}.Release|Win32.ActiveCfg = Release|Win32
+		{61D12CAD-CC16-4024-9C45-DE97AB0465AF}.Release|Win32.Build.0 = Release|Win32
+		{19B34E47-B11C-E628-ED97-698E93339EA3}.Debug DEMO|Win32.ActiveCfg = Debug|Win32
+		{19B34E47-B11C-E628-ED97-698E93339EA3}.Debug|Win32.ActiveCfg = Debug|Win32
+		{19B34E47-B11C-E628-ED97-698E93339EA3}.Debug|Win32.Build.0 = Debug|Win32
+		{19B34E47-B11C-E628-ED97-698E93339EA3}.Release|Win32.ActiveCfg = Release|Win32
+		{19B34E47-B11C-E628-ED97-698E93339EA3}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

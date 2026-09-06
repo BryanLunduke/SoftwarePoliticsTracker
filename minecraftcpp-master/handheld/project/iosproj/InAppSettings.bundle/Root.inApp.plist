@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PreferenceSpecifiers</key>
+	<array>
+		<dict>
+			<key>Title</key>
+			<string>CATEGORY_MULTIPLAYER</string>
+			<key>Type</key>
+			<string>PSGroupSpecifier</string>
+		</dict>
+		<dict>
+			<key>Key</key>
+			<string>mp_username</string>
+			<key>Title</key>
+			<string>mmoptions_mp_username_title</string>
+			<key>StringIfEmpty</key>
+			<string>Stevie</string>
+			<key>Type</key>
+			<string>PSTextFieldSpecifier</string>
+			<key>AutocorrectionType</key>
+			<string>No</string>
+			<key>KeyboardType</key>
+			<string>Ascii</string>
+		</dict>
+		<dict>
+			<key>DefaultValue</key>
+			<string>YES</string>
+			<key>Key</key>
+			<string>mp_server_visible_default</string>
+			<key>Title</key>
+			<string>mmoptions_mp_server_visible_default_title</string>
+			<key>Type</key>
+			<string>PSToggleSwitchSpecifier</string>
+		</dict>
+		<dict>
+			<key>Title</key>
+			<string>CATEGORY_GRAPHICS</string>
+			<key>Type</key>
+			<string>PSGroupSpecifier</string>
+		</dict>
+		<dict>
+			<key>DefaultValue</key>
+			<string>NO</string>
+			<key>Key</key>
+			<string>gfx_fancygraphics</string>
+			<key>Title</key>
+			<string>mmoptions_gfx_fancygraphics_title</string>
+			<key>Type</key>
+			<string>PSToggleSwitchSpecifier</string>
+		</dict>
+		<dict>
+			<key>DefaultValue</key>
+			<string>NO</string>
+			<key>Key</key>
+			<string>gfx_lowquality</string>
+			<key>Title</key>
+			<string>mmoptions_gfx_lowquality_title</string>
+			<key>Type</key>
+			<string>PSToggleSwitchSpecifier</string>
+		</dict>
+		<dict>
+			<key>Title</key>
+			<string>CATEGORY_CONTROLS</string>
+			<key>Type</key>
+			<string>PSGroupSpecifier</string>
+		</dict>
+		<dict>			<key>Key</key>			<string>ctrl_sensitivity</string>			<key>Title</key>			<string>mmoptions_ctrl_sensitivity_title</string>			<key>Type</key>			<string>PSSliderSpecifier</string>
+			<key>DefaultValue</key>
+			<real>0.5</real>
+			<key>MinimumValue</key>
+			<integer>0</integer>
+			<key>MaximumValue</key>
+			<integer>1</integer>
+			<key>TextOffsetPixels</key>
+			<integer>110</integer>		</dict>		<dict>
+			<key>DefaultValue</key>
+			<string>NO</string>
+			<key>Key</key>
+			<string>ctrl_invertmouse</string>
+			<key>Title</key>
+			<string>mmoptions_ctrl_invertmouse_title</string>
+			<key>Type</key>
+			<string>PSToggleSwitchSpecifier</string>
+		</dict>
+		<dict>
+			<key>DefaultValue</key>
+			<string>NO</string>
+			<key>Key</key>
+			<string>ctrl_islefthanded</string>
+			<key>Title</key>
+			<string>mmoptions_ctrl_islefthanded_title</string>
+			<key>Type</key>
+			<string>PSToggleSwitchSpecifier</string>
+		</dict>
+		<dict>
+			<key>DefaultValue</key>
+			<string>NO</string>
+			<key>Key</key>
+			<string>ctrl_usetouchjoypad</string>
+			<key>Title</key>
+			<string>mmoptions_ctrl_usetouchjoypad_title</string>
+			<key>Type</key>
+			<string>PSToggleSwitchSpecifier</string>
+		</dict>
+		<dict>
+			<key>Title</key>
+			<string>CATEGORY_GAME</string>
+			<key>Type</key>
+			<string>PSGroupSpecifier</string>
+		</dict>
+		<dict>
+			<key>DefaultValue</key>
+			<string>NO</string>
+			<key>Key</key>
+			<string>game_difficulty</string>
+			<key>Title</key>
+			<string>mmoptions_game_difficultypeaceful_full</string>
+			<key>Type</key>
+			<string>PSToggleSwitchSpecifier</string>
+			<key>TrueValue</key>
+			<string>0</string>
+			<key>FalseValue</key>
+			<string>2</string>
+		</dict>
+	</array>
+	<key>StringsTable</key>
+	<string>Root</string>
+	<key>Title</key>
+	<string>Minecraft - Pocket Edition</string>
+</dict>
+</plist>

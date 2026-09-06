@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/bgtiled"
+    android:tileMode="repeat" >
+    <TextView	android:text="Multiplayer username"
+        		android:layout_width="540px"
+        		android:layout_height="24dp" />
+	<EditText	android:id="@+id/editText_options_mpusername"
+				android:text=""
+				android:layout_width="fill_parent"
+				android:layout_height="48dp"
+				android:singleLine="true">
+	</EditText>
+</LinearLayout>

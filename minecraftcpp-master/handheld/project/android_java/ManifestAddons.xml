@@ -1,0 +1,13 @@
+	<!-- Verizon VCAST -->
+	<uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+	<uses-permission android:name="android.permission.START_BACKGROUND_SERVICE"/>
+	<uses-permission android:name="com.verizon.vcast.apps.VCAST_APPS_LICENSE_SERVICE"/>
+
+	    				android:debuggable="true"
+
+    <!-- Android MARKET -->
+    <uses-permission android:name="com.android.vending.CHECK_LICENSE" />
+
+	<!-- Google Analytics -->
+	<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+	

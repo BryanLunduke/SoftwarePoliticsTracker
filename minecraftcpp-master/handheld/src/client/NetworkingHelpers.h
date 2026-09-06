@@ -1,0 +1,12 @@
+#ifndef NET_MINECRAFT_CLIENT_NETWORKING_HELPERS_H
+#define NET_MINECRAFT_CLIENT_NETWORKING_HELPERS_H
+
+#include <string>
+#include "Minecraft.h"
+
+// Starts a connection to host:port by calling Minecraft wrapper.
+inline bool startConnect(Minecraft* mc, const std::string& host, int port) {
+    return mc->connectToHost(host, port);
+}
+
+#endif // NET_MINECRAFT_CLIENT_NETWORKING_HELPERS_H

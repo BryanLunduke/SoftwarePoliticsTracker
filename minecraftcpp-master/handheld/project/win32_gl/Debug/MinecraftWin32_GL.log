@@ -1,0 +1,9 @@
+﻿  Gui.cpp
+  Screen.cpp
+  ItemInHandRenderer.cpp
+  SandTile.cpp
+..\..\src\world\level\tile\SandTile.cpp(22): error C2661: 'FallingTile::FallingTile' : no overloaded function takes 5 arguments
+..\..\src\client\renderer\ItemInHandRenderer.cpp(222): error C3861: 'drawArrayVT_NoState': identifier not found
+..\..\src\client\gui\Gui.cpp(529): error C3861: 'drawArrayVT': identifier not found
+..\..\src\client\gui\Gui.cpp(550): error C3861: 'drawArrayVT': identifier not found
+..\..\src\client\gui\Gui.cpp(555): error C3861: 'drawArrayVT': identifier not found

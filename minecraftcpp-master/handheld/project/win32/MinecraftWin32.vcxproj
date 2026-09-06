@@ -1,0 +1,1123 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug DEMO|Win32">
+      <Configuration>Debug DEMO</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\src\AppPlatform_win32.cpp" />
+    <ClCompile Include="..\..\src\client\gamemode\CreatorMode.cpp" />
+    <ClCompile Include="..\..\src\client\gamemode\GameMode.cpp" />
+    <ClCompile Include="..\..\src\client\gamemode\CreativeMode.cpp" />
+    <ClCompile Include="..\..\src\client\gamemode\SurvivalMode.cpp" />
+    <ClCompile Include="..\..\src\client\gui\components\Button.cpp" />
+    <ClCompile Include="..\..\src\client\gui\components\GuiElement.cpp" />
+    <ClCompile Include="..\..\src\client\gui\components\GuiElementContainer.cpp" />
+    <ClCompile Include="..\..\src\client\gui\components\InventoryPane.cpp" />
+    <ClCompile Include="..\..\src\client\gui\components\ItemPane.cpp" />
+    <ClCompile Include="..\..\src\client\gui\components\LargeImageButton.cpp" />
+    <ClCompile Include="..\..\src\client\gui\components\NinePatch.cpp" />
+    <ClCompile Include="..\..\src\client\gui\components\OptionsGroup.cpp" />
+    <ClCompile Include="..\..\src\client\gui\components\OptionsItem.cpp" />
+    <ClCompile Include="..\..\src\client\gui\components\OptionsPane.cpp" />
+    <ClCompile Include="..\..\src\client\gui\components\RolledSelectionListH.cpp" />
+    <ClCompile Include="..\..\src\client\gui\components\RolledSelectionListV.cpp" />
+    <ClCompile Include="..\..\src\client\gui\components\ScrolledSelectionList.cpp" />
+    <ClCompile Include="..\..\src\client\gui\components\ScrollingPane.cpp" />
+    <ClCompile Include="..\..\src\client\gui\components\Slider.cpp" />
+    <ClCompile Include="..\..\src\client\gui\components\SmallButton.cpp" />
+    <ClCompile Include="..\..\src\client\gui\components\ImageButton.cpp" />
+    <ClCompile Include="..\..\src\client\gui\components\TextBox.cpp" />
+    <ClCompile Include="..\..\src\client\gui\Font.cpp" />
+    <ClCompile Include="..\..\src\client\gui\Gui.cpp" />
+    <ClCompile Include="..\..\src\client\gui\GuiComponent.cpp" />
+    <ClCompile Include="..\..\src\client\gui\Screen.cpp" />
+    <ClCompile Include="..\..\src\client\gui\screens\ArmorScreen.cpp" />
+    <ClCompile Include="..\..\src\client\gui\screens\ChatScreen.cpp" />
+    <ClCompile Include="..\..\src\client\gui\screens\ChestScreen.cpp" />
+    <ClCompile Include="..\..\src\client\gui\screens\ChooseLevelScreen.cpp" />
+    <ClCompile Include="..\..\src\client\gui\screens\ConfirmScreen.cpp" />
+    <ClCompile Include="..\..\src\client\gui\screens\crafting\CraftingFilters.cpp" />
+    <ClCompile Include="..\..\src\client\gui\screens\crafting\PaneCraftingScreen.cpp" />
+    <ClCompile Include="..\..\src\client\gui\screens\crafting\StonecutterScreen.cpp" />
+    <ClCompile Include="..\..\src\client\gui\screens\crafting\WorkbenchScreen.cpp" />
+    <ClCompile Include="..\..\src\client\gui\screens\DeathScreen.cpp" />
+    <ClCompile Include="..\..\src\client\gui\screens\SimpleChooseLevelScreen.cpp" />
+    <ClCompile Include="..\..\src\client\gui\screens\FurnaceScreen.cpp" />
+    <ClCompile Include="..\..\src\client\gui\screens\InBedScreen.cpp" />
+    <ClCompile Include="..\..\src\client\gui\screens\IngameBlockSelectionScreen.cpp" />
+    <ClCompile Include="..\..\src\client\gui\screens\JoinGameScreen.cpp" />
+    <ClCompile Include="..\..\src\client\gui\screens\OptionsScreen.cpp" />
+    <ClCompile Include="..\..\src\client\gui\screens\PauseScreen.cpp" />
+    <ClCompile Include="..\..\src\client\gui\screens\ProgressScreen.cpp" />
+    <ClCompile Include="..\..\src\client\gui\screens\RenameMPLevelScreen.cpp" />
+    <ClCompile Include="..\..\src\client\gui\screens\ScreenChooser.cpp" />
+    <ClCompile Include="..\..\src\client\gui\screens\SelectWorldScreen.cpp" />
+    <ClCompile Include="..\..\src\client\gui\screens\StartMenuScreen.cpp" />
+    <ClCompile Include="..\..\src\client\gui\screens\TextEditScreen.cpp" />
+    <ClCompile Include="..\..\src\client\gui\screens\touch\TouchIngameBlockSelectionScreen.cpp" />
+    <ClCompile Include="..\..\src\client\gui\screens\touch\TouchJoinGameScreen.cpp" />
+    <ClCompile Include="..\..\src\client\gui\screens\touch\TouchSelectWorldScreen.cpp" />
+    <ClCompile Include="..\..\src\client\gui\screens\touch\TouchStartMenuScreen.cpp" />
+    <ClCompile Include="..\..\src\client\gui\screens\UploadPhotoScreen.cpp" />
+    <ClCompile Include="..\..\src\client\IConfigListener.cpp" />
+    <ClCompile Include="..\..\src\client\Minecraft.cpp" />
+    <ClCompile Include="..\..\src\client\model\ChickenModel.cpp" />
+    <ClCompile Include="..\..\src\client\model\CowModel.cpp" />
+    <ClCompile Include="..\..\src\client\model\geom\Cube.cpp" />
+    <ClCompile Include="..\..\src\client\model\geom\ModelPart.cpp" />
+    <ClCompile Include="..\..\src\client\model\geom\Polygon.cpp" />
+    <ClCompile Include="..\..\src\client\model\HumanoidModel.cpp" />
+    <ClCompile Include="..\..\src\client\model\PigModel.cpp" />
+    <ClCompile Include="..\..\src\client\model\QuadrupedModel.cpp" />
+    <ClCompile Include="..\..\src\client\model\SheepFurModel.cpp" />
+    <ClCompile Include="..\..\src\client\model\SheepModel.cpp" />
+    <ClCompile Include="..\..\src\client\MouseHandler.cpp" />
+    <ClCompile Include="..\..\src\client\Options.cpp" />
+    <ClCompile Include="..\..\src\client\OptionsFile.cpp" />
+    <ClCompile Include="..\..\src\client\OptionStrings.cpp" />
+    <ClCompile Include="..\..\src\client\particle\Particle.cpp" />
+    <ClCompile Include="..\..\src\client\particle\ParticleEngine.cpp" />
+    <ClCompile Include="..\..\src\client\player\input\KeyboardInput.cpp" />
+    <ClCompile Include="..\..\src\client\player\input\touchscreen\TouchScreenInput.cpp" />
+    <ClCompile Include="..\..\src\client\player\LocalPlayer.cpp" />
+    <ClCompile Include="..\..\src\client\player\RemotePlayer.cpp" />
+    <ClCompile Include="..\..\src\client\renderer\Chunk.cpp" />
+    <ClCompile Include="..\..\src\client\renderer\culling\Frustum.cpp" />
+    <ClCompile Include="..\..\src\client\renderer\EntityTileRenderer.cpp" />
+    <ClCompile Include="..\..\src\client\renderer\entity\ArrowRenderer.cpp" />
+    <ClCompile Include="..\..\src\client\renderer\entity\ChickenRenderer.cpp" />
+    <ClCompile Include="..\..\src\client\renderer\entity\EntityRenderDispatcher.cpp" />
+    <ClCompile Include="..\..\src\client\renderer\entity\EntityRenderer.cpp" />
+    <ClCompile Include="..\..\src\client\renderer\entity\FallingTileRenderer.cpp" />
+    <ClCompile Include="..\..\src\client\renderer\entity\HumanoidMobRenderer.cpp" />
+    <ClCompile Include="..\..\src\client\renderer\entity\ItemRenderer.cpp" />
+    <ClCompile Include="..\..\src\client\renderer\entity\ItemSpriteRenderer.cpp" />
+    <ClCompile Include="..\..\src\client\renderer\entity\MobRenderer.cpp" />
+    <ClCompile Include="..\..\src\client\renderer\entity\PaintingRenderer.cpp" />
+    <ClCompile Include="..\..\src\client\renderer\entity\PlayerRenderer.cpp" />
+    <ClCompile Include="..\..\src\client\renderer\entity\SheepRenderer.cpp" />
+    <ClCompile Include="..\..\src\client\renderer\entity\TntRenderer.cpp" />
+    <ClCompile Include="..\..\src\client\renderer\entity\TripodCameraRenderer.cpp" />
+    <ClCompile Include="..\..\src\client\renderer\GameRenderer.cpp" />
+    <ClCompile Include="..\..\src\client\renderer\gles.cpp" />
+    <ClCompile Include="..\..\src\client\renderer\ItemInHandRenderer.cpp" />
+    <ClCompile Include="..\..\src\client\renderer\LevelRenderer.cpp" />
+    <ClCompile Include="..\..\src\client\renderer\ptexture\DynamicTexture.cpp" />
+    <ClCompile Include="..\..\src\client\renderer\RenderChunk.cpp" />
+    <ClCompile Include="..\..\src\client\renderer\RenderList.cpp" />
+    <ClCompile Include="..\..\src\client\renderer\Tesselator.cpp" />
+    <ClCompile Include="..\..\src\client\renderer\Textures.cpp" />
+    <ClCompile Include="..\..\src\client\renderer\tileentity\ChestRenderer.cpp" />
+    <ClCompile Include="..\..\src\client\renderer\tileentity\SignRenderer.cpp" />
+    <ClCompile Include="..\..\src\client\renderer\tileentity\TileEntityRenderDispatcher.cpp" />
+    <ClCompile Include="..\..\src\client\renderer\tileentity\TileEntityRenderer.cpp" />
+    <ClCompile Include="..\..\src\client\renderer\TileRenderer.cpp" />
+    <ClCompile Include="..\..\src\client\sound\Sound.cpp" />
+    <ClCompile Include="..\..\src\client\sound\SoundEngine.cpp" />
+    <ClCompile Include="..\..\src\locale\I18n.cpp" />
+    <ClCompile Include="..\..\src\main.cpp" />
+    <ClCompile Include="..\..\src\nbt\Tag.cpp" />
+    <ClCompile Include="..\..\src\network\ClientSideNetworkHandler.cpp" />
+    <ClCompile Include="..\..\src\network\NATPunchHandler.cpp" />
+    <ClCompile Include="..\..\src\network\command\CommandServer.cpp" />
+    <ClCompile Include="..\..\src\network\NetEventCallback.cpp" />
+    <ClCompile Include="..\..\src\network\Packet.cpp" />
+    <ClCompile Include="..\..\src\network\PHPDirectoryServer2.cpp" />
+    <ClCompile Include="..\..\src\network\RakNetInstance.cpp" />
+    <ClCompile Include="..\..\src\network\ServerSideNetworkHandler.cpp" />
+    <ClCompile Include="..\..\src\NinecraftApp.cpp" />
+    <ClCompile Include="..\..\src\Performance.cpp" />
+    <ClCompile Include="..\..\src\platform\CThread.cpp" />
+    <ClCompile Include="..\..\src\platform\input\Controller.cpp" />
+    <ClCompile Include="..\..\src\platform\input\Keyboard.cpp" />
+    <ClCompile Include="..\..\src\platform\input\Mouse.cpp" />
+    <ClCompile Include="..\..\src\platform\input\Multitouch.cpp" />
+    <ClCompile Include="..\..\src\platform\time.cpp" />
+    <ClCompile Include="..\..\src\raknet\BitStream.cpp" />
+    <ClCompile Include="..\..\src\raknet\CCRakNetSlidingWindow.cpp" />
+    <ClCompile Include="..\..\src\raknet\CCRakNetUDT.cpp" />
+    <ClCompile Include="..\..\src\raknet\CheckSum.cpp" />
+    <ClCompile Include="..\..\src\raknet\CloudClient.cpp" />
+    <ClCompile Include="..\..\src\raknet\CloudCommon.cpp" />
+    <ClCompile Include="..\..\src\raknet\CloudServer.cpp" />
+    <ClCompile Include="..\..\src\raknet\CommandParserInterface.cpp" />
+    <ClCompile Include="..\..\src\raknet\ConnectionGraph2.cpp" />
+    <ClCompile Include="..\..\src\raknet\ConsoleServer.cpp" />
+    <ClCompile Include="..\..\src\raknet\DataCompressor.cpp" />
+    <ClCompile Include="..\..\src\raknet\DirectoryDeltaTransfer.cpp" />
+    <ClCompile Include="..\..\src\raknet\DS_BytePool.cpp" />
+    <ClCompile Include="..\..\src\raknet\DS_ByteQueue.cpp" />
+    <ClCompile Include="..\..\src\raknet\DS_HuffmanEncodingTree.cpp" />
+    <ClCompile Include="..\..\src\raknet\DS_Table.cpp" />
+    <ClCompile Include="..\..\src\raknet\DynDNS.cpp" />
+    <ClCompile Include="..\..\src\raknet\EmailSender.cpp" />
+    <ClCompile Include="..\..\src\raknet\EncodeClassName.cpp" />
+    <ClCompile Include="..\..\src\raknet\EpochTimeToString.cpp" />
+    <ClCompile Include="..\..\src\raknet\FileList.cpp" />
+    <ClCompile Include="..\..\src\raknet\FileListTransfer.cpp" />
+    <ClCompile Include="..\..\src\raknet\FileOperations.cpp" />
+    <ClCompile Include="..\..\src\raknet\FormatString.cpp" />
+    <ClCompile Include="..\..\src\raknet\FullyConnectedMesh2.cpp" />
+    <ClCompile Include="..\..\src\raknet\Getche.cpp" />
+    <ClCompile Include="..\..\src\raknet\Gets.cpp" />
+    <ClCompile Include="..\..\src\raknet\GetTime.cpp" />
+    <ClCompile Include="..\..\src\raknet\gettimeofday.cpp" />
+    <ClCompile Include="..\..\src\raknet\GridSectorizer.cpp" />
+    <ClCompile Include="..\..\src\raknet\HTTPConnection.cpp" />
+    <ClCompile Include="..\..\src\raknet\IncrementalReadInterface.cpp" />
+    <ClCompile Include="..\..\src\raknet\Itoa.cpp" />
+    <ClCompile Include="..\..\src\raknet\LinuxStrings.cpp" />
+    <ClCompile Include="..\..\src\raknet\LocklessTypes.cpp" />
+    <ClCompile Include="..\..\src\raknet\LogCommandParser.cpp" />
+    <ClCompile Include="..\..\src\raknet\MessageFilter.cpp" />
+    <ClCompile Include="..\..\src\raknet\NatPunchthroughClient.cpp" />
+    <ClCompile Include="..\..\src\raknet\NatPunchthroughServer.cpp" />
+    <ClCompile Include="..\..\src\raknet\NatTypeDetectionClient.cpp" />
+    <ClCompile Include="..\..\src\raknet\NatTypeDetectionCommon.cpp" />
+    <ClCompile Include="..\..\src\raknet\NatTypeDetectionServer.cpp" />
+    <ClCompile Include="..\..\src\raknet\NetworkIDManager.cpp" />
+    <ClCompile Include="..\..\src\raknet\NetworkIDObject.cpp" />
+    <ClCompile Include="..\..\src\raknet\PacketConsoleLogger.cpp" />
+    <ClCompile Include="..\..\src\raknet\PacketFileLogger.cpp" />
+    <ClCompile Include="..\..\src\raknet\PacketizedTCP.cpp" />
+    <ClCompile Include="..\..\src\raknet\PacketLogger.cpp" />
+    <ClCompile Include="..\..\src\raknet\PacketOutputWindowLogger.cpp" />
+    <ClCompile Include="..\..\src\raknet\PluginInterface2.cpp" />
+    <ClCompile Include="..\..\src\raknet\RakMemoryOverride.cpp" />
+    <ClCompile Include="..\..\src\raknet\RakNetCommandParser.cpp" />
+    <ClCompile Include="..\..\src\raknet\RakNetSocket.cpp" />
+    <ClCompile Include="..\..\src\raknet\RakNetStatistics.cpp" />
+    <ClCompile Include="..\..\src\raknet\RakNetTransport2.cpp" />
+    <ClCompile Include="..\..\src\raknet\RakNetTypes.cpp" />
+    <ClCompile Include="..\..\src\raknet\RakPeer.cpp" />
+    <ClCompile Include="..\..\src\raknet\RakSleep.cpp" />
+    <ClCompile Include="..\..\src\raknet\RakString.cpp" />
+    <ClCompile Include="..\..\src\raknet\RakThread.cpp" />
+    <ClCompile Include="..\..\src\raknet\RakWString.cpp" />
+    <ClCompile Include="..\..\src\raknet\Rand.cpp" />
+    <ClCompile Include="..\..\src\raknet\rdlmalloc.cpp" />
+    <ClCompile Include="..\..\src\raknet\ReadyEvent.cpp" />
+    <ClCompile Include="..\..\src\raknet\ReliabilityLayer.cpp" />
+    <ClCompile Include="..\..\src\raknet\ReplicaManager3.cpp" />
+    <ClCompile Include="..\..\src\raknet\Router2.cpp" />
+    <ClCompile Include="..\..\src\raknet\RPC4Plugin.cpp" />
+    <ClCompile Include="..\..\src\raknet\SecureHandshake.cpp" />
+    <ClCompile Include="..\..\src\raknet\SendToThread.cpp" />
+    <ClCompile Include="..\..\src\raknet\SHA1.cpp" />
+    <ClCompile Include="..\..\src\raknet\SignaledEvent.cpp" />
+    <ClCompile Include="..\..\src\raknet\SimpleMutex.cpp" />
+    <ClCompile Include="..\..\src\raknet\SocketLayer.cpp" />
+    <ClCompile Include="..\..\src\raknet\StringCompressor.cpp" />
+    <ClCompile Include="..\..\src\raknet\StringTable.cpp" />
+    <ClCompile Include="..\..\src\raknet\SuperFastHash.cpp" />
+    <ClCompile Include="..\..\src\raknet\TableSerializer.cpp" />
+    <ClCompile Include="..\..\src\raknet\TCPInterface.cpp" />
+    <ClCompile Include="..\..\src\raknet\TeamBalancer.cpp" />
+    <ClCompile Include="..\..\src\raknet\TelnetTransport.cpp" />
+    <ClCompile Include="..\..\src\raknet\ThreadsafePacketLogger.cpp" />
+    <ClCompile Include="..\..\src\raknet\TwoWayAuthentication.cpp" />
+    <ClCompile Include="..\..\src\raknet\UDPForwarder.cpp" />
+    <ClCompile Include="..\..\src\raknet\UDPProxyClient.cpp" />
+    <ClCompile Include="..\..\src\raknet\UDPProxyCoordinator.cpp" />
+    <ClCompile Include="..\..\src\raknet\UDPProxyServer.cpp" />
+    <ClCompile Include="..\..\src\raknet\VariableDeltaSerializer.cpp" />
+    <ClCompile Include="..\..\src\raknet\VariableListDeltaTracker.cpp" />
+    <ClCompile Include="..\..\src\raknet\VariadicSQLParser.cpp" />
+    <ClCompile Include="..\..\src\raknet\WSAStartupSingleton.cpp" />
+    <ClCompile Include="..\..\src\raknet\_FindFirst.cpp" />
+    <ClCompile Include="..\..\src\server\ServerLevel.cpp" />
+    <ClCompile Include="..\..\src\server\ServerPlayer.cpp" />
+    <ClCompile Include="..\..\src\SharedConstants.cpp" />
+    <ClCompile Include="..\..\src\util\DataIO.cpp" />
+    <ClCompile Include="..\..\src\util\Mth.cpp" />
+    <ClCompile Include="..\..\src\util\PerfRenderer.cpp" />
+    <ClCompile Include="..\..\src\util\StringUtils.cpp" />
+    <ClCompile Include="..\..\src\util\PerfTimer.cpp" />
+    <ClCompile Include="..\..\src\world\Direction.cpp" />
+    <ClCompile Include="..\..\src\world\entity\AgableMob.cpp" />
+    <ClCompile Include="..\..\src\world\entity\ai\control\MoveControl.cpp" />
+    <ClCompile Include="..\..\src\world\entity\animal\Animal.cpp" />
+    <ClCompile Include="..\..\src\world\entity\animal\Chicken.cpp" />
+    <ClCompile Include="..\..\src\world\entity\animal\Cow.cpp" />
+    <ClCompile Include="..\..\src\world\entity\animal\Pig.cpp" />
+    <ClCompile Include="..\..\src\world\entity\animal\Sheep.cpp" />
+    <ClCompile Include="..\..\src\world\entity\animal\WaterAnimal.cpp" />
+    <ClCompile Include="..\..\src\world\entity\Entity.cpp" />
+    <ClCompile Include="..\..\src\world\entity\EntityFactory.cpp" />
+    <ClCompile Include="..\..\src\world\entity\FlyingMob.cpp" />
+    <ClCompile Include="..\..\src\world\entity\HangingEntity.cpp" />
+    <ClCompile Include="..\..\src\world\entity\item\FallingTile.cpp" />
+    <ClCompile Include="..\..\src\world\entity\item\ItemEntity.cpp" />
+    <ClCompile Include="..\..\src\world\entity\item\PrimedTnt.cpp" />
+    <ClCompile Include="..\..\src\world\entity\item\TripodCamera.cpp" />
+    <ClCompile Include="..\..\src\world\entity\Mob.cpp" />
+    <ClCompile Include="..\..\src\world\entity\MobCategory.cpp" />
+    <ClCompile Include="..\..\src\world\entity\monster\Creeper.cpp" />
+    <ClCompile Include="..\..\src\world\entity\monster\Monster.cpp" />
+    <ClCompile Include="..\..\src\world\entity\monster\PigZombie.cpp" />
+    <ClCompile Include="..\..\src\world\entity\monster\Skeleton.cpp" />
+    <ClCompile Include="..\..\src\world\entity\monster\Spider.cpp" />
+    <ClCompile Include="..\..\src\world\entity\monster\Zombie.cpp" />
+    <ClCompile Include="..\..\src\world\entity\Motive.cpp" />
+    <ClCompile Include="..\..\src\world\entity\Painting.cpp" />
+    <ClCompile Include="..\..\src\world\entity\PathFinderMob.cpp" />
+    <ClCompile Include="..\..\src\world\entity\player\Inventory.cpp" />
+    <ClCompile Include="..\..\src\world\entity\player\Player.cpp" />
+    <ClCompile Include="..\..\src\world\entity\projectile\Arrow.cpp" />
+    <ClCompile Include="..\..\src\world\entity\projectile\Throwable.cpp" />
+    <ClCompile Include="..\..\src\world\entity\SynchedEntityData.cpp" />
+    <ClCompile Include="..\..\src\world\food\SimpleFoodData.cpp" />
+    <ClCompile Include="..\..\src\world\inventory\BaseContainerMenu.cpp" />
+    <ClCompile Include="..\..\src\world\inventory\ContainerMenu.cpp" />
+    <ClCompile Include="..\..\src\world\inventory\FillingContainer.cpp" />
+    <ClCompile Include="..\..\src\world\inventory\FurnaceMenu.cpp" />
+    <ClCompile Include="..\..\src\world\item\ArmorItem.cpp" />
+    <ClCompile Include="..\..\src\world\item\BedItem.cpp" />
+    <ClCompile Include="..\..\src\world\item\crafting\ArmorRecipes.cpp" />
+    <ClCompile Include="..\..\src\world\item\crafting\FurnaceRecipes.cpp" />
+    <ClCompile Include="..\..\src\world\item\crafting\OreRecipes.cpp" />
+    <ClCompile Include="..\..\src\world\item\crafting\Recipe.cpp" />
+    <ClCompile Include="..\..\src\world\item\crafting\Recipes.cpp" />
+    <ClCompile Include="..\..\src\world\item\crafting\StructureRecipes.cpp" />
+    <ClCompile Include="..\..\src\world\item\crafting\ToolRecipes.cpp" />
+    <ClCompile Include="..\..\src\world\item\crafting\WeaponRecipes.cpp" />
+    <ClCompile Include="..\..\src\world\item\DyePowderItem.cpp" />
+    <ClCompile Include="..\..\src\world\item\HangingEntityItem.cpp" />
+    <ClCompile Include="..\..\src\world\item\HatchetItem.cpp" />
+    <ClCompile Include="..\..\src\world\item\HoeItem.cpp" />
+    <ClCompile Include="..\..\src\world\item\Item.cpp" />
+    <ClCompile Include="..\..\src\world\item\ItemInstance.cpp" />
+    <ClCompile Include="..\..\src\world\item\PickaxeItem.cpp" />
+    <ClCompile Include="..\..\src\world\item\ShovelItem.cpp" />
+    <ClCompile Include="..\..\src\world\level\biome\Biome.cpp" />
+    <ClCompile Include="..\..\src\world\level\biome\BiomeSource.cpp" />
+    <ClCompile Include="..\..\src\world\level\chunk\LevelChunk.cpp" />
+    <ClCompile Include="..\..\src\world\level\dimension\Dimension.cpp" />
+    <ClCompile Include="..\..\src\world\level\Explosion.cpp" />
+    <ClCompile Include="..\..\src\world\level\Level.cpp" />
+    <ClCompile Include="..\..\src\world\level\levelgen\CanyonFeature.cpp" />
+    <ClCompile Include="..\..\src\world\level\levelgen\DungeonFeature.cpp" />
+    <ClCompile Include="..\..\src\world\level\levelgen\feature\Feature.cpp" />
+    <ClCompile Include="..\..\src\world\level\levelgen\LargeCaveFeature.cpp" />
+    <ClCompile Include="..\..\src\world\level\levelgen\LargeFeature.cpp" />
+    <ClCompile Include="..\..\src\world\level\levelgen\RandomLevelSource.cpp" />
+    <ClCompile Include="..\..\src\world\level\levelgen\synth\ImprovedNoise.cpp" />
+    <ClCompile Include="..\..\src\world\level\levelgen\synth\PerlinNoise.cpp" />
+    <ClCompile Include="..\..\src\world\level\levelgen\synth\Synth.cpp" />
+    <ClCompile Include="..\..\src\world\level\LightLayer.cpp" />
+    <ClCompile Include="..\..\src\world\level\LightUpdate.cpp" />
+    <ClCompile Include="..\..\src\world\level\material\Material.cpp" />
+    <ClCompile Include="..\..\src\world\level\MobSpawner.cpp" />
+    <ClCompile Include="..\..\src\world\level\pathfinder\Path.cpp" />
+    <ClCompile Include="..\..\src\world\level\Region.cpp" />
+    <ClCompile Include="..\..\src\world\level\storage\ExternalFileLevelStorage.cpp" />
+    <ClCompile Include="..\..\src\world\level\storage\ExternalFileLevelStorageSource.cpp" />
+    <ClCompile Include="..\..\src\world\level\storage\FolderMethods.cpp" />
+    <ClCompile Include="..\..\src\world\level\storage\LevelData.cpp" />
+    <ClCompile Include="..\..\src\world\level\storage\LevelStorageSource.cpp" />
+    <ClCompile Include="..\..\src\world\level\storage\RegionFile.cpp" />
+    <ClCompile Include="..\..\src\world\level\TickNextTickData.cpp" />
+    <ClCompile Include="..\..\src\world\level\tile\BedTile.cpp" />
+    <ClCompile Include="..\..\src\world\level\tile\ChestTile.cpp" />
+    <ClCompile Include="..\..\src\world\level\tile\CropTile.cpp" />
+    <ClCompile Include="..\..\src\world\level\tile\DoorTile.cpp" />
+    <ClCompile Include="..\..\src\world\level\tile\EntityTile.cpp" />
+    <ClCompile Include="..\..\src\world\level\tile\entity\ChestTileEntity.cpp" />
+    <ClCompile Include="..\..\src\world\level\tile\entity\FurnaceTileEntity.cpp" />
+    <ClCompile Include="..\..\src\world\level\tile\entity\NetherReactorTileEntity.cpp" />
+    <ClCompile Include="..\..\src\world\level\tile\entity\SignTileEntity.cpp" />
+    <ClCompile Include="..\..\src\world\level\tile\entity\TileEntity.cpp" />
+    <ClCompile Include="..\..\src\world\level\tile\FurnaceTile.cpp" />
+    <ClCompile Include="..\..\src\world\level\tile\GrassTile.cpp" />
+    <ClCompile Include="..\..\src\world\level\tile\HeavyTile.cpp" />
+    <ClCompile Include="..\..\src\world\level\tile\LightGemTile.cpp" />
+    <ClCompile Include="..\..\src\world\level\tile\MelonTile.cpp" />
+    <ClCompile Include="..\..\src\world\level\tile\Mushroom.cpp" />
+    <ClCompile Include="..\..\src\world\level\tile\NetherReactor.cpp" />
+    <ClCompile Include="..\..\src\world\level\tile\NetherReactorPattern.cpp" />
+    <ClCompile Include="..\..\src\world\level\tile\StairTile.cpp" />
+    <ClCompile Include="..\..\src\world\level\tile\StemTile.cpp" />
+    <ClCompile Include="..\..\src\world\level\tile\StoneSlabTile.cpp" />
+    <ClCompile Include="..\..\src\world\level\tile\TallGrass.cpp" />
+    <ClCompile Include="..\..\src\world\level\tile\Tile.cpp" />
+    <ClCompile Include="..\..\src\world\level\tile\TrapDoorTile.cpp" />
+    <ClCompile Include="..\..\src\world\phys\HitResult.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\src\App.h" />
+    <ClInclude Include="..\..\src\AppPlatform.h" />
+    <ClInclude Include="..\..\src\AppConstants.h" />
+    <ClInclude Include="..\..\src\AppPlatform_win32.h" />
+    <ClInclude Include="..\..\src\client\gamemode\CreatorMode.h" />
+    <ClInclude Include="..\..\src\client\gamemode\GameMode.h" />
+    <ClInclude Include="..\..\src\client\gamemode\SurvivalMode.h" />
+    <ClInclude Include="..\..\src\client\gamemode\CreativeMode.h" />
+    <ClInclude Include="..\..\src\client\gui\components\Button.h" />
+    <ClInclude Include="..\..\src\client\gui\components\GuiElement.h" />
+    <ClInclude Include="..\..\src\client\gui\components\GuiElementContainer.h" />
+    <ClInclude Include="..\..\src\client\gui\components\InventoryPane.h" />
+    <ClInclude Include="..\..\src\client\gui\components\ItemPane.h" />
+    <ClInclude Include="..\..\src\client\gui\components\LargeImageButton.h" />
+    <ClInclude Include="..\..\src\client\gui\components\NinePatch.h" />
+    <ClInclude Include="..\..\src\client\gui\components\OptionsGroup.h" />
+    <ClInclude Include="..\..\src\client\gui\components\OptionsItem.h" />
+    <ClInclude Include="..\..\src\client\gui\components\OptionsPane.h" />
+    <ClInclude Include="..\..\src\client\gui\components\RolledSelectionListH.h" />
+    <ClInclude Include="..\..\src\client\gui\components\RolledSelectionListV.h" />
+    <ClInclude Include="..\..\src\client\gui\components\ScrolledSelectionList.h" />
+    <ClInclude Include="..\..\src\client\gui\components\ScrollingPane.h" />
+    <ClInclude Include="..\..\src\client\gui\components\Slider.h" />
+    <ClInclude Include="..\..\src\client\gui\components\SmallButton.h" />
+    <ClInclude Include="..\..\src\client\gui\components\ImageButton.h" />
+    <ClInclude Include="..\..\src\client\gui\components\TextBox.h" />
+    <ClInclude Include="..\..\src\client\gui\Font.h" />
+    <ClInclude Include="..\..\src\client\gui\Gui.h" />
+    <ClInclude Include="..\..\src\client\gui\GuiComponent.h" />
+    <ClInclude Include="..\..\src\client\gui\Screen.h" />
+    <ClInclude Include="..\..\src\client\gui\screens\ArmorScreen.h" />
+    <ClInclude Include="..\..\src\client\gui\screens\BaseContainerScreen.h" />
+    <ClInclude Include="..\..\src\client\gui\screens\BuyGameScreen.h" />
+    <ClInclude Include="..\..\src\client\gui\screens\ChatScreen.h" />
+    <ClInclude Include="..\..\src\client\gui\screens\ChestScreen.h" />
+    <ClInclude Include="..\..\src\client\gui\screens\ChooseLevelScreen.h" />
+    <ClInclude Include="..\..\src\client\gui\screens\ConfirmScreen.h" />
+    <ClInclude Include="..\..\src\client\gui\screens\crafting\CraftingFilters.h" />
+    <ClInclude Include="..\..\src\client\gui\screens\crafting\PaneCraftingScreen.h" />
+    <ClInclude Include="..\..\src\client\gui\screens\crafting\StonecutterScreen.h" />
+    <ClInclude Include="..\..\src\client\gui\screens\crafting\WorkbenchScreen.h" />
+    <ClInclude Include="..\..\src\client\gui\screens\DeathScreen.h" />
+    <ClInclude Include="..\..\src\client\gui\screens\SimpleChooseLevelScreen.h" />
+    <ClInclude Include="..\..\src\client\gui\screens\DialogDefinitions.h" />
+    <ClInclude Include="..\..\src\client\gui\screens\DisconnectionScreen.h" />
+    <ClInclude Include="..\..\src\client\gui\screens\FurnaceScreen.h" />
+    <ClInclude Include="..\..\src\client\gui\screens\InBedScreen.h" />
+    <ClInclude Include="..\..\src\client\gui\screens\IngameBlockSelectionScreen.h" />
+    <ClInclude Include="..\..\src\client\gui\screens\InvalidLicenseScreen.h" />
+    <ClInclude Include="..\..\src\client\gui\screens\JoinGameScreen.h" />
+    <ClInclude Include="..\..\src\client\gui\screens\OptionsScreen.h" />
+    <ClInclude Include="..\..\src\client\gui\screens\PauseScreen.h" />
+    <ClInclude Include="..\..\src\client\gui\screens\PrerenderTilesScreen.h" />
+    <ClInclude Include="..\..\src\client\gui\screens\ProgressScreen.h" />
+    <ClInclude Include="..\..\src\client\gui\screens\RenameMPLevelScreen.h" />
+    <ClInclude Include="..\..\src\client\gui\screens\ScreenChooser.h" />
+    <ClInclude Include="..\..\src\client\gui\screens\SelectWorldScreen.h" />
+    <ClInclude Include="..\..\src\client\gui\screens\StartMenuScreen.h" />
+    <ClInclude Include="..\..\src\client\gui\screens\TextEditScreen.h" />
+    <ClInclude Include="..\..\src\client\gui\screens\touch\TouchIngameBlockSelectionScreen.h" />
+    <ClInclude Include="..\..\src\client\gui\screens\touch\TouchJoinGameScreen.h" />
+    <ClInclude Include="..\..\src\client\gui\screens\touch\TouchSelectWorldScreen.h" />
+    <ClInclude Include="..\..\src\client\gui\screens\touch\TouchStartMenuScreen.h" />
+    <ClInclude Include="..\..\src\client\gui\screens\UploadPhotoScreen.h" />
+    <ClInclude Include="..\..\src\client\gui\TweenData.h" />
+    <ClInclude Include="..\..\src\client\KeyMapping.h" />
+    <ClInclude Include="..\..\src\client\Minecraft.h" />
+    <ClInclude Include="..\..\src\client\model\ChestModel.h" />
+    <ClInclude Include="..\..\src\client\model\ChickenModel.h" />
+    <ClInclude Include="..\..\src\client\model\CowModel.h" />
+    <ClInclude Include="..\..\src\client\model\CreeperModel.h" />
+    <ClInclude Include="..\..\src\client\model\geom\Cube.h" />
+    <ClInclude Include="..\..\src\client\model\geom\ModelPart.h" />
+    <ClInclude Include="..\..\src\client\model\geom\Polygon.h" />
+    <ClInclude Include="..\..\src\client\model\geom\Vertex.h" />
+    <ClInclude Include="..\..\src\client\model\HumanoidModel.h" />
+    <ClInclude Include="..\..\src\client\model\Model.h" />
+    <ClInclude Include="..\..\src\client\model\ModelInclude.h" />
+    <ClInclude Include="..\..\src\client\model\PigModel.h" />
+    <ClInclude Include="..\..\src\client\model\QuadrupedModel.h" />
+    <ClInclude Include="..\..\src\client\model\SheepFurModel.h" />
+    <ClInclude Include="..\..\src\client\model\SheepModel.h" />
+    <ClInclude Include="..\..\src\client\model\SignModel.h" />
+    <ClInclude Include="..\..\src\client\model\SkeletonModel.h" />
+    <ClInclude Include="..\..\src\client\model\SpiderModel.h" />
+    <ClInclude Include="..\..\src\client\model\ZombieModel.h" />
+    <ClInclude Include="..\..\src\client\MouseHandler.h" />
+    <ClInclude Include="..\..\src\client\multiplayer\MultiPlayerLevel.h" />
+    <ClInclude Include="..\..\src\client\Options.h" />
+    <ClInclude Include="..\..\src\client\OptionsFile.h" />
+    <ClInclude Include="..\..\src\client\particle\BreakingItemParticle.h" />
+    <ClInclude Include="..\..\src\client\particle\BubbleParticle.h" />
+    <ClInclude Include="..\..\src\client\particle\CritParticle2.h" />
+    <ClInclude Include="..\..\src\client\particle\ExplodeParticle.h" />
+    <ClInclude Include="..\..\src\client\particle\FlameParticle.h" />
+    <ClInclude Include="..\..\src\client\particle\HugeExplosionParticle.h" />
+    <ClInclude Include="..\..\src\client\particle\HugeExplosionSeedParticle.h" />
+    <ClInclude Include="..\..\src\client\particle\LavaParticle.h" />
+    <ClInclude Include="..\..\src\client\particle\Particle.h" />
+    <ClInclude Include="..\..\src\client\particle\ParticleEngine.h" />
+    <ClInclude Include="..\..\src\client\particle\ParticleInclude.h" />
+    <ClInclude Include="..\..\src\client\particle\RedDustParticle.h" />
+    <ClInclude Include="..\..\src\client\particle\SmokeParticle.h" />
+    <ClInclude Include="..\..\src\client\particle\SplashParticle.h" />
+    <ClInclude Include="..\..\src\client\particle\TakeAnimationParticle.h" />
+    <ClInclude Include="..\..\src\client\particle\TerrainParticle.h" />
+    <ClInclude Include="..\..\src\client\player\input\ControllerTurnInput.h" />
+    <ClInclude Include="..\..\src\client\player\input\IBuildInput.h" />
+    <ClInclude Include="..\..\src\client\player\input\IInputHolder.h" />
+    <ClInclude Include="..\..\src\client\player\input\IMoveInput.h" />
+    <ClInclude Include="..\..\src\client\player\input\KeyboardInput.h" />
+    <ClInclude Include="..\..\src\client\player\input\MouseBuildInput.h" />
+    <ClInclude Include="..\..\src\client\player\input\MouseTurnInput.h" />
+    <ClInclude Include="..\..\src\client\player\input\touchscreen\ITouchScreenModel.h" />
+    <ClInclude Include="..\..\src\client\player\input\touchscreen\TouchAreaModel.h" />
+    <ClInclude Include="..\..\src\client\player\input\touchscreen\TouchInputHolder.h" />
+    <ClInclude Include="..\..\src\client\player\input\touchscreen\TouchScreenInput.h" />
+    <ClInclude Include="..\..\src\client\player\input\touchscreen\TouchTurnInput.h" />
+    <ClInclude Include="..\..\src\client\player\input\ITurnInput.h" />
+    <ClInclude Include="..\..\src\client\player\LocalPlayer.h" />
+    <ClInclude Include="..\..\src\client\player\RemotePlayer.h" />
+    <ClInclude Include="..\..\src\client\renderer\Chunk.h" />
+    <ClInclude Include="..\..\src\client\renderer\culling\AllowAllCuller.h" />
+    <ClInclude Include="..\..\src\client\renderer\culling\Culler.h" />
+    <ClInclude Include="..\..\src\client\renderer\culling\Frustum.h" />
+    <ClInclude Include="..\..\src\client\renderer\culling\FrustumCuller.h" />
+    <ClInclude Include="..\..\src\client\renderer\culling\FrustumData.h" />
+    <ClInclude Include="..\..\src\client\renderer\DirtyChunkSorter.h" />
+    <ClInclude Include="..\..\src\client\renderer\DistanceChunkSorter.h" />
+    <ClInclude Include="..\..\src\client\renderer\EntityTileRenderer.h" />
+    <ClInclude Include="..\..\src\client\renderer\entity\ArrowRenderer.h" />
+    <ClInclude Include="..\..\src\client\renderer\entity\ChickenRenderer.h" />
+    <ClInclude Include="..\..\src\client\renderer\entity\CreeperRenderer.h" />
+    <ClInclude Include="..\..\src\client\renderer\entity\EntityRenderDispatcher.h" />
+    <ClInclude Include="..\..\src\client\renderer\entity\EntityRenderer.h" />
+    <ClInclude Include="..\..\src\client\renderer\entity\FallingTileRenderer.h" />
+    <ClInclude Include="..\..\src\client\renderer\entity\HumanoidMobRenderer.h" />
+    <ClInclude Include="..\..\src\client\renderer\entity\ItemRenderer.h" />
+    <ClInclude Include="..\..\src\client\renderer\entity\ItemSpriteRenderer.h" />
+    <ClInclude Include="..\..\src\client\renderer\entity\MobRenderer.h" />
+    <ClInclude Include="..\..\src\client\renderer\entity\PaintingRenderer.h" />
+    <ClInclude Include="..\..\src\client\renderer\entity\PigRenderer.h" />
+    <ClInclude Include="..\..\src\client\renderer\entity\PlayerRenderer.h" />
+    <ClInclude Include="..\..\src\client\renderer\entity\SheepRenderer.h" />
+    <ClInclude Include="..\..\src\client\renderer\entity\SpiderRenderer.h" />
+    <ClInclude Include="..\..\src\client\renderer\entity\TntRenderer.h" />
+    <ClInclude Include="..\..\src\client\renderer\entity\TripodCameraRenderer.h" />
+    <ClInclude Include="..\..\src\client\renderer\GameRenderer.h" />
+    <ClInclude Include="..\..\src\client\renderer\gles.h" />
+    <ClInclude Include="..\..\src\client\renderer\ItemInHandRenderer.h" />
+    <ClInclude Include="..\..\src\client\renderer\LevelRenderer.h" />
+    <ClInclude Include="..\..\src\client\renderer\ptexture\DynamicTexture.h" />
+    <ClInclude Include="..\..\src\client\renderer\RenderList.h" />
+    <ClInclude Include="..\..\src\client\renderer\RenderChunk.h" />
+    <ClInclude Include="..\..\src\client\renderer\Tesselator.h" />
+    <ClInclude Include="..\..\src\client\renderer\TextureData.h" />
+    <ClInclude Include="..\..\src\client\renderer\Textures.h" />
+    <ClInclude Include="..\..\src\client\renderer\tileentity\ChestRenderer.h" />
+    <ClInclude Include="..\..\src\client\renderer\tileentity\SignRenderer.h" />
+    <ClInclude Include="..\..\src\client\renderer\tileentity\TileEntityRenderDispatcher.h" />
+    <ClInclude Include="..\..\src\client\renderer\tileentity\TileEntityRenderer.h" />
+    <ClInclude Include="..\..\src\client\renderer\TileRenderer.h" />
+    <ClInclude Include="..\..\src\client\renderer\VertecDecl.h" />
+    <ClInclude Include="..\..\src\client\sound\Sound.h" />
+    <ClInclude Include="..\..\src\client\sound\SoundEngine.h" />
+    <ClInclude Include="..\..\src\client\sound\SoundRepository.h" />
+    <ClInclude Include="..\..\src\client\Timer.h" />
+    <ClInclude Include="..\..\src\client\User.h" />
+    <ClInclude Include="..\..\src\ErrorCodes.h" />
+    <ClInclude Include="..\..\src\LicenseCodes.h" />
+    <ClInclude Include="..\..\src\locale\I18n.h" />
+    <ClInclude Include="..\..\src\main_android.h" />
+    <ClInclude Include="..\..\src\main_win32.h" />
+    <ClInclude Include="..\..\src\nbt\ByteArrayTag.h" />
+    <ClInclude Include="..\..\src\nbt\ByteTag.h" />
+    <ClInclude Include="..\..\src\nbt\CompoundTag.h" />
+    <ClInclude Include="..\..\src\nbt\DoubleTag.h" />
+    <ClInclude Include="..\..\src\nbt\EndTag.h" />
+    <ClInclude Include="..\..\src\nbt\FloatTag.h" />
+    <ClInclude Include="..\..\src\nbt\IntTag.h" />
+    <ClInclude Include="..\..\src\nbt\ListTag.h" />
+    <ClInclude Include="..\..\src\nbt\LongTag.h" />
+    <ClInclude Include="..\..\src\nbt\NbtIo.h" />
+    <ClInclude Include="..\..\src\nbt\ShortTag.h" />
+    <ClInclude Include="..\..\src\nbt\StringTag.h" />
+    <ClInclude Include="..\..\src\nbt\Tag.h" />
+    <ClInclude Include="..\..\src\network\ClientSideNetworkHandler.h" />
+    <ClInclude Include="..\..\src\network\NATPunchHandler.h" />
+    <ClInclude Include="..\..\src\network\command\CommandServer.h" />
+    <ClInclude Include="..\..\src\network\NetEventCallback.h" />
+    <ClInclude Include="..\..\src\network\Packet.h" />
+    <ClInclude Include="..\..\src\network\packet\AddItemEntityPacket.h" />
+    <ClInclude Include="..\..\src\network\packet\AddMobPacket.h" />
+    <ClInclude Include="..\..\src\network\packet\AddPaintingPacket.h" />
+    <ClInclude Include="..\..\src\network\packet\AddPlayerPacket.h" />
+    <ClInclude Include="..\..\src\network\packet\AdventureSettingsPacket.h" />
+    <ClInclude Include="..\..\src\network\packet\AnimatePacket.h" />
+    <ClInclude Include="..\..\src\network\packet\ChatPacket.h" />
+    <ClInclude Include="..\..\src\network\packet\ChunkDataPacket.h" />
+    <ClInclude Include="..\..\src\network\packet\ContainerAckPacket.h" />
+    <ClInclude Include="..\..\src\network\packet\ContainerClosePacket.h" />
+    <ClInclude Include="..\..\src\network\packet\ContainerOpenPacket.h" />
+    <ClInclude Include="..\..\src\network\packet\ContainerSetContentPacket.h" />
+    <ClInclude Include="..\..\src\network\packet\ContainerSetDataPacket.h" />
+    <ClInclude Include="..\..\src\network\packet\ContainerSetSlotPacket.h" />
+    <ClInclude Include="..\..\src\network\packet\DropItemPacket.h" />
+    <ClInclude Include="..\..\src\network\packet\EntityEventPacket.h" />
+    <ClInclude Include="..\..\src\network\packet\ExplodePacket.h" />
+    <ClInclude Include="..\..\src\network\packet\HurtArmorPacket.h" />
+    <ClInclude Include="..\..\src\network\packet\InteractPacket.h" />
+    <ClInclude Include="..\..\src\network\packet\LevelEventPacket.h" />
+    <ClInclude Include="..\..\src\network\packet\LoginPacket.h" />
+    <ClInclude Include="..\..\src\network\packet\LoginStatusPacket.h" />
+    <ClInclude Include="..\..\src\network\packet\MessagePacket.h" />
+    <ClInclude Include="..\..\src\network\packet\MoveEntityPacket.h" />
+    <ClInclude Include="..\..\src\network\packet\MovePlayerPacket.h" />
+    <ClInclude Include="..\..\src\network\packet\PacketInclude.h" />
+    <ClInclude Include="..\..\src\network\packet\PlaceBlockPacket.h" />
+    <ClInclude Include="..\..\src\network\packet\PlayerActionPacket.h" />
+    <ClInclude Include="..\..\src\network\packet\PlayerArmorEquipmentPacket.h" />
+    <ClInclude Include="..\..\src\network\packet\PlayerEquipmentPacket.h" />
+    <ClInclude Include="..\..\src\network\packet\ReadyPacket.h" />
+    <ClInclude Include="..\..\src\network\packet\RemoveBlockPacket.h" />
+    <ClInclude Include="..\..\src\network\packet\RemoveEntityPacket.h" />
+    <ClInclude Include="..\..\src\network\packet\RequestChunkPacket.h" />
+    <ClInclude Include="..\..\src\network\packet\SendInventoryPacket.h" />
+    <ClInclude Include="..\..\src\network\packet\SetEntityDataPacket.h" />
+    <ClInclude Include="..\..\src\network\packet\SetEntityMotionPacket.h" />
+    <ClInclude Include="..\..\src\network\packet\SetHealthPacket.h" />
+    <ClInclude Include="..\..\src\network\packet\SetSpawnPositionPacket.h" />
+    <ClInclude Include="..\..\src\network\packet\SetTimePacket.h" />
+    <ClInclude Include="..\..\src\network\packet\SignUpdatePacket.h" />
+    <ClInclude Include="..\..\src\network\packet\StartGamePacket.h" />
+    <ClInclude Include="..\..\src\network\packet\TakeItemEntityPacket.h" />
+    <ClInclude Include="..\..\src\network\packet\TeleportEntityPacket.h" />
+    <ClInclude Include="..\..\src\network\packet\TileEventPacket.h" />
+    <ClInclude Include="..\..\src\network\packet\UpdateArmorPacket.h" />
+    <ClInclude Include="..\..\src\network\packet\UpdateBlockPacket.h" />
+    <ClInclude Include="..\..\src\network\packet\UseItemPacket.h" />
+    <ClInclude Include="..\..\src\network\PHPDirectoryServer2.h" />
+    <ClInclude Include="..\..\src\network\RakNetInstance.h" />
+    <ClInclude Include="..\..\src\network\ServerSideNetworkHandler.h" />
+    <ClInclude Include="..\..\src\NinecraftApp.h" />
+    <ClInclude Include="..\..\src\Performance.h" />
+    <ClInclude Include="..\..\src\platform\audio\SoundSystem.h" />
+    <ClInclude Include="..\..\src\platform\audio\SoundSystemSL.h" />
+    <ClInclude Include="..\..\src\platform\CThread.h" />
+    <ClInclude Include="..\..\src\platform\file.h" />
+    <ClInclude Include="..\..\src\platform\input\Controller.h" />
+    <ClInclude Include="..\..\src\platform\input\Keyboard.h" />
+    <ClInclude Include="..\..\src\platform\input\Mouse.h" />
+    <ClInclude Include="..\..\src\platform\input\Multitouch.h" />
+    <ClInclude Include="..\..\src\platform\log.h" />
+    <ClInclude Include="..\..\src\platform\time.h" />
+    <ClInclude Include="..\..\src\raknet\AutopatcherPatchContext.h" />
+    <ClInclude Include="..\..\src\raknet\AutopatcherRepositoryInterface.h" />
+    <ClInclude Include="..\..\src\raknet\BitStream.h" />
+    <ClInclude Include="..\..\src\raknet\CCRakNetSlidingWindow.h" />
+    <ClInclude Include="..\..\src\raknet\CCRakNetUDT.h" />
+    <ClInclude Include="..\..\src\raknet\CheckSum.h" />
+    <ClInclude Include="..\..\src\raknet\CloudClient.h" />
+    <ClInclude Include="..\..\src\raknet\CloudCommon.h" />
+    <ClInclude Include="..\..\src\raknet\CloudServer.h" />
+    <ClInclude Include="..\..\src\raknet\CommandParserInterface.h" />
+    <ClInclude Include="..\..\src\raknet\ConnectionGraph2.h" />
+    <ClInclude Include="..\..\src\raknet\ConsoleServer.h" />
+    <ClInclude Include="..\..\src\raknet\DataCompressor.h" />
+    <ClInclude Include="..\..\src\raknet\DirectoryDeltaTransfer.h" />
+    <ClInclude Include="..\..\src\raknet\DS_BinarySearchTree.h" />
+    <ClInclude Include="..\..\src\raknet\DS_BPlusTree.h" />
+    <ClInclude Include="..\..\src\raknet\DS_BytePool.h" />
+    <ClInclude Include="..\..\src\raknet\DS_ByteQueue.h" />
+    <ClInclude Include="..\..\src\raknet\DS_Hash.h" />
+    <ClInclude Include="..\..\src\raknet\DS_Heap.h" />
+    <ClInclude Include="..\..\src\raknet\DS_HuffmanEncodingTree.h" />
+    <ClInclude Include="..\..\src\raknet\DS_HuffmanEncodingTreeFactory.h" />
+    <ClInclude Include="..\..\src\raknet\DS_HuffmanEncodingTreeNode.h" />
+    <ClInclude Include="..\..\src\raknet\DS_LinkedList.h" />
+    <ClInclude Include="..\..\src\raknet\DS_List.h" />
+    <ClInclude Include="..\..\src\raknet\DS_Map.h" />
+    <ClInclude Include="..\..\src\raknet\DS_MemoryPool.h" />
+    <ClInclude Include="..\..\src\raknet\DS_Multilist.h" />
+    <ClInclude Include="..\..\src\raknet\DS_OrderedChannelHeap.h" />
+    <ClInclude Include="..\..\src\raknet\DS_OrderedList.h" />
+    <ClInclude Include="..\..\src\raknet\DS_Queue.h" />
+    <ClInclude Include="..\..\src\raknet\DS_QueueLinkedList.h" />
+    <ClInclude Include="..\..\src\raknet\DS_RangeList.h" />
+    <ClInclude Include="..\..\src\raknet\DS_Table.h" />
+    <ClInclude Include="..\..\src\raknet\DS_ThreadsafeAllocatingQueue.h" />
+    <ClInclude Include="..\..\src\raknet\DS_Tree.h" />
+    <ClInclude Include="..\..\src\raknet\DS_WeightedGraph.h" />
+    <ClInclude Include="..\..\src\raknet\DynDNS.h" />
+    <ClInclude Include="..\..\src\raknet\EmailSender.h" />
+    <ClInclude Include="..\..\src\raknet\EpochTimeToString.h" />
+    <ClInclude Include="..\..\src\raknet\Export.h" />
+    <ClInclude Include="..\..\src\raknet\FileList.h" />
+    <ClInclude Include="..\..\src\raknet\FileListNodeContext.h" />
+    <ClInclude Include="..\..\src\raknet\FileListTransfer.h" />
+    <ClInclude Include="..\..\src\raknet\FileListTransferCBInterface.h" />
+    <ClInclude Include="..\..\src\raknet\FileOperations.h" />
+    <ClInclude Include="..\..\src\raknet\FormatString.h" />
+    <ClInclude Include="..\..\src\raknet\FullyConnectedMesh2.h" />
+    <ClInclude Include="..\..\src\raknet\Getche.h" />
+    <ClInclude Include="..\..\src\raknet\Gets.h" />
+    <ClInclude Include="..\..\src\raknet\GetTime.h" />
+    <ClInclude Include="..\..\src\raknet\gettimeofday.h" />
+    <ClInclude Include="..\..\src\raknet\GridSectorizer.h" />
+    <ClInclude Include="..\..\src\raknet\HTTPConnection.h" />
+    <ClInclude Include="..\..\src\raknet\IncrementalReadInterface.h" />
+    <ClInclude Include="..\..\src\raknet\InternalPacket.h" />
+    <ClInclude Include="..\..\src\raknet\Itoa.h" />
+    <ClInclude Include="..\..\src\raknet\Kbhit.h" />
+    <ClInclude Include="..\..\src\raknet\LinuxStrings.h" />
+    <ClInclude Include="..\..\src\raknet\LocklessTypes.h" />
+    <ClInclude Include="..\..\src\raknet\LogCommandParser.h" />
+    <ClInclude Include="..\..\src\raknet\MessageFilter.h" />
+    <ClInclude Include="..\..\src\raknet\MessageIdentifiers.h" />
+    <ClInclude Include="..\..\src\raknet\MTUSize.h" />
+    <ClInclude Include="..\..\src\raknet\NativeFeatureIncludes.h" />
+    <ClInclude Include="..\..\src\raknet\NativeFeatureIncludesOverrides.h" />
+    <ClInclude Include="..\..\src\raknet\NativeTypes.h" />
+    <ClInclude Include="..\..\src\raknet\NatPunchthroughClient.h" />
+    <ClInclude Include="..\..\src\raknet\NatPunchthroughServer.h" />
+    <ClInclude Include="..\..\src\raknet\NatTypeDetectionClient.h" />
+    <ClInclude Include="..\..\src\raknet\NatTypeDetectionCommon.h" />
+    <ClInclude Include="..\..\src\raknet\NatTypeDetectionServer.h" />
+    <ClInclude Include="..\..\src\raknet\NetworkIDManager.h" />
+    <ClInclude Include="..\..\src\raknet\NetworkIDObject.h" />
+    <ClInclude Include="..\..\src\raknet\PacketConsoleLogger.h" />
+    <ClInclude Include="..\..\src\raknet\PacketFileLogger.h" />
+    <ClInclude Include="..\..\src\raknet\PacketizedTCP.h" />
+    <ClInclude Include="..\..\src\raknet\PacketLogger.h" />
+    <ClInclude Include="..\..\src\raknet\PacketOutputWindowLogger.h" />
+    <ClInclude Include="..\..\src\raknet\PacketPool.h" />
+    <ClInclude Include="..\..\src\raknet\PacketPriority.h" />
+    <ClInclude Include="..\..\src\raknet\PluginInterface2.h" />
+    <ClInclude Include="..\..\src\raknet\RakAlloca.h" />
+    <ClInclude Include="..\..\src\raknet\RakAssert.h" />
+    <ClInclude Include="..\..\src\raknet\RakMemoryOverride.h" />
+    <ClInclude Include="..\..\src\raknet\RakNetCommandParser.h" />
+    <ClInclude Include="..\..\src\raknet\RakNetDefines.h" />
+    <ClInclude Include="..\..\src\raknet\RakNetDefinesOverrides.h" />
+    <ClInclude Include="..\..\src\raknet\RakNetSmartPtr.h" />
+    <ClInclude Include="..\..\src\raknet\RakNetSocket.h" />
+    <ClInclude Include="..\..\src\raknet\RakNetStatistics.h" />
+    <ClInclude Include="..\..\src\raknet\RakNetTime.h" />
+    <ClInclude Include="..\..\src\raknet\RakNetTransport2.h" />
+    <ClInclude Include="..\..\src\raknet\RakNetTypes.h" />
+    <ClInclude Include="..\..\src\raknet\RakNetVersion.h" />
+    <ClInclude Include="..\..\src\raknet\RakPeer.h" />
+    <ClInclude Include="..\..\src\raknet\RakPeerInterface.h" />
+    <ClInclude Include="..\..\src\raknet\RakSleep.h" />
+    <ClInclude Include="..\..\src\raknet\RakString.h" />
+    <ClInclude Include="..\..\src\raknet\RakThread.h" />
+    <ClInclude Include="..\..\src\raknet\RakWString.h" />
+    <ClInclude Include="..\..\src\raknet\Rand.h" />
+    <ClInclude Include="..\..\src\raknet\rdlmalloc-options.h" />
+    <ClInclude Include="..\..\src\raknet\rdlmalloc.h" />
+    <ClInclude Include="..\..\src\raknet\ReadyEvent.h" />
+    <ClInclude Include="..\..\src\raknet\RefCountedObj.h" />
+    <ClInclude Include="..\..\src\raknet\ReliabilityLayer.h" />
+    <ClInclude Include="..\..\src\raknet\ReplicaEnums.h" />
+    <ClInclude Include="..\..\src\raknet\ReplicaManager3.h" />
+    <ClInclude Include="..\..\src\raknet\Router2.h" />
+    <ClInclude Include="..\..\src\raknet\RPC4Plugin.h" />
+    <ClInclude Include="..\..\src\raknet\SecureHandshake.h" />
+    <ClInclude Include="..\..\src\raknet\SendToThread.h" />
+    <ClInclude Include="..\..\src\raknet\SHA1.h" />
+    <ClInclude Include="..\..\src\raknet\SignaledEvent.h" />
+    <ClInclude Include="..\..\src\raknet\SimpleMutex.h" />
+    <ClInclude Include="..\..\src\raknet\SimpleTCPServer.h" />
+    <ClInclude Include="..\..\src\raknet\SingleProducerConsumer.h" />
+    <ClInclude Include="..\..\src\raknet\SocketIncludes.h" />
+    <ClInclude Include="..\..\src\raknet\SocketLayer.h" />
+    <ClInclude Include="..\..\src\raknet\StringCompressor.h" />
+    <ClInclude Include="..\..\src\raknet\StringTable.h" />
+    <ClInclude Include="..\..\src\raknet\SuperFastHash.h" />
+    <ClInclude Include="..\..\src\raknet\TableSerializer.h" />
+    <ClInclude Include="..\..\src\raknet\TCPInterface.h" />
+    <ClInclude Include="..\..\src\raknet\TeamBalancer.h" />
+    <ClInclude Include="..\..\src\raknet\TelnetTransport.h" />
+    <ClInclude Include="..\..\src\raknet\ThreadPool.h" />
+    <ClInclude Include="..\..\src\raknet\ThreadsafePacketLogger.h" />
+    <ClInclude Include="..\..\src\raknet\TransportInterface.h" />
+    <ClInclude Include="..\..\src\raknet\TwoWayAuthentication.h" />
+    <ClInclude Include="..\..\src\raknet\UDPForwarder.h" />
+    <ClInclude Include="..\..\src\raknet\UDPProxyClient.h" />
+    <ClInclude Include="..\..\src\raknet\UDPProxyCommon.h" />
+    <ClInclude Include="..\..\src\raknet\UDPProxyCoordinator.h" />
+    <ClInclude Include="..\..\src\raknet\UDPProxyServer.h" />
+    <ClInclude Include="..\..\src\raknet\VariableDeltaSerializer.h" />
+    <ClInclude Include="..\..\src\raknet\VariableListDeltaTracker.h" />
+    <ClInclude Include="..\..\src\raknet\VariadicSQLParser.h" />
+    <ClInclude Include="..\..\src\raknet\WindowsIncludes.h" />
+    <ClInclude Include="..\..\src\raknet\WSAStartupSingleton.h" />
+    <ClInclude Include="..\..\src\raknet\_FindFirst.h" />
+    <ClInclude Include="..\..\src\server\ServerLevel.h" />
+    <ClInclude Include="..\..\src\server\ServerPlayer.h" />
+    <ClInclude Include="..\..\src\SharedConstants.h" />
+    <ClInclude Include="..\..\src\util\CollectionUtils.h" />
+    <ClInclude Include="..\..\src\util\DataIO.h" />
+    <ClInclude Include="..\..\src\util\IntHashMap.h" />
+    <ClInclude Include="..\..\src\util\MemUtils.h" />
+    <ClInclude Include="..\..\src\util\Mth.h" />
+    <ClInclude Include="..\..\src\util\PerfRenderer.h" />
+    <ClInclude Include="..\..\src\util\RakDataIO.h" />
+    <ClInclude Include="..\..\src\util\Random.h" />
+    <ClInclude Include="..\..\src\util\SmoothFloat.h" />
+    <ClInclude Include="..\..\src\util\StringUtils.h" />
+    <ClInclude Include="..\..\src\util\PerfTimer.h" />
+    <ClInclude Include="..\..\src\util\WeighedRandom.h" />
+    <ClInclude Include="..\..\src\world\Container.h" />
+    <ClInclude Include="..\..\src\world\Difficulty.h" />
+    <ClInclude Include="..\..\src\world\Direction.h" />
+    <ClInclude Include="..\..\src\world\entity\AgableMob.h" />
+    <ClInclude Include="..\..\src\world\entity\ai\control\Control.h" />
+    <ClInclude Include="..\..\src\world\entity\ai\control\JumpControl.h" />
+    <ClInclude Include="..\..\src\world\entity\ai\control\MoveControl.h" />
+    <ClInclude Include="..\..\src\world\entity\ai\goal\BreakDoorGoal.h" />
+    <ClInclude Include="..\..\src\world\entity\ai\goal\DoorInteractGoal.h" />
+    <ClInclude Include="..\..\src\world\entity\ai\goal\Goal.h" />
+    <ClInclude Include="..\..\src\world\entity\ai\goal\GoalSelector.h" />
+    <ClInclude Include="..\..\src\world\entity\ai\goal\MeleeAttackGoal.h" />
+    <ClInclude Include="..\..\src\world\entity\ai\goal\RandomStrollGoal.h" />
+    <ClInclude Include="..\..\src\world\entity\ai\goal\target\HurtByTargetGoal.h" />
+    <ClInclude Include="..\..\src\world\entity\ai\goal\target\NearestAttackableTargetGoal.h" />
+    <ClInclude Include="..\..\src\world\entity\ai\goal\target\TargetGoal.h" />
+    <ClInclude Include="..\..\src\world\entity\ai\PathNavigation.h" />
+    <ClInclude Include="..\..\src\world\entity\ai\util\RandomPos.h" />
+    <ClInclude Include="..\..\src\world\entity\animal\Animal.h" />
+    <ClInclude Include="..\..\src\world\entity\animal\AnimalInclude.h" />
+    <ClInclude Include="..\..\src\world\entity\animal\Chicken.h" />
+    <ClInclude Include="..\..\src\world\entity\animal\Cow.h" />
+    <ClInclude Include="..\..\src\world\entity\animal\Pig.h" />
+    <ClInclude Include="..\..\src\world\entity\animal\Sheep.h" />
+    <ClInclude Include="..\..\src\world\entity\animal\WaterAnimal.h" />
+    <ClInclude Include="..\..\src\world\entity\Creature.h" />
+    <ClInclude Include="..\..\src\world\entity\Entity.h" />
+    <ClInclude Include="..\..\src\world\entity\EntityEvent.h" />
+    <ClInclude Include="..\..\src\world\entity\EntityFactory.h" />
+    <ClInclude Include="..\..\src\world\entity\EntityPos.h" />
+    <ClInclude Include="..\..\src\world\entity\EntityTypes.h" />
+    <ClInclude Include="..\..\src\world\entity\FlyingMob.h" />
+    <ClInclude Include="..\..\src\world\entity\HangingEntity.h" />
+    <ClInclude Include="..\..\src\world\entity\item\FallingTile.h" />
+    <ClInclude Include="..\..\src\world\entity\item\ItemEntity.h" />
+    <ClInclude Include="..\..\src\world\entity\item\PrimedTnt.h" />
+    <ClInclude Include="..\..\src\world\entity\item\TripodCamera.h" />
+    <ClInclude Include="..\..\src\world\entity\Mob.h" />
+    <ClInclude Include="..\..\src\world\entity\MobCategory.h" />
+    <ClInclude Include="..\..\src\world\entity\MobFactory.h" />
+    <ClInclude Include="..\..\src\world\entity\monster\Creeper.h" />
+    <ClInclude Include="..\..\src\world\entity\monster\Monster.h" />
+    <ClInclude Include="..\..\src\world\entity\monster\MonsterInclude.h" />
+    <ClInclude Include="..\..\src\world\entity\monster\PigZombie.h" />
+    <ClInclude Include="..\..\src\world\entity\monster\Skeleton.h" />
+    <ClInclude Include="..\..\src\world\entity\monster\Spider.h" />
+    <ClInclude Include="..\..\src\world\entity\monster\Zombie.h" />
+    <ClInclude Include="..\..\src\world\entity\Motive.h" />
+    <ClInclude Include="..\..\src\world\entity\Painting.h" />
+    <ClInclude Include="..\..\src\world\entity\PathfinderMob.h" />
+    <ClInclude Include="..\..\src\world\entity\player\Inventory.h" />
+    <ClInclude Include="..\..\src\world\entity\player\InventorySlotManager.h" />
+    <ClInclude Include="..\..\src\world\entity\player\OldInventory.h" />
+    <ClInclude Include="..\..\src\world\entity\player\Player.h" />
+    <ClInclude Include="..\..\src\world\entity\projectile\Arrow.h" />
+    <ClInclude Include="..\..\src\world\entity\projectile\Snowball.h" />
+    <ClInclude Include="..\..\src\world\entity\projectile\Throwable.h" />
+    <ClInclude Include="..\..\src\world\entity\projectile\ThrownEgg.h" />
+    <ClInclude Include="..\..\src\world\entity\SharedFlags.h" />
+    <ClInclude Include="..\..\src\world\entity\SynchedEntityData.h" />
+    <ClInclude Include="..\..\src\world\Facing.h" />
+    <ClInclude Include="..\..\src\world\food\FoodConstants.h" />
+    <ClInclude Include="..\..\src\world\food\SimpleFoodData.h" />
+    <ClInclude Include="..\..\src\world\inventory\BaseContainerMenu.h" />
+    <ClInclude Include="..\..\src\world\inventory\ContainerMenu.h" />
+    <ClInclude Include="..\..\src\world\inventory\FillingContainer.h" />
+    <ClInclude Include="..\..\src\world\inventory\FurnaceMenu.h" />
+    <ClInclude Include="..\..\src\world\item\ArmorItem.h" />
+    <ClInclude Include="..\..\src\world\item\AuxDataTileItem.h" />
+    <ClInclude Include="..\..\src\world\item\BedItem.h" />
+    <ClInclude Include="..\..\src\world\item\BowItem.h" />
+    <ClInclude Include="..\..\src\world\item\BowlFoodItem.h" />
+    <ClInclude Include="..\..\src\world\item\CameraItem.h" />
+    <ClInclude Include="..\..\src\world\item\ClothTileItem.h" />
+    <ClInclude Include="..\..\src\world\item\crafting\ArmorRecipes.h" />
+    <ClInclude Include="..\..\src\world\item\crafting\ClothDyeRecipes.h" />
+    <ClInclude Include="..\..\src\world\item\crafting\FoodRecipes.h" />
+    <ClInclude Include="..\..\src\world\item\crafting\FurnaceRecipes.h" />
+    <ClInclude Include="..\..\src\world\item\crafting\OreRecipes.h" />
+    <ClInclude Include="..\..\src\world\item\crafting\Recipe.h" />
+    <ClInclude Include="..\..\src\world\item\crafting\Recipes.h" />
+    <ClInclude Include="..\..\src\world\item\crafting\ShapedRecipe.h" />
+    <ClInclude Include="..\..\src\world\item\crafting\ShapelessRecipe.h" />
+    <ClInclude Include="..\..\src\world\item\crafting\StructureRecipes.h" />
+    <ClInclude Include="..\..\src\world\item\crafting\ToolRecipes.h" />
+    <ClInclude Include="..\..\src\world\item\crafting\WeaponRecipes.h" />
+    <ClInclude Include="..\..\src\world\item\DiggerItem.h" />
+    <ClInclude Include="..\..\src\world\item\DoorItem.h" />
+    <ClInclude Include="..\..\src\world\item\DyePowderItem.h" />
+    <ClInclude Include="..\..\src\world\item\FoodItem.h" />
+    <ClInclude Include="..\..\src\world\item\HangingEntityItem.h" />
+    <ClInclude Include="..\..\src\world\item\HatchetItem.h" />
+    <ClInclude Include="..\..\src\world\item\HoeItem.h" />
+    <ClInclude Include="..\..\src\world\item\Item.h" />
+    <ClInclude Include="..\..\src\world\item\ItemInclude.h" />
+    <ClInclude Include="..\..\src\world\item\ItemInstance.h" />
+    <ClInclude Include="..\..\src\world\item\PickaxeItem.h" />
+    <ClInclude Include="..\..\src\world\item\SaplingTileItem.h" />
+    <ClInclude Include="..\..\src\world\item\SeedItem.h" />
+    <ClInclude Include="..\..\src\world\item\ShearsItem.h" />
+    <ClInclude Include="..\..\src\world\item\ShovelItem.h" />
+    <ClInclude Include="..\..\src\world\item\SignItem.h" />
+    <ClInclude Include="..\..\src\world\item\SnowballItem.h" />
+    <ClInclude Include="..\..\src\world\item\StoneSlabTileItem.h" />
+    <ClInclude Include="..\..\src\world\item\TileItem.h" />
+    <ClInclude Include="..\..\src\world\item\TilePlanterItem.h" />
+    <ClInclude Include="..\..\src\world\item\TreeTileItem.h" />
+    <ClInclude Include="..\..\src\world\item\UseAnim.h" />
+    <ClInclude Include="..\..\src\world\item\WeaponItem.h" />
+    <ClInclude Include="..\..\src\world\level\biome\Biome.h" />
+    <ClInclude Include="..\..\src\world\level\biome\BiomeInclude.h" />
+    <ClInclude Include="..\..\src\world\level\biome\BiomeSource.h" />
+    <ClInclude Include="..\..\src\world\level\biome\FlatBiome.h" />
+    <ClInclude Include="..\..\src\world\level\biome\ForestBiome.h" />
+    <ClInclude Include="..\..\src\world\level\biome\RainforestBiome.h" />
+    <ClInclude Include="..\..\src\world\level\biome\SwampBiome.h" />
+    <ClInclude Include="..\..\src\world\level\biome\TaigaBiome.h" />
+    <ClInclude Include="..\..\src\world\level\ChunkPos.h" />
+    <ClInclude Include="..\..\src\world\level\chunk\ChunkCache.h" />
+    <ClInclude Include="..\..\src\world\level\chunk\ChunkSource.h" />
+    <ClInclude Include="..\..\src\world\level\chunk\DataLayer.h" />
+    <ClInclude Include="..\..\src\world\level\chunk\EmptyLevelChunk.h" />
+    <ClInclude Include="..\..\src\world\level\chunk\LevelChunk.h" />
+    <ClInclude Include="..\..\src\world\level\chunk\storage\ChunkStorage.h" />
+    <ClInclude Include="..\..\src\world\level\chunk\storage\MemoryChunkStorage.h" />
+    <ClInclude Include="..\..\src\world\level\dimension\Dimension.h" />
+    <ClInclude Include="..\..\src\world\level\dimension\HellDimension.h" />
+    <ClInclude Include="..\..\src\world\level\Explosion.h" />
+    <ClInclude Include="..\..\src\world\level\FoliageColor.h" />
+    <ClInclude Include="..\..\src\world\level\Level.h" />
+    <ClInclude Include="..\..\src\world\level\LevelConstants.h" />
+    <ClInclude Include="..\..\src\world\level\levelgen\CanyonFeature.h" />
+    <ClInclude Include="..\..\src\world\level\levelgen\DungeonFeature.h" />
+    <ClInclude Include="..\..\src\world\level\levelgen\feature\BirchFeature.h" />
+    <ClInclude Include="..\..\src\world\level\levelgen\feature\ClayFeature.h" />
+    <ClInclude Include="..\..\src\world\level\levelgen\feature\Feature.h" />
+    <ClInclude Include="..\..\src\world\level\levelgen\feature\FeatureInclude.h" />
+    <ClInclude Include="..\..\src\world\level\levelgen\feature\FlowerFeature.h" />
+    <ClInclude Include="..\..\src\world\level\levelgen\feature\LakeFeature.h" />
+    <ClInclude Include="..\..\src\world\level\levelgen\feature\OreFeature.h" />
+    <ClInclude Include="..\..\src\world\level\levelgen\feature\PineFeature.h" />
+    <ClInclude Include="..\..\src\world\level\levelgen\feature\ReedsFeature.h" />
+    <ClInclude Include="..\..\src\world\level\levelgen\feature\SpringFeature.h" />
+    <ClInclude Include="..\..\src\world\level\levelgen\feature\SpruceFeature.h" />
+    <ClInclude Include="..\..\src\world\level\levelgen\feature\TreeFeature.h" />
+    <ClInclude Include="..\..\src\world\level\levelgen\LargeCaveFeature.h" />
+    <ClInclude Include="..\..\src\world\level\levelgen\LargeFeature.h" />
+    <ClInclude Include="..\..\src\world\level\levelgen\RandomLevelSource.h" />
+    <ClInclude Include="..\..\src\world\level\levelgen\synth\ImprovedNoise.h" />
+    <ClInclude Include="..\..\src\world\level\levelgen\synth\PerlinNoise.h" />
+    <ClInclude Include="..\..\src\world\level\levelgen\synth\Synth.h" />
+    <ClInclude Include="..\..\src\world\level\levelgen\TownFeature.h" />
+    <ClInclude Include="..\..\src\world\level\LevelListener.h" />
+    <ClInclude Include="..\..\src\world\level\LevelSettings.h" />
+    <ClInclude Include="..\..\src\world\level\LevelSource.h" />
+    <ClInclude Include="..\..\src\world\level\LightLayer.h" />
+    <ClInclude Include="..\..\src\world\level\LightUpdate.h" />
+    <ClInclude Include="..\..\src\world\level\material\DecorationMaterial.h" />
+    <ClInclude Include="..\..\src\world\level\material\GasMaterial.h" />
+    <ClInclude Include="..\..\src\world\level\material\LiquidMaterial.h" />
+    <ClInclude Include="..\..\src\world\level\material\Material.h" />
+    <ClInclude Include="..\..\src\world\level\material\WebMaterial.h" />
+    <ClInclude Include="..\..\src\world\level\MobSpawner.h" />
+    <ClInclude Include="..\..\src\world\level\pathfinder\BinaryHeap.h" />
+    <ClInclude Include="..\..\src\world\level\pathfinder\Node.h" />
+    <ClInclude Include="..\..\src\world\level\pathfinder\Path.h" />
+    <ClInclude Include="..\..\src\world\level\pathfinder\PathFinder.h" />
+    <ClInclude Include="..\..\src\world\level\Region.h" />
+    <ClInclude Include="..\..\src\world\level\storage\ExternalFileLevelStorage.h" />
+    <ClInclude Include="..\..\src\world\level\storage\ExternalFileLevelStorageSource.h" />
+    <ClInclude Include="..\..\src\world\level\storage\FolderMethods.h" />
+    <ClInclude Include="..\..\src\world\level\storage\LevelData.h" />
+    <ClInclude Include="..\..\src\world\level\storage\LevelStorage.h" />
+    <ClInclude Include="..\..\src\world\level\storage\LevelStorageSource.h" />
+    <ClInclude Include="..\..\src\world\level\storage\MemoryLevelStorage.h" />
+    <ClInclude Include="..\..\src\world\level\storage\MemoryLevelStorageSource.h" />
+    <ClInclude Include="..\..\src\world\level\storage\PlayerData.h" />
+    <ClInclude Include="..\..\src\world\level\storage\RegionFile.h" />
+    <ClInclude Include="..\..\src\world\level\TickNextTickData.h" />
+    <ClInclude Include="..\..\src\world\level\tile\BedTile.h" />
+    <ClInclude Include="..\..\src\world\level\tile\Bush.h" />
+    <ClInclude Include="..\..\src\world\level\tile\CarriedTile.h" />
+    <ClInclude Include="..\..\src\world\level\tile\ChestTile.h" />
+    <ClInclude Include="..\..\src\world\level\tile\ClayTile.h" />
+    <ClInclude Include="..\..\src\world\level\tile\ClothTile.h" />
+    <ClInclude Include="..\..\src\world\level\tile\CropTile.h" />
+    <ClInclude Include="..\..\src\world\level\tile\DirectionalTile.h" />
+    <ClInclude Include="..\..\src\world\level\tile\DirtTile.h" />
+    <ClInclude Include="..\..\src\world\level\tile\DoorTile.h" />
+    <ClInclude Include="..\..\src\world\level\tile\EntityTile.h" />
+    <ClInclude Include="..\..\src\world\level\tile\entity\ChestTileEntity.h" />
+    <ClInclude Include="..\..\src\world\level\tile\entity\FurnaceTileEntity.h" />
+    <ClInclude Include="..\..\src\world\level\tile\entity\NetherReactorTileEntity.h" />
+    <ClInclude Include="..\..\src\world\level\tile\entity\SignTileEntity.h" />
+    <ClInclude Include="..\..\src\world\level\tile\entity\TileEntity.h" />
+    <ClInclude Include="..\..\src\world\level\tile\FarmTile.h" />
+    <ClInclude Include="..\..\src\world\level\tile\FireTile.h" />
+    <ClInclude Include="..\..\src\world\level\tile\FurnaceTile.h" />
+    <ClInclude Include="..\..\src\world\level\tile\GrassTile.h" />
+    <ClInclude Include="..\..\src\world\level\tile\GravelTile.h" />
+    <ClInclude Include="..\..\src\world\level\tile\HalfTransparentTile.h" />
+    <ClInclude Include="..\..\src\world\level\tile\HeavyTile.h" />
+    <ClInclude Include="..\..\src\world\level\tile\IceTile.h" />
+    <ClInclude Include="..\..\src\world\level\tile\InvisibleTile.h" />
+    <ClInclude Include="..\..\src\world\level\tile\LadderTile.h" />
+    <ClInclude Include="..\..\src\world\level\tile\LeafTile.h" />
+    <ClInclude Include="..\..\src\world\level\tile\LevelEvent.h" />
+    <ClInclude Include="..\..\src\world\level\tile\LightGemTile.h" />
+    <ClInclude Include="..\..\src\world\level\tile\LiquidTile.h" />
+    <ClInclude Include="..\..\src\world\level\tile\LiquidTileDynamic.h" />
+    <ClInclude Include="..\..\src\world\level\tile\LiquidTileStatic.h" />
+    <ClInclude Include="..\..\src\world\level\tile\MelonTile.h" />
+    <ClInclude Include="..\..\src\world\level\tile\MultiTextureTile.h" />
+    <ClInclude Include="..\..\src\world\level\tile\Mushroom.h" />
+    <ClInclude Include="..\..\src\world\level\tile\NetherReactor.h" />
+    <ClInclude Include="..\..\src\world\level\tile\NetherReactorPattern.h" />
+    <ClInclude Include="..\..\src\world\level\tile\ObsidianTile.h" />
+    <ClInclude Include="..\..\src\world\level\tile\OreTile.h" />
+    <ClInclude Include="..\..\src\world\level\tile\QuartzBlockTile.h" />
+    <ClInclude Include="..\..\src\world\level\tile\RedStoneOreTile.h" />
+    <ClInclude Include="..\..\src\world\level\tile\ReedTile.h" />
+    <ClInclude Include="..\..\src\world\level\tile\Sapling.h" />
+    <ClInclude Include="..\..\src\world\level\tile\SignTile.h" />
+    <ClInclude Include="..\..\src\world\level\tile\SnowTile.h" />
+    <ClInclude Include="..\..\src\world\level\tile\StairTile.h" />
+    <ClInclude Include="..\..\src\world\level\tile\StemTile.h" />
+    <ClInclude Include="..\..\src\world\level\tile\StonecutterTile.h" />
+    <ClInclude Include="..\..\src\world\level\tile\StoneSlabTile.h" />
+    <ClInclude Include="..\..\src\world\level\tile\StoneTile.h" />
+    <ClInclude Include="..\..\src\world\level\tile\TallGrass.h" />
+    <ClInclude Include="..\..\src\world\level\tile\ThinFenceTile.h" />
+    <ClInclude Include="..\..\src\world\level\tile\Tile.h" />
+    <ClInclude Include="..\..\src\world\level\tile\TileInclude.h" />
+    <ClInclude Include="..\..\src\world\level\tile\TntTile.h" />
+    <ClInclude Include="..\..\src\world\level\tile\TopSnowTile.h" />
+    <ClInclude Include="..\..\src\world\level\tile\TorchTile.h" />
+    <ClInclude Include="..\..\src\world\level\tile\TransparentTile.h" />
+    <ClInclude Include="..\..\src\world\level\tile\TrapDoorTile.h" />
+    <ClInclude Include="..\..\src\world\level\tile\TreeTile.h" />
+    <ClInclude Include="..\..\src\world\level\tile\WebTile.h" />
+    <ClInclude Include="..\..\src\world\level\tile\WorkbenchTile.h" />
+    <ClInclude Include="..\..\src\world\phys\AABB.h" />
+    <ClInclude Include="..\..\src\world\phys\HitResult.h" />
+    <ClInclude Include="..\..\src\world\phys\Vec3.h" />
+    <ClInclude Include="..\..\src\world\Pos.h" />
+    <ClInclude Include="..\..\src\world\PosTranslator.h" />
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{61D12CAD-CC16-4024-9C45-DE97AB0465AF}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>MinecraftWin32</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>NotSet</CharacterSet>
+    <PlatformToolset>v110</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug DEMO|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>NotSet</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>NotSet</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug DEMO|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <IncludePath>..\..\lib\include;$(IncludePath)</IncludePath>
+    <LibraryPath>..\..\lib\lib;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug DEMO|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <IncludePath>..\..\lib\include;$(IncludePath)</IncludePath>
+    <LibraryPath>..\..\lib\lib;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+    <IncludePath>..\..\lib\include;$(VCInstallDir)include;$(VCInstallDir)atlmfc\include;$(WindowsSdkDir)include;$(FrameworkSDKDir)\include;</IncludePath>
+    <LibraryPath>..\..\lib\lib;$(VCInstallDir)lib;$(VCInstallDir)atlmfc\lib;$(WindowsSdkDir)lib;$(FrameworkSDKDir)\lib</LibraryPath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>GLDEBUG;OPENGL_ES;WIN32;_DEBUG;_CRT_SECURE_NO_WARNINGS;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <MinimalRebuild>false</MinimalRebuild>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>libEGL.lib;libGLES_CM.lib;ws2_32.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;odbc32.lib;odbccp32.lib;libpng.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <IgnoreSpecificDefaultLibraries>
+      </IgnoreSpecificDefaultLibraries>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug DEMO|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>DEMO_MODE;OPENGL_ES;WIN32;_DEBUG;_CRT_SECURE_NO_WARNINGS;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>libEGL.lib;libGLES_CM.lib;ws2_32.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;odbc32.lib;odbccp32.lib;libpng.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>OPENGL_ES;WIN32;NDEBUG;_CONSOLE;_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalDependencies>libEGL.lib;libGLES_CM.lib;ws2_32.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;odbc32.lib;odbccp32.lib;libpng.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

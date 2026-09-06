@@ -1,0 +1,18 @@
+﻿#ifndef NET_MINECRAFT_CLIENT_NETWORKING_HELPERS_H
+#define NET_MINECRAFT_CLIENT_NETWORKING_HELPERS_H
+
+#include <string>
+#include "Minecraft.h"
+#include "../network/ClientSideNetworkHandler.h"
+
+// Starts a connection to host:port. Returns true if the underlying connect call was started.
+inline bool startConnect(Minecraft* mc, const std::string& host, int port) {
+    if (mc->netCallback) {
+        delete mc->netCallback;
+        mc->netCallback = nullptr;
+    }
+    mc->netCallback = new ClientSideNetworkHandler(mc, mc->raknetInstance);
+    return mc->raknetInstance->connect(host.c_str(), port);
+}
+
+#endif // NET_MINECRAFT_CLIENT_NETWORKING_HELPERS_H

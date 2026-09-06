@@ -1,0 +1,19 @@
+	<!-- Verizon VCAST -->
+	<uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+	<uses-permission android:name="android.permission.START_BACKGROUND_SERVICE"/>
+	<uses-permission android:name="com.verizon.vcast.apps.VCAST_APPS_LICENSE_SERVICE"/>
+
+	    				android:debuggable="true"
+
+    <!-- Android MARKET -->
+    <uses-permission android:name="com.android.vending.CHECK_LICENSE" />
+
+	        <uses-library android:name="xperiaplaycertified" android:required="false"/>
+	
+		<receiver android:name="com.mojang.minecraftpe.Receiver" android:exported="true">
+		<intent-filter>
+		    <action android:name="com.android.vending.INSTALL_REFERRER" />
+		</intent-filter>
+		</receiver>
+
+	
