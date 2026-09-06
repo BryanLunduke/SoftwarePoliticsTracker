@@ -35,6 +35,7 @@ The following software projects, software foundations, & corporations have made 
 | :arrow_left: | **Rust** | [Official survey: 7.72% of Rust programmers identify as Trans (~800% above general populace)](https://x.com/LundukeJournal/status/2082936442469126199) |
 | :arrow_left: | **EFF** | [Leaves X citing "People of color, Queer folks, Activists"](https://x.com/LundukeJournal/status/2043028083389706265) |
 | :arrow_left: | **Linux Kernel** | [Creator says he is "one of those 'woke Communists' you worry about"](https://x.com/LundukeJournal/status/1990840359593611759) |
+| :arrow_left: | **Vessel** | [Creator is a woke liberal](https://ari.lt/) |
 
 ### Non-Woke Software
 
