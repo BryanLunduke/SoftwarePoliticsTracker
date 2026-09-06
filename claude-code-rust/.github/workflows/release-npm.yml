@@ -1,0 +1,152 @@
+name: Release
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - 'Cargo.toml'
+
+permissions:
+  contents: write
+  id-token: write
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    outputs:
+      version: ${{ steps.get_version.outputs.version }}
+      tag: ${{ steps.get_version.outputs.tag }}
+      tag-exists: ${{ steps.check_tag.outputs.exists }}
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v6
+        with:
+          fetch-depth: 0
+
+      - name: Get crate version
+        id: get_version
+        run: |
+          VERSION=$(grep '^version' Cargo.toml | head -1 | sed 's/.*"\(.*\)".*/\1/')
+          echo "version=$VERSION" >> $GITHUB_OUTPUT
+          echo "tag=v$VERSION" >> $GITHUB_OUTPUT
+
+      - name: Check if tag exists
+        id: check_tag
+        run: |
+          if git rev-parse "refs/tags/${{ steps.get_version.outputs.tag }}" >/dev/null 2>&1; then
+            echo "exists=true" >> $GITHUB_OUTPUT
+          else
+            echo "exists=false" >> $GITHUB_OUTPUT
+          fi
+
+  build-binaries:
+    needs: [verify]
+    if: needs.verify.outputs.tag-exists == 'false'
+    name: Build (${{ matrix.target }})
+    runs-on: ${{ matrix.os }}
+    strategy:
+      fail-fast: false
+      matrix:
+        include:
+          - os: ubuntu-latest
+            target: x86_64-unknown-linux-gnu
+            exe_suffix: ""
+          - os: windows-latest
+            target: x86_64-pc-windows-msvc
+            exe_suffix: ".exe"
+          - os: macos-15-intel
+            target: x86_64-apple-darwin
+            exe_suffix: ""
+          - os: macos-15
+            target: aarch64-apple-darwin
+            exe_suffix: ""
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v6
+
+      - name: Setup Rust
+        uses: dtolnay/rust-toolchain@stable
+        with:
+          targets: ${{ matrix.target }}
+
+      - uses: Swatinem/rust-cache@v2
+
+      - name: Build release binary
+        run: cargo build --release --locked --target ${{ matrix.target }} --bin claude-rs
+
+      - name: Stage release asset
+        shell: bash
+        run: |
+          BINARY="claude-rs${{ matrix.exe_suffix }}"
+          ASSET="claude-code-rust-${{ matrix.target }}${{ matrix.exe_suffix }}"
+          mkdir -p dist
+          cp "target/${{ matrix.target }}/release/$BINARY" "dist/$ASSET"
+
+      - name: Upload staged asset
+        uses: actions/upload-artifact@v7
+        with:
+          name: claude-code-rust-${{ matrix.target }}
+          path: dist/*
+          if-no-files-found: error
+
+  create-release:
+    needs: [verify, build-binaries]
+    if: needs.verify.outputs.tag-exists == 'false'
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v6
+
+      - name: Create and push tag
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git tag -a "${{ needs.verify.outputs.tag }}" -m "Release ${{ needs.verify.outputs.tag }}"
+          git push origin "${{ needs.verify.outputs.tag }}"
+
+      - name: Download all assets
+        uses: actions/download-artifact@v8
+        with:
+          pattern: claude-code-rust-*
+          merge-multiple: true
+          path: dist
+
+      - name: Extract changelog entry
+        run: |
+          VERSION="${{ needs.verify.outputs.version }}"
+          awk '/^## \['"$VERSION"'\]/{found=1; next} found && /^## \[/{exit} found{print}' CHANGELOG.md > release-notes.md
+
+      - name: Create GitHub Release
+        uses: softprops/action-gh-release@v2
+        with:
+          tag_name: ${{ needs.verify.outputs.tag }}
+          files: dist/*
+          fail_on_unmatched_files: true
+          body_path: release-notes.md
+
+  publish-npm:
+    needs: [verify, create-release]
+    if: needs.verify.outputs.tag-exists == 'false'
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      id-token: write
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v6
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v6
+        with:
+          node-version: "24"
+          registry-url: "https://registry.npmjs.org"
+
+      - name: Install agent-sdk dependencies
+        run: npm ci --prefix agent-sdk
+
+      - name: Sync package version from Cargo.toml
+        run: npm version "${{ needs.verify.outputs.version }}" --no-git-tag-version --allow-same-version
+
+      - name: Publish package to npm
+        run: npm publish --access public --provenance

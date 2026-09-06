@@ -1,0 +1,104 @@
+[package]
+name = "claude-code-rust"
+version = "0.9.0"
+edition = "2024"
+rust-version = "1.88.0"
+license = "Apache-2.0"
+description = "A native Rust terminal interface for Claude Code"
+repository = "https://github.com/srothgan/claude-code-rust"
+keywords = ["cli", "tui", "claude", "ai", "terminal"]
+categories = ["command-line-interface"]
+default-run = "claude-rs"
+
+[lib]
+name = "claude_code_rust"
+path = "src/lib.rs"
+
+[[bin]]
+name = "claude-rs"
+path = "src/main.rs"
+
+[dependencies]
+anyhow = "1.0.101"
+arboard = "3.6.1"
+async-trait = "0.1.89"
+clap = { version = "4.5.57", features = ["derive"] }
+crossterm = { version = "0.29.0", features = ["event-stream"] }
+dirs = "6.0.0"
+futures = "0.3.31"
+ignore = "0.4.25"
+notify-rust = "4.12.0"
+pulldown-cmark = "0.13.3"
+ratatui = { version = "0.30.0", features = ["unstable-rendered-line-info"] }
+reqwest = { version = "0.13.2", default-features = false, features = ["json", "rustls"] }
+serde = { version = "1.0.228", features = ["derive"] }
+serde_json = "1.0.149"
+similar = "2.7"
+syntect = { version = "5.3.0", default-features = false, features = ["default-fancy"] }
+thiserror = "2.0.18"
+tokio = { version = "1.49.0", features = ["full"] }
+tokio-util = { version = "0.7.18", features = ["compat"] }
+tracing = "0.1.44"
+tracing-subscriber = { version = "0.3.22", features = ["env-filter"] }
+tui-markdown = { version = "0.3.7" }
+tui-textarea-2 = "0.10.2"
+unicode-width = "0.2.2"
+uuid = { version = "1.22.0", features = ["v4"] }
+which = "8.0.2"
+
+[features]
+perf = []
+
+[profile.dev]
+debug = "line-tables-only"
+incremental = false
+
+[profile.dev.package."*"]
+debug = false
+
+[profile.dev.build-override]
+debug = false
+
+[profile.test]
+debug = "line-tables-only"
+incremental = false
+
+[profile.test.package."*"]
+debug = false
+
+[profile.test.build-override]
+debug = false
+
+[dev-dependencies]
+pretty_assertions = "1.4"
+tempfile = "3.25.0"
+
+[lints.clippy]
+# Deny panic-prone operations in production code (tests exempted via clippy.toml)
+unwrap_used = "deny"
+expect_used = "deny"
+panic = "deny"
+
+# CLI tools legitimately print to stdout/stderr
+print_stdout = "allow"
+print_stderr = "allow"
+
+# Pedantic with noisy exceptions disabled
+pedantic = { level = "warn", priority = -1 }
+module_name_repetitions = "allow"
+must_use_candidate = "allow"
+missing_errors_doc = "allow"
+missing_panics_doc = "allow"
+
+# Lint categories
+correctness = { level = "deny", priority = -1 }
+suspicious = { level = "warn", priority = -1 }
+perf = { level = "warn", priority = -1 }
+complexity = { level = "warn", priority = -1 }
+style = { level = "warn", priority = -1 }
+
+# CLI-specific
+exit = "deny"
+shadow_same = "warn"
+shadow_unrelated = "allow"
+str_to_string = "warn"

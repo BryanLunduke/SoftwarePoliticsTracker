@@ -1,0 +1,12 @@
+[advisories]
+ignore = [
+    # bincode unmaintained -- transitive dep via tui-markdown -> syntect v5.x
+    # Upstream fix planned for syntect v6.0.0 (no release date yet)
+    # Tracked: https://github.com/trishume/syntect/issues/606
+    "RUSTSEC-2025-0141",
+
+    # yaml-rust unmaintained -- transitive dep via tui-markdown -> syntect v5.x
+    # Upstream fix merged in syntect main (PR #608, Feb 2026), waiting on release
+    # Tracked: https://github.com/trishume/syntect/pull/608
+    "RUSTSEC-2024-0320",
+]

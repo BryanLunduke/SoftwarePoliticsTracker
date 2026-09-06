@@ -1,0 +1,44 @@
+{
+  "name": "claude-code-rust",
+  "version": "0.2.0",
+  "description": "Claude Code Rust - native Rust terminal interface for Claude Code",
+  "keywords": [
+    "cli",
+    "tui",
+    "claude",
+    "ai",
+    "terminal"
+  ],
+  "license": "Apache-2.0",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/srothgan/claude-code-rust.git"
+  },
+  "bugs": {
+    "url": "https://github.com/srothgan/claude-code-rust/issues"
+  },
+  "homepage": "https://github.com/srothgan/claude-code-rust#readme",
+  "bin": {
+    "claude-rs": "bin/claude-rs.js"
+  },
+  "files": [
+    "bin",
+    "agent-sdk/dist",
+    "scripts",
+    "LICENSE",
+    "README.md"
+  ],
+  "dependencies": {
+    "@anthropic-ai/claude-agent-sdk": "0.2.74"
+  },
+  "scripts": {
+    "postinstall": "node ./scripts/postinstall.js",
+    "prepack": "npm --prefix agent-sdk run build"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}

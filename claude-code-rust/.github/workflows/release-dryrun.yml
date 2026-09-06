@@ -1,0 +1,51 @@
+name: Release Dry Run
+
+on:
+  pull_request:
+    branches: [main]
+    paths:
+      - 'Cargo.toml'
+
+jobs:
+  dry-run-publish:
+    name: Validate npm publish
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v6
+
+      - name: Fetch base branch for version comparison
+        run: git fetch origin ${{ github.base_ref }} --depth=1
+
+      - name: Get crate version
+        id: get_version
+        run: |
+          VERSION=$(grep '^version' Cargo.toml | head -1 | sed 's/.*"\(.*\)".*/\1/')
+          BASE_VERSION=$(git show origin/${{ github.base_ref }}:Cargo.toml | grep '^version' | head -1 | sed 's/.*"\(.*\)".*/\1/')
+          echo "version=$VERSION" >> $GITHUB_OUTPUT
+          echo "base_version=$BASE_VERSION" >> $GITHUB_OUTPUT
+          if [ "$VERSION" = "$BASE_VERSION" ]; then
+            echo "changed=false" >> $GITHUB_OUTPUT
+            echo "Version unchanged ($VERSION), skipping dry-run publish"
+          else
+            echo "changed=true" >> $GITHUB_OUTPUT
+            echo "Version changed: $BASE_VERSION -> $VERSION"
+          fi
+
+      - name: Setup Node.js
+        if: steps.get_version.outputs.changed == 'true'
+        uses: actions/setup-node@v6
+        with:
+          node-version: "24"
+          registry-url: "https://registry.npmjs.org"
+
+      - name: Install agent-sdk dependencies
+        if: steps.get_version.outputs.changed == 'true'
+        run: npm ci --prefix agent-sdk
+
+      - name: Sync package version from Cargo.toml
+        if: steps.get_version.outputs.changed == 'true'
+        run: npm version "${{ steps.get_version.outputs.version }}" --no-git-tag-version --allow-same-version
+
+      - name: Dry-run publish
+        if: steps.get_version.outputs.changed == 'true'
+        run: npm publish --dry-run --access public
