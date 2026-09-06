@@ -45,7 +45,7 @@ The following software projects, foundations, & corporations have made statement
 | :arrow_right: | **OpenMandriva** | ["We don't do DEI"](https://x.com/LundukeJournal/status/1876362793525612602) |
 | :arrow_right: | **Omarchy Linux** | [Rejected calls for Activist Code of Conduct](https://x.com/LundukeJournal/status/1971367936137789862), [Rejects formal activist Code of Conduct (2026 follow-up)](https://x.com/LundukeJournal/status/2093691699759399118), [Labeled "Anti-Woke"](https://x.com/LundukeJournal/status/2095250405802357227), [Often attacked by Trans](https://x.com/LundukeJournal/status/1970907449499484266) & [Antifa Activists](https://x.com/LundukeJournal/status/1970907449499484266) |
 | :arrow_right: | **Devuan** | [Accepts everyone, specifically including Conservatives](https://x.com/LundukeJournal/status/1985574565288849846) |
-| :arrow_right: | **Lunduke Computer OS** | ["Meritocracy Rules"](https://github.com/BryanLunduke/LCOS) |
+| :arrow_right: | **Lunduke Computer OS** | ["Meritocracy Rules"](https://github.com/BryanLunduke/LCOS), [Ten Commandments based "Code of Ethics"](https://github.com/BryanLunduke/LCOS/blob/master/CodeOfEthics.md) |
 | :arrow_right: | **Redot** | ["Non-Political (non-Woke) Fork" of Godot](https://x.com/LundukeJournal/status/1842335793844539823) |
 | :arrow_right: | **SQLite** | [Code of Conduct includes "Love the Lord God"](https://x.com/LundukeJournal/status/2029990961988915399) |
 | :arrow_right: | **XLibre** | [Rejects DEI discrimination of Xorg](https://x.com/LundukeJournal/status/1930727192964514137) |
