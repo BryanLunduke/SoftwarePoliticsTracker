@@ -35,6 +35,7 @@ The following software projects, software foundations, & corporations have made 
 | :arrow_left: | **Rust** | [Official survey: 7.72% of Rust programmers identify as Trans (~800% above general populace)](https://x.com/LundukeJournal/status/2082936442469126199) |
 | :arrow_left: | **EFF** | [Leaves X citing "People of color, Queer folks, Activists"](https://x.com/LundukeJournal/status/2043028083389706265) |
 | :arrow_left: | **Linux Kernel** | [Creator says he is "one of those 'woke Communists' you worry about"](https://x.com/LundukeJournal/status/1990840359593611759) |
+| :arrow_right: | **SQLite** | [Code of Conduct includes "Love the Lord God"](https://x.com/LundukeJournal/status/2029990961988915399) |
 
 ### Non-Woke Software
 
@@ -47,5 +48,4 @@ The following software projects, foundations, & corporations have made statement
 | :arrow_right: | **Devuan** | [Accepts everyone, specifically including Conservatives](https://x.com/LundukeJournal/status/1985574565288849846) |
 | :arrow_right: | **Lunduke Computer OS** | ["Meritocracy Rules"](https://github.com/BryanLunduke/LCOS), [Ten Commandments based "Code of Ethics"](https://github.com/BryanLunduke/LCOS/blob/master/CodeOfEthics.md) |
 | :arrow_right: | **Redot** | ["Non-Political (non-Woke) Fork" of Godot](https://x.com/LundukeJournal/status/1842335793844539823) |
-| :arrow_right: | **SQLite** | [Code of Conduct includes "Love the Lord God"](https://x.com/LundukeJournal/status/2029990961988915399) |
 | :arrow_right: | **XLibre** | [Rejects DEI discrimination of Xorg](https://x.com/LundukeJournal/status/1930727192964514137) |
